@@ -1,0 +1,62 @@
+[
+  {
+    "file": "2026-04-13_1622_PIP-and-Autism-Support.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2026-04-14_0816_Repeat-syntax-issue.md",
+    "work_related": "yes",
+    "borderline": true,
+    "reason": "Troubleshooting Altium multi-channel schematic net naming, apparently for a professional electronics design project.",
+    "extracts": [
+      {
+        "messages": ["M1", "M2", "M3", "M4", "M5", "M6", "M7", "M8"],
+        "tags": [],
+        "borderline": true
+      }
+    ]
+  },
+  {
+    "file": "2026-04-17_0828_Ethernet-connector-temp-rating.md",
+    "work_related": "partial",
+    "borderline": true,
+    "reason": "Sourcing a high-temperature right-angle PCB-mount Ethernet connector, apparently for a professional engineering project.",
+    "extracts": [
+      {
+        "messages": ["M1", "M2", "M3"],
+        "tags": [],
+        "borderline": true
+      }
+    ]
+  },
+  {
+    "file": "2026-04-17_1450_Social-Energy-and-Executive-Function.md",
+    "work_related": "partial",
+    "borderline": true,
+    "reason": "Owner describes work as a source of energy demand and reserving limited functional capacity for work.",
+    "extracts": [
+      {
+        "messages": ["M1", "M2"],
+        "tags": [],
+        "borderline": true
+      }
+    ]
+  },
+  {
+    "file": "2026-04-17_1610_Reviving-Rusty-Drill-Bits.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2026-04-17_2129_Lean-to-Conservatory-Roof-Conversion.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {"file": "2026-03-21_2101_Cement-board-packing-uses.md", "work_related": "no", "borderline": false, "reason": "No work-related content.", "extracts": []},
+  {"file": "2026-03-22_0730_Angle-Calculation-Assistance.md", "work_related": "no", "borderline": false, "reason": "No work-related content.", "extracts": []},
+  {"file": "2026-03-22_0917_Laptop-Sluggishness-Diagnosis.md", "work_related": "yes", "borderline": false, "reason": "Performance of the owner's managed work laptop, and Altium PCB/schematic tool settings and CPLD SPI fanout design questions.", "extracts": [
+    {"messages": ["M1","M2","M3","M4","M5","M6","M7","M8"], "tags": ["speculative"], "borderline": false},
+    {"messages": ["M9","M10","M11","M12","M13","M14","M15","M16","M17","M18","M19","M20","M21","M22","M23","M24","M25","M26","M27","M28","M29","M30","M31","M32"], "tags": [], "borderline": true},
+    {"messages": ["M33","M34","M35","M36","M37","A1"], "tags": [], "borderline": true},
+    {"messages": ["M38","M39","M40","M41","M42","M43","M44","M45","M46","M47","M48","M49","M50"], "tags": [], "borderline": true}
+  ]},
+  {"file": "2026-03-22_1545_Text-Positioning-Issues.md", "work_related": "yes", "borderline": true, "reason": "Altium schematic library component text positioning and multi-window setup.", "extracts": [
+    {"messages": ["M1","M2","M3","M4","M5","M6","M7","M8","M9","M10","M11","M12","M13","M14","M15","M16","M17"], "tags": [], "borderline": true}
+  ]}
+]

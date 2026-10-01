@@ -1,0 +1,210 @@
+[
+  {
+    "file": "2026-03-28_1521_Wall-Insulation-Plan-Review.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2026-03-31_1609_68pF-Cap-and-Dip.md",
+    "work_related": "yes",
+    "borderline": true,
+    "reason": "Electronics circuit design and bench debugging of an amplifier stage, possibly a professional engineering project.",
+    "extracts": [
+      {
+        "messages": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7",
+          "M8",
+          "M9",
+          "M10",
+          "M11",
+          "M12"
+        ],
+        "tags": [],
+        "borderline": true
+      }
+    ]
+  },
+  {
+    "file": "2026-03-31_1854_Screw-Size-Recommendation.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2026-04-02_0414_Schematic-Part-Alignment-Issue.md",
+    "work_related": "yes",
+    "borderline": true,
+    "reason": "Altium schematic issue, possibly part of professional electronics design work.",
+    "extracts": [
+      {
+        "messages": [
+          "M1",
+          "M2"
+        ],
+        "tags": [],
+        "borderline": true
+      }
+    ]
+  },
+  {
+    "file": "2026-04-02_0641_Altium-Mouse-Wheel-Issue.md",
+    "work_related": "yes",
+    "borderline": true,
+    "reason": "Altium software navigation issue, possibly part of professional electronics design work.",
+    "extracts": [
+      {
+        "messages": [
+          "M1",
+          "M2"
+        ],
+        "tags": [],
+        "borderline": true
+      }
+    ]
+  },
+  {
+    "file": "2026-04-02_1133_High-slew-rate-OP-amps.md",
+    "work_related": "yes",
+    "borderline": true,
+    "reason": "Component selection of high slew-rate op-amps, possibly for a professional electronics project.",
+    "extracts": [
+      {
+        "messages": [
+          "M1",
+          "M2",
+          "M3",
+          "M4"
+        ],
+        "tags": [],
+        "borderline": true
+      }
+    ]
+  },
+  {
+    "file": "2026-04-02_1305_Active-Low-with-5V.md",
+    "work_related": "yes",
+    "borderline": true,
+    "reason": "Op-amp control pin logic levels for a circuit design, possibly a professional electronics project.",
+    "extracts": [
+      {
+        "messages": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7",
+          "M8",
+          "M9"
+        ],
+        "tags": [],
+        "borderline": true
+      }
+    ]
+  },
+  {
+    "file": "2026-04-03_1352_Reordering-Rows-in-Excel.md",
+    "work_related": "yes",
+    "borderline": true,
+    "reason": "Excel row reordering, with reference to engineering tracker sheets possibly used at work.",
+    "extracts": [
+      {
+        "messages": [
+          "M1",
+          "M2"
+        ],
+        "tags": [],
+        "borderline": true
+      }
+    ]
+  },
+  {
+    "file": "2026-04-03_1632_Lost-Undo-Button.md",
+    "work_related": "partial",
+    "borderline": true,
+    "reason": "PowerPoint toolbar issue, possibly related to work use of software.",
+    "extracts": [
+      {
+        "messages": [
+          "M1",
+          "M2",
+          "M3"
+        ],
+        "tags": [],
+        "borderline": true
+      }
+    ]
+  },
+  {
+    "file": "2026-04-04_1003_Log-Cabin-Modification-Advice.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2026-04-04_1328_Keter-Store-It-Out-Pro-Dimensions.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2026-04-05_0825_Tool-not-working-intermittently.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2026-04-05_1723_Mixing-sand-and-cement.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2026-04-06_0435_Excel-cross-workbook-reference.md",
+    "work_related": "yes",
+    "borderline": true,
+    "reason": "Excel cross-workbook references and dropdowns, possibly for a work spreadsheet.",
+    "extracts": [
+      {
+        "messages": [
+          "M1",
+          "M2",
+          "M3",
+          "M4"
+        ],
+        "tags": [],
+        "borderline": true
+      }
+    ]
+  },
+  {
+    "file": "2026-04-06_1020_IC-Footprint-Pad-Shape.md",
+    "work_related": "yes",
+    "borderline": true,
+    "reason": "PCB footprint pad shape question in Altium, possibly part of professional electronics design work.",
+    "extracts": [
+      {
+        "messages": [
+          "M1",
+          "M2"
+        ],
+        "tags": [],
+        "borderline": true
+      }
+    ]
+  }
+]

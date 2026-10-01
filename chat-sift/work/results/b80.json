@@ -1,0 +1,471 @@
+[
+ {
+  "file": "2026-02-27_2116_Symbol-Meaning-in-Altium.md",
+  "work_related": "yes",
+  "borderline": true,
+  "reason": "PCB design work in Altium: room replication, component renumbering and schematic grid issues.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4",
+     "M5",
+     "M6",
+     "M7",
+     "M8",
+     "M9",
+     "M10",
+     "M11",
+     "M12",
+     "M13",
+     "M14",
+     "A1",
+     "A2"
+    ],
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ },
+ {
+  "file": "2026-03-01_1756_Turn-off-net-highlights.md",
+  "work_related": "yes",
+  "borderline": false,
+  "reason": "Schematic and library work in Altium, including company grid standards, BOM attributes and connector reference conventions.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4",
+     "M5",
+     "M6",
+     "M7",
+     "M8",
+     "M9",
+     "M10",
+     "M11",
+     "M12",
+     "M13",
+     "M14",
+     "M15",
+     "M16",
+     "M17",
+     "M18",
+     "M19",
+     "M20"
+    ],
+    "tags": [
+     "angry"
+    ],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M21",
+     "M22",
+     "M23",
+     "M24",
+     "M25",
+     "M26",
+     "M27",
+     "M28",
+     "M29",
+     "M30",
+     "M31",
+     "M32",
+     "M33",
+     "M34",
+     "M35",
+     "M36",
+     "M37",
+     "M38",
+     "M39",
+     "M40",
+     "M41",
+     "M42",
+     "M43",
+     "M44",
+     "M45",
+     "M46",
+     "M47",
+     "M48"
+    ],
+    "tags": [],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M49",
+     "M50",
+     "M51",
+     "M52",
+     "M53",
+     "M54",
+     "M55",
+     "M56",
+     "M57",
+     "M58",
+     "M59",
+     "M60",
+     "M61",
+     "M62",
+     "M63",
+     "M64",
+     "M65",
+     "M66",
+     "M67",
+     "M68",
+     "M69",
+     "M70",
+     "M71",
+     "M72",
+     "M73",
+     "M74",
+     "M75",
+     "M76",
+     "A1",
+     "A2",
+     "A3",
+     "A4"
+    ],
+    "tags": [
+     "speculative"
+    ],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M77",
+     "M78",
+     "M79",
+     "M80",
+     "M81",
+     "M82",
+     "M83",
+     "M84",
+     "M85",
+     "M86",
+     "M87",
+     "M88"
+    ],
+    "tags": [
+     "speculative"
+    ],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M89",
+     "M90",
+     "M91",
+     "M92",
+     "M93",
+     "M94",
+     "M95",
+     "M96",
+     "M97",
+     "M98",
+     "M99",
+     "M100",
+     "M101",
+     "M102",
+     "M103",
+     "M104"
+    ],
+    "tags": [],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M105",
+     "M106",
+     "M107",
+     "M108"
+    ],
+    "tags": [],
+    "borderline": false
+   }
+  ]
+ },
+ {
+  "file": "2026-03-02_1921_TQFP-Meaning-Explained.md",
+  "work_related": "yes",
+  "borderline": true,
+  "reason": "Electronics design questions on component packages and LVDS signalling distance and cabling.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4",
+     "M5",
+     "M6",
+     "M7",
+     "M8",
+     "M9",
+     "M10",
+     "M11",
+     "M12"
+    ],
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ },
+ {
+  "file": "2026-03-03_0201_74HC595-Data-Clock-Delay.md",
+  "work_related": "yes",
+  "borderline": true,
+  "reason": "Electronics design question on driving a shift register from a single line and simulating it in Multisim.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4",
+     "M5",
+     "M6",
+     "M7",
+     "M8",
+     "M9",
+     "M10",
+     "M11",
+     "M12",
+     "M13",
+     "M14",
+     "M15",
+     "M16"
+    ],
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ },
+ {
+  "file": "2026-03-03_1544_Polygon-Cleanup-in-Altium.md",
+  "work_related": "yes",
+  "borderline": false,
+  "reason": "Taking over a PCB design in Altium: polygon cleanup, component link and ECO problems, LVDS part selection and remote access.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4",
+     "M5",
+     "M6",
+     "M7",
+     "M8",
+     "M9",
+     "M10",
+     "M11",
+     "M12",
+     "M13",
+     "A1"
+    ],
+    "tags": [],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M14",
+     "M15",
+     "M16",
+     "M17",
+     "M18",
+     "M19",
+     "M20",
+     "M21",
+     "M22",
+     "M23",
+     "M24",
+     "M25",
+     "M26",
+     "M27",
+     "M28",
+     "M29",
+     "M30",
+     "M31",
+     "M32",
+     "A2"
+    ],
+    "tags": [
+     "worried"
+    ],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M33",
+     "M34",
+     "M35",
+     "M36",
+     "M37",
+     "M38",
+     "M39",
+     "M40"
+    ],
+    "tags": [],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M41",
+     "M42",
+     "M43",
+     "M44",
+     "M45",
+     "M46",
+     "M47",
+     "M48",
+     "M49",
+     "M50"
+    ],
+    "tags": [],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M51",
+     "M52",
+     "M53",
+     "M54"
+    ],
+    "tags": [],
+    "borderline": false
+   }
+  ]
+ },
+ {
+  "file": "2026-03-03_1804_Importing-DXF-in-Altium.md",
+  "work_related": "yes",
+  "borderline": true,
+  "reason": "Altium PCB work: importing a DXF board outline and graphics settings on a remotely accessed workstation.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4",
+     "M5",
+     "M6",
+     "M7",
+     "M8"
+    ],
+    "tags": [],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M9",
+     "M10",
+     "M11",
+     "M12",
+     "M13",
+     "M14",
+     "M15",
+     "M16",
+     "M17",
+     "M18",
+     "M19",
+     "M20",
+     "M21",
+     "M22",
+     "M23",
+     "M24",
+     "M25",
+     "M26",
+     "M27",
+     "M28",
+     "M29",
+     "M30",
+     "M31",
+     "M32",
+     "M33",
+     "M34"
+    ],
+    "tags": [],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M35",
+     "M36",
+     "M37",
+     "M38",
+     "M39",
+     "M40",
+     "M41",
+     "M42",
+     "M43",
+     "M44",
+     "M45",
+     "M46"
+    ],
+    "tags": [],
+    "borderline": false
+   }
+  ]
+ },
+ {
+  "file": "2026-03-04_1009_Unclear-Explanation.md",
+  "work_related": "yes",
+  "borderline": false,
+  "reason": "Setting up Altium multi-channel design on a real project and merging it with a legacy design.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4",
+     "M5",
+     "M6",
+     "M7",
+     "M8",
+     "M9"
+    ],
+    "tags": [],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M10",
+     "M11"
+    ],
+    "tags": [],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M12",
+     "M13",
+     "M14",
+     "M15",
+     "M16",
+     "M17",
+     "M18",
+     "M19",
+     "M20",
+     "M21",
+     "M22",
+     "M23",
+     "M24",
+     "M25",
+     "M26",
+     "M27"
+    ],
+    "tags": [],
+    "borderline": false
+   }
+  ]
+ }
+]

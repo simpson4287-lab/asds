@@ -1,0 +1,150 @@
+[
+  {
+    "file": "2026-03-21_1000_Front-Wheel-Motor-Setup.md",
+    "work_related": "partial",
+    "borderline": true,
+    "reason": "Discusses electronics circuit design choices for a CCD signal monitoring board, including component selection, schematic layout and anticipated design review by a colleague.",
+    "extracts": [
+      {
+        "messages": [
+          "M148",
+          "M149",
+          "M150",
+          "M151"
+        ],
+        "tags": [],
+        "borderline": true
+      },
+      {
+        "messages": [
+          "M152",
+          "M153",
+          "M154",
+          "M155",
+          "M156",
+          "M157",
+          "M158",
+          "M159",
+          "M160",
+          "M161",
+          "M162",
+          "M163",
+          "M164",
+          "M165",
+          "M166",
+          "M167",
+          "M168",
+          "M169",
+          "M170",
+          "M171",
+          "M172",
+          "M173",
+          "M174",
+          "M175",
+          "M176",
+          "M177",
+          "M178",
+          "M179",
+          "M180",
+          "M181",
+          "M182",
+          "M183",
+          "M184",
+          "M185",
+          "M186",
+          "M187",
+          "M188",
+          "M189"
+        ],
+        "tags": [],
+        "borderline": true
+      },
+      {
+        "messages": [
+          "M190",
+          "M191",
+          "M192",
+          "M193"
+        ],
+        "tags": [
+          "speculative"
+        ],
+        "borderline": true
+      },
+      {
+        "messages": [
+          "M194",
+          "M195",
+          "M196",
+          "M197",
+          "M198",
+          "M199",
+          "M200",
+          "M201",
+          "M202",
+          "M203",
+          "M204",
+          "M205",
+          "M206",
+          "M207",
+          "M208",
+          "M209",
+          "M210",
+          "M211",
+          "M212",
+          "M213"
+        ],
+        "tags": [],
+        "borderline": true
+      },
+      {
+        "messages": [
+          "M214",
+          "M215",
+          "M216",
+          "M217",
+          "M218",
+          "M219",
+          "M220",
+          "M221",
+          "M222",
+          "M223",
+          "M224",
+          "M225",
+          "M226",
+          "M227",
+          "M228",
+          "M229",
+          "M230",
+          "M231",
+          "M232",
+          "M233",
+          "M234",
+          "M235",
+          "M236",
+          "M237"
+        ],
+        "tags": [],
+        "borderline": true
+      }
+    ]
+  },
+  {
+    "file": "2026-03-21_1542_Cabin-Studio-Rental-Pricing.md",
+    "work_related": "partial",
+    "borderline": true,
+    "reason": "Discusses a possible venture renting out a cabin studio, including pricing and planning considerations.",
+    "extracts": [
+      {
+        "messages": [
+          "M1",
+          "M2",
+          "M3",
+          "M4"
+        ],
+        "tags": [],
+        "borderline": true
+      }
+    ]
+  }
+]

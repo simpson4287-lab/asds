@@ -1,0 +1,284 @@
+[
+  {
+    "file": "2026-03-12_0950_Negative-Feedback-Resistors-x5.md",
+    "work_related": "yes",
+    "borderline": true,
+    "reason": "Electronics circuit design and Altium multichannel schematic/PCB questions, likely for professional design work.",
+    "extracts": [
+      {
+        "messages": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7",
+          "M8"
+        ],
+        "tags": [],
+        "borderline": true
+      }
+    ]
+  },
+  {
+    "file": "2026-03-15_2025_Altium-Pin-Designator-Issue.md",
+    "work_related": "yes",
+    "borderline": true,
+    "reason": "Altium symbol/footprint pin designator mapping for a connector part, likely professional design work.",
+    "extracts": [
+      {
+        "messages": [
+          "M1",
+          "M2"
+        ],
+        "tags": [],
+        "borderline": true
+      }
+    ]
+  },
+  {
+    "file": "2026-03-16_0747_Comfortable-Bike-Seat-Replacement.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2026-03-16_1406_Melatonin-Caffeine-Creativity-Effects.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2026-03-16_1739_Electronics-Sales-Strategy.md",
+    "work_related": "yes",
+    "borderline": true,
+    "reason": "Commercial and product-compliance strategy for selling a lab electronics system.",
+    "extracts": [
+      {
+        "messages": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7",
+          "M8"
+        ],
+        "tags": [],
+        "borderline": true
+      }
+    ]
+  },
+  {
+    "file": "2026-03-16_1749_19-Rackmount-LCD-Console.md",
+    "work_related": "yes",
+    "borderline": true,
+    "reason": "Rackmount console and operator-station options for a lab/test rack.",
+    "extracts": [
+      {
+        "messages": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7",
+          "M8"
+        ],
+        "tags": [],
+        "borderline": true
+      }
+    ]
+  },
+  {
+    "file": "2026-03-16_1808_What-is-an-EMP.md",
+    "work_related": "yes",
+    "borderline": true,
+    "reason": "Structure and draft of an Engineering Management Plan including a market-placement and compliance section for a lab electronics platform.",
+    "extracts": [
+      {
+        "messages": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7",
+          "M8",
+          "M9",
+          "M10"
+        ],
+        "tags": [],
+        "borderline": true
+      }
+    ]
+  },
+  {
+    "file": "2026-03-16_1858_Boiler-Warranty-Information.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2026-03-16_2243_User-inquiry.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2026-03-17_0927_ADHD-Medication-Alternatives.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2026-03-17_1205_Access-to-Private-Land.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2026-03-17_1354_ASD-Assessment-Process-Clarification.md",
+    "work_related": "partial",
+    "borderline": true,
+    "reason": "Mentions occupational health as a source of documentation.",
+    "extracts": [
+      {
+        "messages": [
+          "M1"
+        ],
+        "tags": [],
+        "borderline": true,
+        "trim": {
+          "M1": {
+            "start": "Strong documentation of ASD traits across:",
+            "end": "ADHD360\n\t•\tOccupational health"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "file": "2026-03-17_1600_Pre-show-Stage-Explanation.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2026-03-17_1711_Dragon-vs-Microsoft-Dictation.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2026-03-17_2201_Next-antidepressant-after-vortioxetine.md",
+    "work_related": "partial",
+    "borderline": true,
+    "reason": "Mentions a period of intense working, sometimes overnight.",
+    "extracts": [
+      {
+        "messages": [
+          "M13"
+        ],
+        "tags": [],
+        "borderline": true
+      }
+    ]
+  },
+  {
+    "file": "2026-03-18_1851_Underworld-Dirty-Epic-Meaning.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2026-03-19_1201_Cimembt-Stucjnon-Issue.md",
+    "work_related": "yes",
+    "borderline": true,
+    "reason": "Altium schematic library Comment parameter not updating, likely professional design work.",
+    "extracts": [
+      {
+        "messages": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6"
+        ],
+        "tags": [],
+        "borderline": true
+      }
+    ]
+  },
+  {
+    "file": "2026-03-20_0548_Removing-U-Prefix-in-Altium.md",
+    "work_related": "yes",
+    "borderline": false,
+    "reason": "Altium sheet symbol naming, and a workplace discussion with a colleague about component library standards and use of the Comment field.",
+    "extracts": [
+      {
+        "messages": [
+          "M1",
+          "M2"
+        ],
+        "tags": [],
+        "borderline": true
+      },
+      {
+        "messages": [
+          "M3",
+          "M4"
+        ],
+        "tags": [
+          "speculative"
+        ],
+        "borderline": false
+      },
+      {
+        "messages": [
+          "M5",
+          "M6",
+          "M7",
+          "M8"
+        ],
+        "tags": [],
+        "borderline": false
+      }
+    ]
+  },
+  {
+    "file": "2026-03-20_0749_Charity-Shop-Find.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2026-03-20_1208_WhatsApp-Timed-Images.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2026-03-21_0641_E-bike-storage-canopy.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  }
+]

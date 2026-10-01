@@ -1,0 +1,283 @@
+[
+ {
+  "file": "2026-03-23_2313_Graphic-Enhancement-Request.md",
+  "work_related": "yes",
+  "borderline": true,
+  "reason": "Requests for a CPLD graphic for a technical digital hierarchy block diagram.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4",
+     "M5",
+     "M6",
+     "M7",
+     "M8",
+     "M9",
+     "M10"
+    ],
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ },
+ {
+  "file": "2026-03-24_1012_Altium-Access-Benefits.md",
+  "work_related": "yes",
+  "borderline": true,
+  "reason": "Use of MS Access as a component database backend for Altium PCB design libraries.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3"
+    ],
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ },
+ {
+  "file": "2026-03-24_1551_Syncing-Function-Generators.md",
+  "work_related": "partial",
+  "borderline": true,
+  "reason": "Synchronising function generators in a Multisim circuit design.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2"
+    ],
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ },
+ {
+  "file": "2026-03-24_1700_Switching-Units-in-Altium.md",
+  "work_related": "yes",
+  "borderline": true,
+  "reason": "Switching editor units in Altium design software.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2"
+    ],
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ },
+ {
+  "file": "2026-03-24_2128_Relay-Position-Check.md",
+  "work_related": "yes",
+  "borderline": true,
+  "reason": "Checking a relay position on a circuit schematic.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2"
+    ],
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ },
+ {
+  "file": "2026-03-24_2147_Relay-Contact-Configuration.md",
+  "work_related": "yes",
+  "borderline": true,
+  "reason": "Relay contact configuration and sampling path placement on a CCD readout schematic.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4",
+     "A1",
+     "A2"
+    ],
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ },
+ {
+  "file": "2026-03-25_1255_Altium-Slew-Rate-Evaluation.md",
+  "work_related": "yes",
+  "borderline": false,
+  "reason": "Evaluating CCD clock driver slew rates using Altium simulation and circuit stage design.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4",
+     "M5",
+     "M6",
+     "M7",
+     "M8",
+     "M9",
+     "M10",
+     "M11",
+     "M12",
+     "M13",
+     "M14",
+     "M15",
+     "M16",
+     "M17",
+     "M18",
+     "M19",
+     "M20",
+     "M21",
+     "M22"
+    ],
+    "tags": [],
+    "borderline": false
+   }
+  ]
+ },
+ {
+  "file": "2026-03-25_1544_Power-Net-Component-Report.md",
+  "work_related": "yes",
+  "borderline": true,
+  "reason": "Generating an Altium report of components on a power net.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2"
+    ],
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ },
+ {
+  "file": "2026-03-26_1653_Slew-Rate-and-Amplifiers.md",
+  "work_related": "yes",
+  "borderline": false,
+  "reason": "CCD clock driver design: slew rate, amplifier selection, gain networks and ringing.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4",
+     "M5",
+     "M6",
+     "M7",
+     "M8",
+     "M9",
+     "M10",
+     "M11",
+     "M12",
+     "M13",
+     "M14",
+     "M15",
+     "M16",
+     "M17",
+     "M18",
+     "M19",
+     "M20",
+     "M21",
+     "M22",
+     "M23",
+     "M24",
+     "M25",
+     "M26",
+     "M27",
+     "M28",
+     "M29",
+     "M30",
+     "M31",
+     "M32",
+     "M33",
+     "M34",
+     "M35",
+     "M36",
+     "M37",
+     "M38",
+     "M39",
+     "M40",
+     "M41",
+     "M42",
+     "M43",
+     "M44",
+     "M45",
+     "M46",
+     "M47",
+     "M48",
+     "M49",
+     "M50",
+     "M51",
+     "M52",
+     "M53",
+     "M54",
+     "M55",
+     "M56",
+     "M57",
+     "M58",
+     "M59",
+     "M60",
+     "M61",
+     "M62",
+     "M63",
+     "M64",
+     "M65",
+     "M66",
+     "M67",
+     "M68",
+     "M69",
+     "M70",
+     "M71",
+     "M72",
+     "M73",
+     "M74",
+     "M75",
+     "M76",
+     "M77",
+     "M78",
+     "M79",
+     "M80",
+     "M81",
+     "M82",
+     "M83",
+     "M84",
+     "M85"
+    ],
+    "tags": [],
+    "borderline": false
+   }
+  ]
+ },
+ {
+  "file": "2026-03-27_1607_Sliding-Barn-Door-Gate.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2026-03-28_1102_Downsides-of-Liquid-Membrane.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2026-03-28_1403_Angle-Calculation-for-Slope.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ }
+]
