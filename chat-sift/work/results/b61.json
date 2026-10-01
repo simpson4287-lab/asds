@@ -1,0 +1,18 @@
+[
+  {
+    "file": "2026-01-21_1226_Cheap-Log-Cabin-Elevation.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2026-01-21_1520_Find-Component-by-Designator.md",
+    "work_related": "yes",
+    "borderline": true,
+    "reason": "Question about locating a component by designator in Altium Designer PCB software, possibly for professional work.",
+    "extracts": [
+      {"messages": ["M1", "M2"], "tags": [], "borderline": true}
+    ]
+  }
+]

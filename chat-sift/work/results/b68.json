@@ -1,0 +1,78 @@
+[
+  {
+    "file": "2026-02-04_1318_Document-Comparison-Review.md",
+    "work_related": "partial",
+    "borderline": true,
+    "reason": "Describes how the owner organises their work (workload categorisation, workspace, folders, tools) as examples within a personal document.",
+    "extracts": [
+      {
+        "messages": ["M17", "M18"],
+        "trim": {"M18": {"start": "## **6.5 WORK ORGANISATION**", "end": "with compulsive discomfort when the system is altered."}},
+        "tags": [],
+        "borderline": true
+      },
+      {
+        "messages": ["M25", "M26"],
+        "tags": [],
+        "borderline": true
+      },
+      {
+        "messages": ["M35", "M36"],
+        "trim": {"M36": {"start": "### **6.5 WORK ORGANISATION**", "end": "reliance on external order to support regulation rather than efficiency alone."}},
+        "tags": [],
+        "borderline": true
+      }
+    ]
+  },
+  {
+    "file": "2026-02-04_1329_What-is-an-abstract.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2026-02-05_0157_New-chat.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2026-02-05_0211_New-chat.md",
+    "work_related": "yes",
+    "borderline": true,
+    "reason": "Technical engineering question about high-speed LVDS cabling for radiation environments.",
+    "extracts": [
+      {"messages": ["M1", "M2"], "tags": [], "borderline": true}
+    ]
+  },
+  {
+    "file": "2026-02-05_0840_New-chat.md",
+    "work_related": "yes",
+    "borderline": false,
+    "reason": "Whether a design should pass Critical Design Review when modifications are not captured in an up-issued design.",
+    "extracts": [
+      {"messages": ["M1", "M2"], "tags": [], "borderline": false}
+    ]
+  },
+  {
+    "file": "2026-02-05_2035_Teams-usage-with-ADHD.md",
+    "work_related": "yes",
+    "borderline": false,
+    "reason": "Requirement to use Teams onsite, reasonable adjustments for ADHD/ASD, and setting communication boundaries with work.",
+    "extracts": [
+      {"messages": ["M1", "M2", "M3", "M4", "M5", "M6"], "tags": [], "borderline": false},
+      {"messages": ["M7", "M8", "M9", "M10", "M11", "M12", "M13", "M14"], "tags": ["angry"], "borderline": false}
+    ]
+  },
+  {
+    "file": "2026-02-06_1346_Process-vs-Engineering-Flow.md",
+    "work_related": "yes",
+    "borderline": true,
+    "reason": "Question about process-oriented managers managing engineering professionals and workflows.",
+    "extracts": [
+      {"messages": ["M1", "M2"], "tags": ["speculative"], "borderline": true}
+    ]
+  }
+]

@@ -1,6 +1,6 @@
 # chat-sift progress
 
-Updated: 2026-10-01 14:55 UTC
+Updated: 2026-10-01 14:57 UTC
 
 ## Setup
 - Source: ChatGPT export (`Conversations__…-part-0001/conversations-000..008.json`) at the repo root, read-only. Nothing in it is edited.
@@ -9,27 +9,17 @@ Updated: 2026-10-01 14:55 UTC
 - Outputs are built from the results by `chat-sift/tools/build.py` (verbatim text is pulled from the split files by message ID).
 
 ## Status
-- Batches done: 59 / 98
-- Conversations read: 451 / 828
-- So far: yes 79, partial 63, no 309
+- Batches done: 69 / 98
+- Conversations read: 519 / 828
+- So far: yes 109, partial 65, no 345
 
 ## To resume
 Run each batch below that has no `work/results/bNN.json`, following READER_INSTRUCTIONS.md. Then run `tools/build.py` and `tools/progress.py`, and commit.
 
 ## Batches done
-b01, b02, b03, b04, b05, b06, b07, b08, b09, b10, b11, b12, b13, b14, b15, b16, b17, b18, b19, b20, b21, b22, b23, b24, b25, b26, b27, b28, b29, b30, b31, b32, b33, b34, b35, b36, b37, b38, b39, b40, b41, b42, b43, b44, b45, b46, b47, b48, b49, b50, b51, b52, b53, b54, b55, b56, b57, b58, b59
+b01, b02, b03, b04, b05, b06, b07, b08, b09, b10, b11, b12, b13, b14, b15, b16, b17, b18, b19, b20, b21, b22, b23, b24, b25, b26, b27, b28, b29, b30, b31, b32, b33, b34, b35, b36, b37, b38, b39, b40, b41, b42, b43, b44, b45, b46, b47, b48, b49, b50, b51, b52, b53, b54, b55, b56, b57, b58, b59, b60, b61, b62, b63, b64, b65, b66, b67, b68, b69
 
 ## Remaining
-- b60: 2026-01-20_1032_4-Appraisal.md … 2026-01-20_2149_Concrete-Base-and-Timber-Moisture.md (14 conversations)
-- b61: 2026-01-21_1226_Cheap-Log-Cabin-Elevation.md … 2026-01-21_1520_Find-Component-by-Designator.md (2 conversations)
-- b62: 2026-01-21_2046_SIP-Wall-Installation-Tips.md … 2026-01-21_2046_SIP-Wall-Installation-Tips.md (1 conversations)
-- b63: 2026-01-21_2209_Neutron-Radiation-and-Electronics.md … 2026-01-25_1205_Dogs-and-Raw-Pork.md (11 conversations)
-- b64: 2026-01-25_1728_Separate-Cabins-for-Acoustics.md … 2026-01-26_1901_Smith-vs-Oracle.md (3 conversations)
-- b65: 2026-01-26_2136_Earbud-Repair-Limitations.md … 2026-01-27_1954_Tyvek-Roll-Size-Inquiry.md (4 conversations)
-- b66: 2026-01-27_2051_Suspension-or-Resignation.md … 2026-01-27_2051_Suspension-or-Resignation.md (1 conversations)
-- b67: 2026-01-28_1653_Soldering-Temp-for-THT.md … 2026-02-03_1143_Debut-Payments-Explained.md (24 conversations)
-- b68: 2026-02-04_1318_Document-Comparison-Review.md … 2026-02-06_1346_Process-vs-Engineering-Flow.md (7 conversations)
-- b69: 2026-02-07_1606_Autism-Assessment-Cancellation-Reaction.md … 2026-02-07_1606_Autism-Assessment-Cancellation-Reaction.md (1 conversations)
 - b70: 2026-02-08_0514_ASD-Assessment-Alternative-Evidence.md … 2026-02-08_0725_3-9.md (36 conversations)
 - b71: 2026-02-08_0726_3-10.md … 2026-02-08_0826_Transcript-Request.md (16 conversations)
 - b72: 2026-02-08_1226_Managerial-Time-Enforcement-Debate.md … 2026-02-11_0127_DAC-Location-Best-Practices.md (19 conversations)

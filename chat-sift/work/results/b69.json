@@ -1,0 +1,43 @@
+[
+  {
+    "file": "2026-02-07_1606_Autism-Assessment-Cancellation-Reaction.md",
+    "work_related": "partial",
+    "borderline": false,
+    "reason": "Discusses wrongful accusations and a formal investigation at work following a colleague performance feedback request, restricted workspace access, return to work after sickness absence, and the effect on the owner's mental health.",
+    "extracts": [
+      {
+        "messages": ["M3", "M4"],
+        "trim": {},
+        "tags": ["upset"],
+        "borderline": false
+      },
+      {
+        "messages": ["M15", "M16"],
+        "trim": {
+          "M15": {"start": "As a professional I’ve learnt to handle unplanned", "end": "suffer extensively with rumination and worry afterwards."},
+          "M16": {"start": "Professionally, I am accustomed to handling unplanned and difficult conversations", "end": "experiences of inconsistent communication and pathway ambiguity across services."}
+        },
+        "tags": [],
+        "borderline": true
+      },
+      {
+        "messages": ["M79", "M80", "M81", "M82", "M83", "M84", "M85", "M86", "M87", "M88", "M89", "M90", "M91", "M92"],
+        "trim": {
+          "M79": {"start": "I am currently in the middle of a significant depressive relapse following recent stressors that have been activated", "end": "pre-occupied with what the meaning was with these specific objects."},
+          "M80": {"start": "I am currently in the middle of a significant depressive relapse following recent stressors at work.", "end": "found myself preoccupied with analysing the meaning of the requested materials."},
+          "M92": {"start": "I am currently experiencing a significant depressive relapse following recent events at work.", "end": "a marked collapse in confidence and renewed feelings of entrapment."}
+        },
+        "tags": ["upset"],
+        "borderline": false
+      },
+      {
+        "messages": ["M129"],
+        "trim": {
+          "M129": {"start": "Due to a number of competing commitments at present", "end": "deferred by one to two weeks, if possible."}
+        },
+        "tags": [],
+        "borderline": true
+      }
+    ]
+  }
+]

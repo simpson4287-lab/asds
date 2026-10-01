@@ -1,0 +1,297 @@
+[
+  {
+    "file": "2026-01-28_1653_Soldering-Temp-for-THT.md",
+    "work_related": "yes",
+    "borderline": true,
+    "reason": "Through-hole soldering temperature and flux question, possibly related to electronics engineering work.",
+    "extracts": [
+      {
+        "messages": [
+          "M1",
+          "M2",
+          "M3",
+          "M4"
+        ],
+        "trim": {},
+        "tags": [],
+        "borderline": true
+      }
+    ]
+  },
+  {
+    "file": "2026-01-28_1733_Video-Background-Distortion-Fixes.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2026-01-29_0537_Response-Options-for-Message-Count.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2026-01-29_1001_Smart-response-options.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2026-01-29_1449_Bonus-Redistribution-Explained.md",
+    "work_related": "yes",
+    "borderline": false,
+    "reason": "Owner's annual work bonus amount relative to the stated percentage and a colleague's exclusion due to a performance plan.",
+    "extracts": [
+      {
+        "messages": [
+          "M1",
+          "M2"
+        ],
+        "trim": {},
+        "tags": [],
+        "borderline": false
+      },
+      {
+        "messages": [
+          "M3",
+          "M4"
+        ],
+        "trim": {},
+        "tags": [
+          "speculative"
+        ],
+        "borderline": false
+      }
+    ]
+  },
+  {
+    "file": "2026-01-29_1822_Make-links-visible-CADSTAR.md",
+    "work_related": "yes",
+    "borderline": true,
+    "reason": "Question on displaying connectivity links in CADSTAR PCB design software, possibly for engineering work.",
+    "extracts": [
+      {
+        "messages": [
+          "M1",
+          "M2"
+        ],
+        "trim": {},
+        "tags": [],
+        "borderline": true
+      }
+    ]
+  },
+  {
+    "file": "2026-01-30_1306_Triple-Glazed-Upgrade-Feasibility.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2026-01-31_0904_BorrowMyDoggy-Premium-Requirements.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2026-01-31_1108_DJ-Controller-GarageBand-Setup.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2026-01-31_1133_Self-awareness-and-Stillness.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2026-01-31_1211_Song-Learning-vs-Progression.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2026-01-31_1311_Best-Books-for-ESE.md",
+    "work_related": "yes",
+    "borderline": true,
+    "reason": "Book recommendations for electronic systems engineering and systems engineering, relevant to the owner's profession.",
+    "extracts": [
+      {
+        "messages": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7",
+          "M8",
+          "M9"
+        ],
+        "trim": {},
+        "tags": [],
+        "borderline": true
+      }
+    ]
+  },
+  {
+    "file": "2026-01-31_1459_E-bike-recommendations-for-versatility.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2026-01-31_1930_Dragon-Anywhere-License.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2026-01-31_2218_Elvanse-Break-Effectiveness.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2026-02-01_1128_Quitting-smoking-and-ASD.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2026-02-01_1244_Electronic-Design-Welcome.md",
+    "work_related": "yes",
+    "borderline": false,
+    "reason": "Designing electronics-themed welcome back signs for a returning colleague.",
+    "extracts": [
+      {
+        "messages": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7",
+          "M8",
+          "M9",
+          "M10",
+          "M11",
+          "M12",
+          "M13",
+          "M14"
+        ],
+        "trim": {},
+        "tags": [],
+        "borderline": false
+      }
+    ]
+  },
+  {
+    "file": "2026-02-01_1304_Design-Consistency-Request.md",
+    "work_related": "yes",
+    "borderline": true,
+    "reason": "Image edit request apparently continuing the welcome back sign design for a colleague.",
+    "extracts": [
+      {
+        "messages": [
+          "M1"
+        ],
+        "trim": {},
+        "tags": [],
+        "borderline": true
+      }
+    ]
+  },
+  {
+    "file": "2026-02-01_2204_Introduction-Rewrite-Request.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2026-02-01_2304_ADHD360-Shared-Care-Refusal.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2026-02-02_1510_Screenshot-transcription-request.md",
+    "work_related": "yes",
+    "borderline": false,
+    "reason": "Transcription and evidence log of a workplace Teams chat with a colleague about CS125 burn-in, test modules and task ownership.",
+    "extracts": [
+      {
+        "messages": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7",
+          "M8",
+          "M9",
+          "M10",
+          "M11",
+          "M12",
+          "M13",
+          "M14"
+        ],
+        "trim": {},
+        "tags": [],
+        "borderline": false
+      }
+    ]
+  },
+  {
+    "file": "2026-02-02_1623_Requirements-Validation-for-Reused-Hardware.md",
+    "work_related": "yes",
+    "borderline": false,
+    "reason": "Engineering question on validating requirements for reused hardware and delta design documentation.",
+    "extracts": [
+      {
+        "messages": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6"
+        ],
+        "trim": {},
+        "tags": [],
+        "borderline": false
+      }
+    ]
+  },
+  {
+    "file": "2026-02-02_1816_ADOS-2-Clinical-Summary.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2026-02-03_1143_Debut-Payments-Explained.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  }
+]
