@@ -1,0 +1,253 @@
+[
+  {
+    "file": "2025-11-22_0954_OmniBook-X-vs-5.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-11-22_1233_Yoga-7-vs-Omni-X.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-11-23_1857_Circuit-function-explanation.md",
+    "work_related": "yes",
+    "borderline": true,
+    "reason": "Fault-finding and protection/filter design on an op-amp stage of an electronics board (possibly professional engineering work).",
+    "extracts": [
+      {
+        "messages": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7",
+          "M8",
+          "M9",
+          "M10",
+          "M11",
+          "M12",
+          "M13",
+          "M14",
+          "M15",
+          "M16",
+          "M17",
+          "M18",
+          "M19",
+          "M20",
+          "M21",
+          "M22",
+          "M23",
+          "M24",
+          "M25",
+          "M26",
+          "M27",
+          "M28",
+          "M29",
+          "M30",
+          "M31",
+          "M32",
+          "M33",
+          "A1"
+        ],
+        "tags": [
+          "speculative"
+        ],
+        "borderline": true
+      }
+    ]
+  },
+  {
+    "file": "2025-11-26_1029_Identify-slow-blow-fuse.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-11-26_1744_Autumn-Budget-impact-2025.md",
+    "work_related": "yes",
+    "borderline": true,
+    "reason": "Effect of the Budget on the owner's salary, and take-home pay if working hours were reduced.",
+    "extracts": [
+      {
+        "messages": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7",
+          "M8",
+          "M9",
+          "M10"
+        ],
+        "tags": [],
+        "borderline": true
+      }
+    ]
+  },
+  {
+    "file": "2025-11-27_1317_Why-statement-is-not-wrong.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-11-27_1704_Ngai-Ombibook-meaning.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-11-28_1701_Replacement-brake-pads-i9-Max.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-11-28_1940_Stylus-price-comparison.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-11-29_0445_Grouping-Sonos-speakers-effects.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-11-29_0622_Remove-iMac-password.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-11-29_1255_Shotgun-personality-traits.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-11-29_1634_Ludacris-in-Heat-film.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-12-01_0936_Reeves-budget-misleading-claims.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-12-02_0828_Extra-ground-loop-transients.md",
+    "work_related": "yes",
+    "borderline": true,
+    "reason": "Ground loops and transients in the context of the CCD amplifier board being worked on (possibly professional engineering work).",
+    "extracts": [
+      {
+        "messages": [
+          "M1",
+          "M2",
+          "M3",
+          "M4"
+        ],
+        "tags": [],
+        "borderline": true
+      }
+    ]
+  },
+  {
+    "file": "2025-12-02_1211_Soft-start-options-for-DC-rails.md",
+    "work_related": "yes",
+    "borderline": true,
+    "reason": "Soft-start design for 32V and +/-18V DC rails (possibly professional engineering work).",
+    "extracts": [
+      {
+        "messages": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7",
+          "M8",
+          "M9",
+          "M10",
+          "M11",
+          "M12"
+        ],
+        "tags": [],
+        "borderline": true
+      }
+    ]
+  },
+  {
+    "file": "2025-12-02_1312_CCTV-operators-and-commission.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-12-03_0831_Op-amp-fault-explanation.md",
+    "work_related": "yes",
+    "borderline": true,
+    "reason": "Fault-finding an op-amp input fault by comparing a good and a faulty circuit board (possibly professional engineering work).",
+    "extracts": [
+      {
+        "messages": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7",
+          "M8",
+          "M9",
+          "M10",
+          "M11",
+          "M12"
+        ],
+        "tags": [
+          "speculative"
+        ],
+        "borderline": true
+      }
+    ]
+  },
+  {
+    "file": "2025-12-03_1838_Rachel-Reeves-update.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-12-03_2236_Modify-pink-vest.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  }
+]

@@ -1,0 +1,250 @@
+[
+ {
+  "file": "2025-12-18_1211_Balanced-rewrite-suggestion.md",
+  "work_related": "yes",
+  "borderline": false,
+  "reason": "Drafting a message about role clarity on the Arakkhs work, colleagues and a doctor's note, plus work technical questions and the owner's reading of the manager's intentions.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4",
+     "M5",
+     "M6",
+     "M7",
+     "M8",
+     "M9",
+     "M10",
+     "M11",
+     "M12",
+     "M13",
+     "M14",
+     "M15",
+     "M16",
+     "A1"
+    ],
+    "tags": [
+     "upset",
+     "unsettled"
+    ],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M17",
+     "M18",
+     "M19",
+     "M20",
+     "M21",
+     "M22",
+     "M23",
+     "M24"
+    ],
+    "tags": [],
+    "borderline": true
+   },
+   {
+    "messages": [
+     "M25",
+     "M26",
+     "M27",
+     "M28",
+     "M29",
+     "M30",
+     "M31",
+     "M32",
+     "M33",
+     "M34",
+     "M35",
+     "M36"
+    ],
+    "tags": [
+     "worried",
+     "unsettled",
+     "speculative",
+     "upset"
+    ],
+    "borderline": false
+   }
+  ]
+ },
+ {
+  "file": "2025-12-18_1234_Card-pull-components.md",
+  "work_related": "yes",
+  "borderline": true,
+  "reason": "Engineering question about card pull handles for backplane cards.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4",
+     "M5",
+     "M6"
+    ],
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ },
+ {
+  "file": "2025-12-18_1324_Bold-text-advice.md",
+  "work_related": "yes",
+  "borderline": false,
+  "reason": "Formatting advice on a written message to senior colleagues about the owner's role and contribution.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4",
+     "M5",
+     "M6"
+    ],
+    "tags": [],
+    "borderline": false
+   }
+  ]
+ },
+ {
+  "file": "2025-12-18_1442_System-name-suggestions.md",
+  "work_related": "yes",
+  "borderline": true,
+  "reason": "Naming, scope document and proposal for a burn-in test system project related to the owner's department.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4",
+     "M5",
+     "M6",
+     "M7",
+     "M8",
+     "M9",
+     "M10",
+     "M11",
+     "M12",
+     "M13",
+     "M14",
+     "M15",
+     "M16",
+     "M17",
+     "M18",
+     "M19",
+     "M20"
+    ],
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ },
+ {
+  "file": "2025-12-19_0618_Ribbon-cable-for-5MHz.md",
+  "work_related": "yes",
+  "borderline": true,
+  "reason": "Engineering questions on LVDS signalling over cable from a Kintex-7 FPGA to an imaging sensor.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4",
+     "M5",
+     "M6",
+     "M7",
+     "M8",
+     "M9",
+     "M10"
+    ],
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ },
+ {
+  "file": "2025-12-19_0702_Tidy-and-rewrite-document.md",
+  "work_related": "partial",
+  "borderline": true,
+  "reason": "Brief references to a lack of acknowledgement from the team leader about leave and to taking an afternoon off work.",
+  "extracts": [
+   {
+    "messages": [
+     "M9",
+     "M10",
+     "M11"
+    ],
+    "trim": {
+     "M9": {
+      "start": "Jessica called on the 19th. I was having an extremely stressful day",
+      "end": "having to book a very expensive flight."
+     },
+     "M10": {
+      "start": "Jessica called on the 19th. I was having an extremely stressful day",
+      "end": "having to book a very expensive flight."
+     },
+     "M11": {
+      "start": "Jessica called on 19 November. I was experiencing an extremely stressful day",
+      "end": "having to book a significantly more expensive flight."
+     }
+    },
+    "tags": [
+     "unsettled"
+    ],
+    "borderline": true
+   },
+   {
+    "messages": [
+     "M2",
+     "M9",
+     "M10",
+     "M11"
+    ],
+    "trim": {
+     "M2": {
+      "start": "I took the afternoon off work in anticipation.",
+      "end": "I took the afternoon off work in anticipation."
+     },
+     "M9": {
+      "start": "I take the afternoon off work, anticipating",
+      "end": "anticipating it may be a uncomfortable call,"
+     },
+     "M10": {
+      "start": "I take the afternoon off work, anticipating",
+      "end": "anticipating it may be a uncomfortable call,"
+     },
+     "M11": {
+      "start": "I took the afternoon off work in anticipation.",
+      "end": "I took the afternoon off work in anticipation."
+     }
+    },
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ },
+ {
+  "file": "2025-12-19_0807_Unanswered-messages-and-politics.md",
+  "work_related": "partial",
+  "borderline": false,
+  "reason": "No reply from two senior colleagues to the owner's message and workplace politics.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2"
+    ],
+    "tags": [
+     "speculative"
+    ],
+    "borderline": false
+   }
+  ]
+ }
+]

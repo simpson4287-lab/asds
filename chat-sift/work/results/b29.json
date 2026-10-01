@@ -1,0 +1,53 @@
+[
+  {
+    "file": "2025-12-19_1403_Circuit-negative-current-sensing.md",
+    "work_related": "yes",
+    "borderline": true,
+    "reason": "Technical discussion of a current-sense circuit schematic, apparently a professional electronics design task.",
+    "extracts": [
+      {"messages": ["M1","M2","M3","M4","M5","M6","M7","M8","M9","M10","M11","M12","M13","M14","M15","M16","M17","M18","M19","A1"], "tags": [], "borderline": true}
+    ]
+  },
+  {
+    "file": "2025-12-19_1714_Treatment-log-rewrite.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-12-20_0350_ADC-channel-selection-via-bus.md",
+    "work_related": "yes",
+    "borderline": false,
+    "reason": "Technical design, requirements documentation and IP/ownership questions for a legacy burn-in system replacement project (Pixel-Burn) at the owner's employer.",
+    "extracts": [
+      {"messages": ["M1","M2","M3","M4","M5","M6","M7","M8","M9","M10","M11","M12","M13","M14"], "tags": [], "borderline": true},
+      {"messages": ["M15","M16","M17","M18","M19","M20"], "tags": [], "borderline": false},
+      {"messages": ["M21","M22","M23","M24","M25","M26"], "tags": [], "borderline": false},
+      {"messages": ["M27","M28","M29","M30","M31","M32","M33","M34","M35","M36"], "tags": [], "borderline": false}
+    ]
+  },
+  {
+    "file": "2025-12-20_0746_Email-safety-assessment.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-12-20_0811_Phone-voicemail-delay.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-12-20_0854_Program-details-summary.md",
+    "work_related": "yes",
+    "borderline": true,
+    "reason": "Enquiry about professional training courses for AI, electronics/systems engineering and Microsoft 365 Copilot.",
+    "extracts": [
+      {"messages": ["M1","M2","M3","M4","M5","M6"], "tags": [], "borderline": true}
+    ]
+  }
+]

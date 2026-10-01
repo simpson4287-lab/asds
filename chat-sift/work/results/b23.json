@@ -1,0 +1,160 @@
+[
+ {
+  "file": "2025-12-05_1401_Original-reference-guide.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2025-12-05_1443_User-feedback.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2025-12-05_1504_Baseline-replication-request.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2025-12-05_1511_Add-men-to-design.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2025-12-05_1808_Circuit-analysis-feedback.md",
+  "work_related": "yes",
+  "borderline": true,
+  "reason": "Checking a resistor circuit to run a 12 V fan from ±9 V rails; possibly a technical project connected to the owner's job.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4",
+     "M5",
+     "M6",
+     "M7",
+     "M8"
+    ],
+    "trim": {},
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ },
+ {
+  "file": "2025-12-05_1835_Texting-opener-review.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2025-12-06_0744_Near-Wild-Heaven.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2025-12-07_0452_Upgrade-noisy-fan.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2025-12-07_1620_Thermal-pad-connection-LT3091.md",
+  "work_related": "yes",
+  "borderline": true,
+  "reason": "PCB layout question about connecting the LT3091 regulator thermal pad; possibly a technical project connected to the owner's job.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4"
+    ],
+    "trim": {},
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ },
+ {
+  "file": "2025-12-07_2044_Tattoo-and-parental-approval.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2025-12-07_2106_ASD-support-levels-explained.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2025-12-09_1005_Coping-with-unsupportive-parents.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2025-12-09_1508_Trauma-therapy-and-child-baseline.md",
+  "work_related": "partial",
+  "borderline": true,
+  "reason": "A drafted reply mentions the owner's work as one suggested cause of change.",
+  "extracts": [
+   {
+    "messages": [
+     "M30"
+    ],
+    "trim": {
+     "M30": {
+      "start": "The reason things have changed isn’t the diagnosis, my work,",
+      "end": "my work, or a “quest for answers”."
+     }
+    },
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ },
+ {
+  "file": "2025-12-09_1652_Power-supply-overcurrent-causes.md",
+  "work_related": "yes",
+  "borderline": true,
+  "reason": "Troubleshooting overcurrent and wiring a ±9 V supply on modular bench power supply equipment; possibly job-related test work.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4",
+     "M5",
+     "M6",
+     "M7",
+     "M8",
+     "M9",
+     "M10"
+    ],
+    "trim": {},
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ }
+]

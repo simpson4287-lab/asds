@@ -1,0 +1,179 @@
+[
+  {
+    "file": "2025-12-11_0838_Autistic-traits-identified.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-12-11_1643_Handling-team-leader-conflict.md",
+    "work_related": "yes",
+    "borderline": false,
+    "reason": "Being ignored by the team leader who replaced the owner after they stepped down from the team leader role on medical grounds, and returning to the role.",
+    "extracts": [
+      {
+        "messages": [
+          "M1",
+          "M2",
+          "M3",
+          "M4"
+        ],
+        "tags": [
+          "upset",
+          "speculative"
+        ],
+        "borderline": false
+      },
+      {
+        "messages": [
+          "M5",
+          "M6",
+          "M7",
+          "M8"
+        ],
+        "tags": [
+          "upset"
+        ],
+        "borderline": false
+      }
+    ]
+  },
+  {
+    "file": "2025-12-13_0615_Check-Office-365-Version.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-12-13_0738_RAM-upgrade-for-OptiPlex.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-12-13_0837_Enable-Copilot-in-Outlook.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-12-14_0630_Redraw-house-in-blueprint-style.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-12-14_0707_Recreate-symbol.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-12-14_0729_Cryptic-tree-creation.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-12-14_1510_Helicopter-graphic-idea.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-12-14_1925_Merge-plan-summary.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-12-14_1952_Arrange-and-merge-plan.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-12-14_1957_Replace-cross-with-image.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-12-14_2020_Childhood-details-in-therapy.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-12-14_2030_Graphic-integration-options.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-12-14_2056_Sign-design-request.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-12-14_2102_Add-sign-above-cross.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-12-15_1028_Key-sight-n6743b-current.md",
+    "work_related": "yes",
+    "borderline": true,
+    "reason": "Technical query about the current rating of a Keysight power supply module, possibly for professional lab work.",
+    "extracts": [
+      {
+        "messages": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "A1"
+        ],
+        "tags": [],
+        "borderline": true
+      }
+    ]
+  },
+  {
+    "file": "2025-12-17_1001_Mains-load-estimation.md",
+    "work_related": "yes",
+    "borderline": true,
+    "reason": "Technical queries about mains load and module specifications for Keysight power mainframes, possibly for professional lab work.",
+    "extracts": [
+      {
+        "messages": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6"
+        ],
+        "tags": [],
+        "borderline": true
+      }
+    ]
+  }
+]

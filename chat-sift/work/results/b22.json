@@ -1,0 +1,204 @@
+[
+ {
+  "file": "2025-12-04_0759_Example-request-clarification.md",
+  "work_related": "partial",
+  "borderline": false,
+  "reason": "Rewriting assessment answers that describe workplace communication, work tasks, the engineering lifecycle process and its owner, preferred job type and workplace support needs.",
+  "extracts": [
+   {
+    "messages": [
+     "M5",
+     "M6"
+    ],
+    "trim": {
+     "M5": {
+      "start": "At work, I’ve corrected others’ statements mid-conversation",
+      "end": "I focus on factual accuracy rather than social tone."
+     }
+    },
+    "tags": [],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M9",
+     "M10",
+     "M11",
+     "M12"
+    ],
+    "tags": [],
+    "borderline": true
+   },
+   {
+    "messages": [
+     "M13",
+     "M14"
+    ],
+    "tags": [
+     "angry",
+     "speculative"
+    ],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M15",
+     "M16"
+    ],
+    "tags": [],
+    "borderline": true
+   },
+   {
+    "messages": [
+     "M23",
+     "M24"
+    ],
+    "trim": {
+     "M23": {
+      "start": "I manage independently but function best with light external structure.",
+      "end": "improves performance far more than constant supervision."
+     },
+     "M24": {
+      "start": "I function independently but benefit greatly from external structure such as:",
+      "end": "Emotional reassurance during unexpected changes prevents spiralling and shutdown."
+     }
+    },
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ },
+ {
+  "file": "2025-12-04_1742_Drive-dirty-meaning.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2025-12-04_2025_Sleeping-with-hoop-earrings.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2025-12-04_2156_Rhymes-for-reckoner.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2025-12-04_2228_Tattoo-extension-concept.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2025-12-04_2302_Refine-concept-directions.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2025-12-04_2333_Colouring-words-request.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2025-12-04_2343_Forearm-tattoo-design.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2025-12-05_0005_Forearm-tattoo-design.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2025-12-05_0105_Tattoo-design-concept.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2025-12-05_0107_Forearm-tattoo-mock-up.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2025-12-05_0123_Tattoo-design-modification.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2025-12-05_0157_Tattoo-design-feedback.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2025-12-05_0227_Feedback-on-design.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2025-12-05_0726_January-sale-likelihood.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2025-12-05_1206_Forearm-mount-questions.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2025-12-05_1320_Extract-art-from-mask.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2025-12-05_1332_Tattoo-design-request.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2025-12-05_1400_Tattoo-design-request.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2025-12-05_1401_Colour-block-options.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ }
+]

@@ -1,6 +1,6 @@
 # chat-sift progress
 
-Updated: 2026-10-01 14:48 UTC
+Updated: 2026-10-01 14:49 UTC
 
 ## Setup
 - Source: ChatGPT export (`Conversations__…-part-0001/conversations-000..008.json`) at the repo root, read-only. Nothing in it is edited.
@@ -9,27 +9,17 @@ Updated: 2026-10-01 14:48 UTC
 - Outputs are built from the results by `chat-sift/tools/build.py` (verbatim text is pulled from the split files by message ID).
 
 ## Status
-- Batches done: 19 / 98
-- Conversations read: 149 / 828
-- So far: yes 11, partial 24, no 114
+- Batches done: 29 / 98
+- Conversations read: 246 / 828
+- So far: yes 36, partial 30, no 180
 
 ## To resume
 Run each batch below that has no `work/results/bNN.json`, following READER_INSTRUCTIONS.md. Then run `tools/build.py` and `tools/progress.py`, and commit.
 
 ## Batches done
-b01, b02, b03, b04, b05, b06, b07, b08, b09, b10, b11, b12, b13, b14, b15, b16, b17, b18, b19
+b01, b02, b03, b04, b05, b06, b07, b08, b09, b10, b11, b12, b13, b14, b15, b16, b17, b18, b19, b20, b21, b22, b23, b24, b25, b26, b27, b28, b29
 
 ## Remaining
-- b20: 2025-11-19_1408_CCD-gain-calibration-explanation.md … 2025-11-22_0825_Portable-2-in-1-laptops.md (7 conversations)
-- b21: 2025-11-22_0954_OmniBook-X-vs-5.md … 2025-12-03_2236_Modify-pink-vest.md (20 conversations)
-- b22: 2025-12-04_0759_Example-request-clarification.md … 2025-12-05_1401_Colour-block-options.md (20 conversations)
-- b23: 2025-12-05_1401_Original-reference-guide.md … 2025-12-09_1652_Power-supply-overcurrent-causes.md (14 conversations)
-- b24: 2025-12-10_0341_Improve-my-answers.md … 2025-12-10_0341_Improve-my-answers.md (1 conversations)
-- b25: 2025-12-11_0838_Autistic-traits-identified.md … 2025-12-17_1001_Mains-load-estimation.md (18 conversations)
-- b26: 2025-12-17_1911_Sharing-psychological-notes.md … 2025-12-17_1911_Sharing-psychological-notes.md (1 conversations)
-- b27: 2025-12-17_2157_Reasonable-adjustments-delay.md … 2025-12-18_0852_Altium-AI-usage.md (3 conversations)
-- b28: 2025-12-18_1211_Balanced-rewrite-suggestion.md … 2025-12-19_0807_Unanswered-messages-and-politics.md (7 conversations)
-- b29: 2025-12-19_1403_Circuit-negative-current-sensing.md … 2025-12-20_0854_Program-details-summary.md (6 conversations)
 - b30: 2025-12-20_1034_DSOX1102A-vs-EDUX1002G.md … 2025-12-21_1105_Procreate-vs-Photoshop-benefits.md (7 conversations)
 - b31: 2025-12-21_1404_Snap-alignment-fix.md … 2025-12-22_1627_Op-amp-offset-issue.md (9 conversations)
 - b32: 2025-12-24_1324_Amusing-Dating-Response-Ideas.md … 2025-12-25_1350_Quality-Log-Building-Benefits.md (7 conversations)

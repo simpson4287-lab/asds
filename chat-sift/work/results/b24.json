@@ -1,0 +1,134 @@
+[
+  {
+    "file": "2025-12-10_0341_Improve-my-answers.md",
+    "work_related": "partial",
+    "borderline": false,
+    "reason": "Assessment answers referencing workplace behaviour, a former manager, masking at work, current engineering role difficulties with a process owner, a 20-year career and step back from team leadership, and workplace support needs.",
+    "extracts": [
+      {
+        "messages": ["M3", "M4", "M6"],
+        "trim": {
+          "M3": {"start": "I do have some phrases I use which are totally wrong", "end": "I’ve adopted it."},
+          "M4": {"start": "I also adopt phrases from others, sometimes incorrectly.", "end": "People still point it out now."},
+          "M6": {"start": "I also pick up language from people around me.", "end": "become automatic speech patterns."}
+        },
+        "tags": [],
+        "borderline": true
+      },
+      {
+        "messages": ["M3", "M4", "M6"],
+        "trim": {
+          "M3": {"start": "Similarly, at work I’ve corrected others mid-conversation", "end": "prioritize factual accuracy over social tone."},
+          "M4": {"start": "At work I may correct someone mid-sentence", "end": "the timing may seem pedantic."},
+          "M6": {"start": "In conversation, accuracy matters to me", "end": "dismissive or overly critical."}
+        },
+        "tags": [],
+        "borderline": true
+      },
+      {
+        "messages": ["M3", "M4", "M6"],
+        "trim": {
+          "M3": {"start": "I’ve learned to exaggerate certain expressions consciously in social or professional contexts", "end": "particularly after work."},
+          "M4": {"start": "I consciously exaggerate facial expressions in social/professional settings", "end": "how much energy I spent controlling my expressions."},
+          "M6": {"start": "In social and professional contexts, I consciously try to animate", "end": "to appear socially typical."}
+        },
+        "tags": [],
+        "borderline": true
+      },
+      {
+        "messages": ["M3"],
+        "trim": {
+          "M3": {"start": "At work when I’m concentrating, I often look away", "end": "as that feels draining."}
+        },
+        "tags": [],
+        "borderline": true
+      },
+      {
+        "messages": ["M3", "M4", "M6"],
+        "trim": {
+          "M3": {"start": "Sometimes I feel I timer in my that has danger attached to it.", "end": "This stems aggressively from self-worth."},
+          "M4": {"start": "A part of me fears being exposed socially or intellectually", "end": "especially with authority figures."},
+          "M6": {"start": "I fear that if the conversation goes on too long", "end": "This is especially true with authority figures."}
+        },
+        "tags": ["worried"],
+        "borderline": true
+      },
+      {
+        "messages": ["M7", "M8"],
+        "trim": {
+          "M7": {"start": "6. Are you currently in work (including training) or higher education?", "end": "Independence reduces social-cognitive load."},
+          "M8": {"start": "### **6. Current work/education**", "end": "analytical reasoning, innovation, perseverance."}
+        },
+        "tags": ["worried", "angry"],
+        "borderline": false
+      },
+      {
+        "messages": ["M9", "M10"],
+        "trim": {
+          "M9": {"start": "In a work or daily-life context", "end": "far more than constant supervision."},
+          "M10": {"start": "In work settings, **written instructions", "end": "dramatically improve performance."}
+        },
+        "tags": [],
+        "borderline": true
+      },
+      {
+        "messages": ["M13", "M14", "M15", "M16"],
+        "tags": ["upset"],
+        "borderline": false
+      },
+      {
+        "messages": ["M27", "M31", "M47", "M49"],
+        "trim": {
+          "M27": {"start": "I’ve spent most of my life masking", "end": "a sense of losing my authentic self."},
+          "M31": {"start": "I’ve spent most of my life masking", "end": "a sense of losing my authentic self."},
+          "M47": {"start": "I’ve spent most of my life masking", "end": "a sense of losing my authentic self."},
+          "M49": {"start": "I’ve spent most of my life masking", "end": "a sense of losing my authentic self."}
+        },
+        "tags": ["upset"],
+        "borderline": false
+      },
+      {
+        "messages": ["M27", "M31", "M47", "M49"],
+        "trim": {
+          "M27": {"start": "I have a very strong sense of fairness and moral integrity.", "end": "it feels physically wrong until resolved."},
+          "M31": {"start": "I have a very strong sense of fairness and moral integrity.", "end": "it feels physically wrong until resolved."},
+          "M47": {"start": "I have a very strong sense of fairness and moral integrity.", "end": "it feels physically wrong until resolved."},
+          "M49": {"start": "I have a very strong sense of fairness and moral integrity.", "end": "it feels physically wrong until resolved."}
+        },
+        "tags": ["upset"],
+        "borderline": false
+      },
+      {
+        "messages": ["M27", "M31", "M47", "M49"],
+        "trim": {
+          "M27": {"start": "I notice patterns, textures, and inconsistencies that others overlook.", "end": "absorbing the actual content of what’s happening around me."},
+          "M31": {"start": "I notice patterns, textures, and inconsistencies that others overlook.", "end": "absorbing the actual content of what’s happening around me."},
+          "M47": {"start": "I notice patterns, textures, and inconsistencies that others overlook.", "end": "absorbing the actual content of what’s happening around me."},
+          "M49": {"start": "I notice patterns, textures, and inconsistencies that others overlook.", "end": "absorbing the actual content of what’s happening around me."}
+        },
+        "tags": ["worried"],
+        "borderline": false
+      },
+      {
+        "messages": ["M27", "M31", "M47", "M49"],
+        "trim": {
+          "M27": {"start": "My ability to make eye contact fluctuates.", "end": "it becomes almost unbearable."},
+          "M31": {"start": "My ability to make eye contact fluctuates.", "end": "it becomes almost unbearable."},
+          "M47": {"start": "My ability to make eye contact fluctuates.", "end": "it becomes almost unbearable."},
+          "M49": {"start": "My ability to make eye contact fluctuates.", "end": "it becomes almost unbearable."}
+        },
+        "tags": [],
+        "borderline": true
+      },
+      {
+        "messages": ["M48", "M50"],
+        "trim": {
+          "M48": {"start": "I rely heavily on routine and predictability to feel stable", "end": "when I’m given new tasks without warning"},
+          "M50": {"start": "I rely heavily on routine, planning and predictability", "end": "can leave me feeling as if the ground has shifted."}
+        },
+        "tags": [],
+        "borderline": true
+      }
+    ]
+  }
+]
