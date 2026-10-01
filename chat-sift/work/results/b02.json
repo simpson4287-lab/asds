@@ -1,0 +1,89 @@
+[
+  {
+    "file": "2025-10-02_2147_Mental-healthcare-claims-limitations.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-10-03_2008_Tidy-up-document-formatting.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-10-04_2023_ADOS-2.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-10-04_2044_Autism-spectrum-disorder-summary.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-10-05_2054_Clinical-MH-Notes.md",
+    "work_related": "partial",
+    "borderline": false,
+    "reason": "Early employment experiences at an engineering company, including a mentor relationship and its ending.",
+    "extracts": [
+      {
+        "messages": [
+          "M3",
+          "M16",
+          "M30"
+        ],
+        "trim": {
+          "M3": {
+            "start": "When taken on as a full time employee to the company I was adopted",
+            "end": "I even was given the duty of mentoring new apprentices ready for his selection."
+          },
+          "M16": {
+            "start": "Upon becoming a full-time employee at an engineering company, I was mentored",
+            "end": "which felt like a painful reminder of missed opportunity."
+          },
+          "M30": {
+            "start": "Upon becoming a full-time employee at an engineering company, I was mentored",
+            "end": "which felt like a painful reminder of missed opportunity."
+          }
+        },
+        "tags": [],
+        "borderline": false
+      },
+      {
+        "messages": [
+          "M32",
+          "M41",
+          "M42"
+        ],
+        "trim": {
+          "M32": {
+            "start": "### 👨 Early Adulthood & Employment",
+            "end": "13. What did losing that mentor figure represent for you emotionally?"
+          },
+          "M42": {
+            "start": "### Early Adulthood: Work, Mentorship and Rejection",
+            "end": "confirming a belief that I didn’t belong anywhere."
+          }
+        },
+        "tags": [
+          "upset"
+        ],
+        "borderline": false
+      }
+    ]
+  },
+  {
+    "file": "2025-10-05_2156_Lucid-dream-checks.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "file": "2025-10-17_0932_Tidy-up-unfair-treatment.md",
+    "work_related": "partial",
+    "borderline": true,
+    "reason": "Brief references to contacting an occupational health contact, the owner's work record, and traits shown at work.",
+    "extracts": [
+      {
+        "messages": ["M3"],
+        "trim": {"M3": {"start": "I finally reached out to an occupational go", "end": "run this by them as felt I was losing my mind."}},
+        "tags": ["unsettled"],
+        "borderline": true
+      },
+      {
+        "messages": ["M3"],
+        "trim": {"M3": {"start": "Other than alcohol I have not fallen foul", "end": "had any incidents which relate to such a viewpoint."}},
+        "tags": [],
+        "borderline": true
+      },
+      {
+        "messages": ["M3"],
+        "trim": {"M3": {"start": "it shines a big light on the perceived ASD traits", "end": "other specialists in healthcare as well as around work."}},
+        "tags": [],
+        "borderline": true
+      }
+    ]
+  },
+  {"file": "2025-10-17_1217_ASD-ADHD-anxiety-depression-link.md", "work_related": "no", "borderline": false, "reason": "No work-related content.", "extracts": []},
+  {"file": "2025-10-17_1600_Officer-charging-decisions.md", "work_related": "no", "borderline": false, "reason": "No work-related content.", "extracts": []},
+  {"file": "2025-10-18_0625_Cheap-iMac-Pro-options.md", "work_related": "no", "borderline": false, "reason": "No work-related content.", "extracts": []},
+  {"file": "2025-10-18_1027_Thunderbolt-3-vs-USB-C.md", "work_related": "no", "borderline": false, "reason": "No work-related content.", "extracts": []}
+]

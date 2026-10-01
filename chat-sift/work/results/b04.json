@@ -1,0 +1,249 @@
+[
+  {
+    "file": "2025-10-07_1649_CHILD.md",
+    "work_related": "partial",
+    "borderline": true,
+    "reason": "Self-reflection report passages on masking in professional settings, distress over workplace conflicts, sensory overload in a work meeting, and eye contact in professional contexts.",
+    "extracts": [
+      {
+        "messages": [
+          "M3",
+          "M14"
+        ],
+        "trim": {
+          "M3": {
+            "start": "Engages in prolonged masking in professional and social contexts",
+            "end": "emotional detachment over time."
+          },
+          "M14": {
+            "start": "Masking has been a lifelong strategy.",
+            "end": "often leads to burnout or emotional numbness."
+          }
+        },
+        "tags": [],
+        "borderline": true
+      },
+      {
+        "messages": [
+          "M3"
+        ],
+        "trim": {
+          "M3": {
+            "start": "Strong sense of fairness and integrity.",
+            "end": "hypocrisy or moral inconsistency in others."
+          }
+        },
+        "tags": [
+          "upset"
+        ],
+        "borderline": true
+      },
+      {
+        "messages": [
+          "M3"
+        ],
+        "trim": {
+          "M3": {
+            "start": "Hyperfocuses on environmental sounds, patterns",
+            "end": "leading to mounting distress."
+          }
+        },
+        "tags": [
+          "unsettled"
+        ],
+        "borderline": true
+      },
+      {
+        "messages": [
+          "M3",
+          "M14"
+        ],
+        "trim": {
+          "M3": {
+            "start": "Eye contact ability fluctuates depending on environment and confidence.",
+            "end": "in personal or emotional situations it becomes overwhelming."
+          },
+          "M14": {
+            "start": "Eye contact remains inconsistent.",
+            "end": "physically uncomfortable."
+          }
+        },
+        "tags": [],
+        "borderline": true
+      }
+    ]
+  },
+  {
+    "file": "2025-10-07_1652_ADULT.md",
+    "work_related": "partial",
+    "borderline": true,
+    "reason": "Self-reflection report passages on masking at work, distress over workplace toxicity and conflicts, sensory overload in a work meeting, and eye contact in professional situations.",
+    "extracts": [
+      {
+        "messages": [
+          "M3",
+          "M8",
+          "M15",
+          "M38"
+        ],
+        "trim": {
+          "M3": {
+            "start": "Engages in prolonged masking in professional and social contexts",
+            "end": "emotional detachment over time."
+          },
+          "M8": {
+            "start": "I’ve spent most of my life masking",
+            "end": "a sense of losing my authentic self."
+          },
+          "M15": {
+            "start": "I’ve spent most of my life masking",
+            "end": "a sense of losing my authentic self."
+          },
+          "M38": {
+            "start": "I’ve spent most of my life masking",
+            "end": "a sense of losing my authentic self."
+          }
+        },
+        "tags": [],
+        "borderline": true
+      },
+      {
+        "messages": [
+          "M3",
+          "M8",
+          "M15",
+          "M38"
+        ],
+        "trim": {
+          "M3": {
+            "start": "Strong sense of fairness and integrity.",
+            "end": "hypocrisy or moral inconsistency in others."
+          },
+          "M8": {
+            "start": "I have a very strong sense of fairness",
+            "end": "it feels physically wrong until resolved."
+          },
+          "M15": {
+            "start": "I have a very strong sense of fairness",
+            "end": "it feels physically wrong until resolved."
+          },
+          "M38": {
+            "start": "I have a very strong sense of fairness",
+            "end": "it feels physically wrong until resolved."
+          }
+        },
+        "tags": [
+          "upset"
+        ],
+        "borderline": true
+      },
+      {
+        "messages": [
+          "M3",
+          "M8",
+          "M15",
+          "M38"
+        ],
+        "trim": {
+          "M3": {
+            "start": "Hyperfocuses on environmental sounds, patterns",
+            "end": "leading to mounting distress."
+          },
+          "M8": {
+            "start": "I notice patterns, textures, and inconsistencies",
+            "end": "what’s happening around me."
+          },
+          "M15": {
+            "start": "I notice patterns, textures, and inconsistencies",
+            "end": "what’s happening around me."
+          },
+          "M38": {
+            "start": "I notice patterns, textures, and inconsistencies",
+            "end": "what’s happening around me."
+          }
+        },
+        "tags": [
+          "unsettled"
+        ],
+        "borderline": true
+      },
+      {
+        "messages": [
+          "M3",
+          "M8",
+          "M15",
+          "M38"
+        ],
+        "trim": {
+          "M3": {
+            "start": "Eye contact ability fluctuates depending on environment and confidence.",
+            "end": "in personal or emotional situations it becomes overwhelming."
+          },
+          "M8": {
+            "start": "My ability to make eye contact fluctuates.",
+            "end": "it becomes almost unbearable."
+          },
+          "M15": {
+            "start": "My ability to make eye contact fluctuates.",
+            "end": "it becomes almost unbearable."
+          },
+          "M38": {
+            "start": "My ability to make eye contact fluctuates.",
+            "end": "it becomes almost unbearable."
+          }
+        },
+        "tags": [],
+        "borderline": true
+      }
+    ]
+  },
+  {
+    "file": "2025-10-08_1213_Interpret-school-reports.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-10-08_1238_Year-1-6-Reports.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-10-08_1324_Year-7-report-analysis.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-10-08_1333_Year-8-report-analysis.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-10-08_1339_Year-9-report-analysis.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-10-08_1344_Year-10-report-analysis.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-10-08_1347_Year-11-report-analysis.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  }
+]

@@ -1,6 +1,6 @@
 # chat-sift progress
 
-Updated: 2026-10-01 14:41 UTC
+Updated: 2026-10-01 14:45 UTC
 
 ## Setup
 - Source: ChatGPT export (`Conversations__…-part-0001/conversations-000..008.json`) at the repo root, read-only. Nothing in it is edited.
@@ -9,26 +9,17 @@ Updated: 2026-10-01 14:41 UTC
 - Outputs are built from the results by `chat-sift/tools/build.py` (verbatim text is pulled from the split files by message ID).
 
 ## Status
-- Batches done: 0 / 98
-- Conversations read: 0 / 828
-- So far: yes 0, partial 0, no 0
+- Batches done: 9 / 98
+- Conversations read: 81 / 828
+- So far: yes 4, partial 14, no 63
 
 ## To resume
 Run each batch below that has no `work/results/bNN.json`, following READER_INSTRUCTIONS.md. Then run `tools/build.py` and `tools/progress.py`, and commit.
 
 ## Batches done
-(none)
+b01, b02, b03, b04, b05, b06, b07, b08, b09
 
 ## Remaining
-- b01: 2024-07-18_0727_Behavior-Based-Interview-Questions.md … 2025-10-02_2034_IVF-taboo-history.md (19 conversations)
-- b02: 2025-10-02_2147_Mental-healthcare-claims-limitations.md … 2025-10-05_2156_Lucid-dream-checks.md (6 conversations)
-- b03: 2025-10-06_1251_ASD-and-imaginary-friends.md … 2025-10-07_1640_Structure-text-into-report.md (11 conversations)
-- b04: 2025-10-07_1649_CHILD.md … 2025-10-08_1347_Year-11-report-analysis.md (9 conversations)
-- b05: 2025-10-08_1358_Report-heading-structure.md … 2025-10-08_1418_ASD-ADHD-diagnostic-analysis.md (2 conversations)
-- b06: 2025-10-08_1810_Justins-sheet.md … 2025-10-11_1629_Rhythm-Patterns.md (11 conversations)
-- b07: 2025-10-12_1247_Pre-section-summary-draft.md … 2025-10-13_0634_Differential-amplifier-gain.md (9 conversations)
-- b08: 2025-10-13_1226_ASD-assessment-questions.md … 2025-10-17_0711_Document-review-support.md (9 conversations)
-- b09: 2025-10-17_0932_Tidy-up-unfair-treatment.md … 2025-10-18_1027_Thunderbolt-3-vs-USB-C.md (5 conversations)
 - b10: 2025-10-18_1148_Incident-statement-assistance.md … 2025-10-19_1204_Summarise-interview-notes.md (4 conversations)
 - b11: 2025-10-19_1335_Driving-in-closed-areas.md … 2025-10-20_1227_Guitar-pattern-explanation.md (6 conversations)
 - b12: 2025-10-20_1711_Hylands-Park-access-pack.md … 2025-10-26_1243_1-Social-Questions.md (5 conversations)

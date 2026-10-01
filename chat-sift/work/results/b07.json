@@ -1,0 +1,27 @@
+[
+  {"file": "2025-10-12_1247_Pre-section-summary-draft.md", "work_related": "no", "borderline": false, "reason": "No work-related content.", "extracts": []},
+  {"file": "2025-10-12_1337_Expand-special-interest-notes.md", "work_related": "no", "borderline": false, "reason": "No work-related content.", "extracts": []},
+  {"file": "2025-10-12_1633_Document-summary-request.md", "work_related": "partial", "borderline": true,
+   "reason": "Drafted pre-assessment report includes passages on how traits affect the owner's work and on explaining needs at work.",
+   "extracts": [
+     {"messages": ["M10"], "trim": {"M10": {"start": "Employment and learning are sustained through systemisation", "end": "interfere with consistency of performance."}}, "tags": [], "borderline": true},
+     {"messages": ["M12"], "trim": {"M12": {"start": "Work and learning are sustained through structure and discipline.", "end": "struggle to maintain routines once fatigue sets in."}}, "tags": [], "borderline": true},
+     {"messages": ["M16"], "trim": {"M16": {"start": "At work, I am known for reliability, thoroughness, and integrity", "end": "follow prolonged social or sensory strain."}}, "tags": [], "borderline": true},
+     {"messages": ["M16"], "trim": {"M16": {"start": "Accessing accurate diagnosis would also help me explain my needs in work", "end": "without feeling like I am making excuses."}}, "tags": [], "borderline": true}
+   ]},
+  {"file": "2025-10-12_1647_Workbook-update-completed.md", "work_related": "no", "borderline": false, "reason": "No work-related content.", "extracts": []},
+  {"file": "2025-10-12_1750_Differential-amplifier-gain.md", "work_related": "yes", "borderline": true,
+   "reason": "Technical electronics questions on differential amplifier design for a CCD output stage, possibly a work project.",
+   "extracts": [
+     {"messages": ["M1", "M2", "M3", "M4", "M5", "M6", "M7", "M8", "M9", "M10"], "tags": [], "borderline": true}
+   ]},
+  {"file": "2025-10-12_1833_Elaborating-special-interests.md", "work_related": "no", "borderline": false, "reason": "No work-related content.", "extracts": []},
+  {"file": "2025-10-12_2020_Acoustic-rhythm-progression.md", "work_related": "no", "borderline": false, "reason": "No work-related content.", "extracts": []},
+  {"file": "2025-10-13_0602_Foals-song-strumming-pattern.md", "work_related": "no", "borderline": false, "reason": "No work-related content.", "extracts": []},
+  {"file": "2025-10-13_0634_Differential-amplifier-gain.md", "work_related": "partial", "borderline": true,
+   "reason": "Bench testing and troubleshooting of a CCD output/dummy differential amplifier board and simulation, possibly a work project.",
+   "extracts": [
+     {"messages": ["M1", "M2", "M3", "M4", "M5", "M6", "M7", "M8", "M9", "M10", "M11", "M12", "M13", "M14", "M15", "M16", "M17", "M18", "M19", "M20", "M21", "M22", "M23", "M24", "M25", "M26", "M27", "M28", "M29", "M30", "M31", "M32", "M33", "M34", "M35", "M36", "M37", "M38", "M39", "M40", "M41", "M42", "M43", "M44", "M45"], "tags": [], "borderline": true},
+     {"messages": ["A1", "A2", "A3", "A4", "A5", "A6", "A7", "A8"], "tags": [], "borderline": true}
+   ]}
+]

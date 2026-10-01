@@ -1,0 +1,501 @@
+[
+ {
+  "file": "2025-10-13_1226_ASD-assessment-questions.md",
+  "work_related": "partial",
+  "borderline": false,
+  "reason": "Owner's employment history, being signed off work, and return to engineering from a team leader role, plus workplace-related prompts in assessment documents.",
+  "extracts": [
+   {
+    "messages": [
+     "M5"
+    ],
+    "trim": {
+     "M5": {
+      "start": "I have been full-time employed for 20 years",
+      "end": "in a bit of a tail spin."
+     }
+    },
+    "tags": [
+     "unsettled"
+    ],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M5"
+    ],
+    "trim": {
+     "M5": {
+      "start": "How do you handle workplace/social environments now",
+      "end": "activities and problems."
+     }
+    },
+    "tags": [
+     "unsettled"
+    ],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M37",
+     "M47"
+    ],
+    "trim": {
+     "M37": {
+      "start": "Financial and occupational instability.",
+      "end": "Financial and occupational instability."
+     },
+     "M47": {
+      "start": "Occupational inconsistency despite high competence.",
+      "end": "Occupational inconsistency despite high competence."
+     }
+    },
+    "tags": [],
+    "borderline": true
+   },
+   {
+    "messages": [
+     "M73",
+     "M75"
+    ],
+    "trim": {
+     "M73": {
+      "start": "How you handle unexpected interruptions or last-minute changes at work.",
+      "end": "How you handle unexpected interruptions or last-minute changes at work."
+     },
+     "M75": {
+      "start": "How do you handle sudden interruptions or last-minute changes at work?",
+      "end": "How do you handle sudden interruptions or last-minute changes at work?"
+     }
+    },
+    "tags": [],
+    "borderline": true
+   },
+   {
+    "messages": [
+     "M73",
+     "M75"
+    ],
+    "trim": {
+     "M73": {
+      "start": "informs future therapy and workplace adjustments",
+      "end": "informs future therapy and workplace adjustments"
+     },
+     "M75": {
+      "start": "How do you intend to use the results",
+      "end": "occupational support post-diagnosis:"
+     }
+    },
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ },
+ {
+  "file": "2025-10-14_0603_Rhythm-pattern-for-CCR.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2025-10-14_1236_Fluctuate-pulse-on-rail.md",
+  "work_related": "yes",
+  "borderline": true,
+  "reason": "Electronics circuit simulation question that may relate to the owner's engineering work.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2"
+    ],
+    "trim": {},
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ },
+ {
+  "file": "2025-10-14_1855_Unmasking-and-camouflage-section.md",
+  "work_related": "partial",
+  "borderline": false,
+  "reason": "Report text on masking in leadership roles, return to engineering work, and being signed off work.",
+  "extracts": [
+   {
+    "messages": [
+     "M2"
+    ],
+    "trim": {
+     "M2": {
+      "start": "Masking became habitual—especially in leadership roles",
+      "end": "yet damaging when sustained."
+     }
+    },
+    "tags": [],
+    "borderline": true
+   },
+   {
+    "messages": [
+     "M6"
+    ],
+    "trim": {
+     "M6": {
+      "start": "Masking became habitual—especially in leadership roles requiring social fluency.",
+      "end": "even if perceived externally as regression."
+     }
+    },
+    "tags": [],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M18"
+    ],
+    "trim": {
+     "M18": {
+      "start": "After twenty years of continuous employment, I was recently signed off work",
+      "end": "rebuild from first principles."
+     }
+    },
+    "tags": [],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M18"
+    ],
+    "trim": {
+     "M18": {
+      "start": "Financial and occupational instability.",
+      "end": "Financial and occupational instability."
+     }
+    },
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ },
+ {
+  "file": "2025-10-15_0545_Input-pulse-replication-analysis.md",
+  "work_related": "yes",
+  "borderline": true,
+  "reason": "Analysis of a transistor circuit schematic that may relate to the owner's engineering work.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4",
+     "M5",
+     "M6"
+    ],
+    "trim": {},
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ },
+ {
+  "file": "2025-10-16_0609_Cadd9-notation-explained.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2025-10-16_1130_Early-years-questions-analysis.md",
+  "work_related": "partial",
+  "borderline": true,
+  "reason": "Assessment questionnaire items on handling changes at work, masking at work and workplace adjustments.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2"
+    ],
+    "trim": {
+     "M1": {
+      "start": "How do you handle sudden interruptions",
+      "end": "changes at work?"
+     },
+     "M2": {
+      "start": "**Response to interruptions / last-minute change:**",
+      "end": "stabilises with advance notice [11][13]."
+     }
+    },
+    "tags": [],
+    "borderline": true
+   },
+   {
+    "messages": [
+     "M1",
+     "M2"
+    ],
+    "trim": {
+     "M1": {
+      "start": "How do you intend to use the results",
+      "end": "occupational support post-diagnosis:"
+     },
+     "M2": {
+      "start": "**Current masking consciousness:**",
+      "end": "occupational coaching rather than generic CBT."
+     }
+    },
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ },
+ {
+  "file": "2025-10-17_0605_Abbreviation-of-alcohol-use.md",
+  "work_related": "partial",
+  "borderline": false,
+  "reason": "Report wording on out-of-hours work, work stress, work stability, masking in career and professional settings, and early work experience.",
+  "extracts": [
+   {
+    "messages": [
+     "M1"
+    ],
+    "trim": {
+     "M1": {
+      "start": "It was also a key means for me to not procrastinate",
+      "end": "when free thinking and ideas were needed."
+     }
+    },
+    "tags": [],
+    "borderline": true
+   },
+   {
+    "messages": [
+     "M7",
+     "M8",
+     "M10",
+     "M12"
+    ],
+    "trim": {
+     "M7": {
+      "start": "At the time I also augmented my own then the vaccine dose",
+      "end": "lack of ability to focus."
+     },
+     "M8": {
+      "start": "During this time, I also self-augmented prescribed medication with bupropion",
+      "end": "severe work-related stress and impaired concentration."
+     },
+     "M10": {
+      "start": "I also self-augmented medication with bupropion during this period",
+      "end": "stability under work pressure."
+     },
+     "M12": {
+      "start": "At the time, I was exhausted, under intense work-related stress",
+      "end": "struggling to think clearly."
+     }
+    },
+    "tags": [
+     "upset"
+    ],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M13"
+    ],
+    "trim": {
+     "M13": {
+      "start": "These traits have impacted self-confidence, work stability",
+      "end": "work special interests and social groups"
+     }
+    },
+    "tags": [
+     "speculative"
+    ],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M13",
+     "M14",
+     "M20",
+     "M37"
+    ],
+    "trim": {
+     "M13": {
+      "start": "Masking Had played a significant part of progression in my career",
+      "end": "quite significant impairment"
+     },
+     "M14": {
+      "start": "For many years, masking helped me appear confident and capable",
+      "end": "underneath the layers of adaptation."
+     },
+     "M20": {
+      "start": "For much of my life, masking helped me blend in and manage socially.",
+      "end": "revealing the extent of my emotional and sensory vulnerability."
+     },
+     "M37": {
+      "start": "For many years, masking allowed me to function and appear capable",
+      "end": "revealing my true sensitivities and emotional depth."
+     }
+    },
+    "tags": [],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M35",
+     "M37"
+    ],
+    "trim": {
+     "M35": {
+      "start": "Starting full-time work brought both hope and insecurity.",
+      "end": "I was replaceable and not good enough."
+     },
+     "M37": {
+      "start": "Starting full-time work brought both hope and insecurity.",
+      "end": "I was replaceable and not good enough."
+     }
+    },
+    "tags": [],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M35",
+     "M37"
+    ],
+    "trim": {
+     "M35": {
+      "start": "Following multiple life changes",
+      "end": "alcohol became my only means of coping."
+     },
+     "M37": {
+      "start": "Following multiple life changes",
+      "end": "alcohol became my only means of coping."
+     }
+    },
+    "tags": [],
+    "borderline": true
+   },
+   {
+    "messages": [
+     "M35",
+     "M37"
+    ],
+    "trim": {
+     "M35": {
+      "start": "During times of stress, especially around work or home",
+      "end": "afraid of confirming the idea that I’m incapable."
+     },
+     "M37": {
+      "start": "During times of stress, especially around work or home",
+      "end": "afraid of confirming the idea that I’m incapable."
+     }
+    },
+    "tags": [],
+    "borderline": false
+   }
+  ]
+ },
+ {
+  "file": "2025-10-17_0711_Document-review-support.md",
+  "work_related": "partial",
+  "borderline": false,
+  "reason": "Clinical submission text and review covering masking at work, early work and mentorship, job uncertainty, and criticism at work.",
+  "extracts": [
+   {
+    "messages": [
+     "M5"
+    ],
+    "trim": {
+     "M5": {
+      "start": "For many years, masking allowed me to function and appear capable, especially in work and social settings.",
+      "end": "revealing my true sensitivities and emotional depth."
+     }
+    },
+    "tags": [],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M5"
+    ],
+    "trim": {
+     "M5": {
+      "start": "3.5 Early Adulthood: Work and Mentorship (Ages 18–21)",
+      "end": "I internalised the belief that I was replaceable and not good enough."
+     }
+    },
+    "tags": [
+     "upset"
+    ],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M5"
+    ],
+    "trim": {
+     "M5": {
+      "start": "Following multiple life changes",
+      "end": "alcohol became my only means of coping."
+     }
+    },
+    "tags": [],
+    "borderline": true
+   },
+   {
+    "messages": [
+     "M5"
+    ],
+    "trim": {
+     "M5": {
+      "start": "4.2 The Weight of Blame and Eroded Self-Trust",
+      "end": "afraid of confirming the idea that I’m incapable."
+     }
+    },
+    "tags": [
+     "upset"
+    ],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M6"
+    ],
+    "trim": {
+     "M6": {
+      "start": "During active phases, I am unable to maintain consistent self-care, work focus, or social contact.",
+      "end": "During active phases, I am unable to maintain consistent self-care, work focus, or social contact."
+     }
+    },
+    "tags": [],
+    "borderline": true
+   },
+   {
+    "messages": [
+     "M6"
+    ],
+    "trim": {
+     "M6": {
+      "start": "This experience still shapes how I interpret criticism at work",
+      "end": "This experience still shapes how I interpret criticism at work"
+     }
+    },
+    "tags": [],
+    "borderline": true
+   },
+   {
+    "messages": [
+     "M8"
+    ],
+    "trim": {
+     "M8": {
+      "start": "How do symptoms affect **work or daily structure**",
+      "end": "executive function, social fatigue)?"
+     }
+    },
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ }
+]

@@ -9,7 +9,9 @@ regenerated branches appear after the line `=== ALTERNATE BRANCHES ===` and are 
 ## What to do
 Read EVERY file in your batch IN FULL. Read every message, including long AI messages and
 alternate branches. Use the Read tool with offset/limit for long files until you have
-covered every line. Do not skim, and do not decide from the title.
+covered every line. The Read tool cuts off lines longer than 2000 characters, so first run
+`awk 'length>2000{print FILENAME": line "FNR}' <files>`. Read any line it lists in full with
+`sed -n '<N>p' <file> | fold -w 1500 -s`. Do not skim, and do not decide from the title.
 
 For each conversation, decide whether it is **work-related**:
 - **yes**: the conversation is substantially about the owner's work.

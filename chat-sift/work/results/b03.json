@@ -1,0 +1,271 @@
+[
+  {
+    "file": "2025-10-06_1251_ASD-and-imaginary-friends.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-10-06_1432_Bedwetting-causes-at-eight.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-10-06_1439_ASD-children-and-sports.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-10-06_1611_Child-comfort-blanket-ASD.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-10-06_1824_Resumen-de-contenido-ADOS-2.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-10-06_1829_Paraphrase-of-pages-109-130.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-10-06_1858_Paraphrase-of-ADOS-2-Module-4.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-10-06_1908_Paraphrase-ADOS-2-manual.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-10-07_1328_Structure-report-request.md",
+    "work_related": "partial",
+    "borderline": true,
+    "reason": "Brief references to workplace issues, eye contact in professional settings, a meeting example and a workplace document footer within a self-awareness report.",
+    "extracts": [
+      {
+        "messages": [
+          "M4",
+          "M39"
+        ],
+        "trim": {
+          "M4": {
+            "start": "Pronounced **moral and ethical awareness**, leading to emotional investment",
+            "end": "(e.g., workplace issues, insurance, and social justice matters)."
+          },
+          "M39": {
+            "start": "Pronounced moral and ethical awareness, leading to emotional investment",
+            "end": "(e.g., workplace issues, insurance, and social justice matters)."
+          }
+        },
+        "tags": [],
+        "borderline": true
+      },
+      {
+        "messages": [
+          "M4",
+          "M39"
+        ],
+        "trim": {
+          "M4": {
+            "start": "Eye contact is inconsistent—manageable in structured or professional settings",
+            "end": "overwhelming in emotional or informal contexts."
+          },
+          "M39": {
+            "start": "Eye contact is inconsistent—manageable in structured or professional settings",
+            "end": "overwhelming in emotional or informal contexts."
+          }
+        },
+        "tags": [],
+        "borderline": true
+      },
+      {
+        "messages": [
+          "M20",
+          "M21",
+          "M22"
+        ],
+        "trim": {
+          "M20": {
+            "start": "Would you like me to **include the “Teledyne Confidential” lines**",
+            "end": "accidental footer from your workplace)?"
+          },
+          "M22": {
+            "start": "Perfect — I’ll **remove the “Teledyne Confidential” lines**",
+            "end": "the final document is clean and personal."
+          }
+        },
+        "tags": [],
+        "borderline": true
+      },
+      {
+        "messages": [
+          "M52"
+        ],
+        "trim": {
+          "M52": {
+            "start": "Sensory overload examples (meeting with ticking clock",
+            "end": "dog barking, motorbikes, sirens)."
+          }
+        },
+        "tags": [],
+        "borderline": true
+      }
+    ]
+  },
+  {
+    "file": "2025-10-07_1457_ASD-traits-level-1-children.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-10-07_1640_Structure-text-into-report.md",
+    "work_related": "partial",
+    "borderline": false,
+    "reason": "Self-reflection notes reference work toxicity, sensory overload in a people managers meeting, and eye contact in work settings.",
+    "extracts": [
+      {
+        "messages": [
+          "M3",
+          "M4"
+        ],
+        "trim": {
+          "M3": {
+            "start": "A \"Justice Sensitivity\" or Strong Moral Compass",
+            "end": "Insurance claim, mental health challenge, work toxicity"
+          },
+          "M4": {
+            "start": "Strong sense of fairness and integrity.",
+            "end": "(e.g., insurance disputes, workplace conflicts)."
+          }
+        },
+        "tags": [],
+        "borderline": false
+      },
+      {
+        "messages": [
+          "M3",
+          "M4"
+        ],
+        "trim": {
+          "M3": {
+            "start": "Example – I sit down in a people managers meeting on Monday",
+            "end": "the irrationality of it all, but I cant unsee it."
+          },
+          "M4": {
+            "start": "Hyperfocuses on environmental sounds, patterns, and visual inconsistencies.",
+            "end": "leading to mounting distress."
+          }
+        },
+        "tags": [
+          "worried",
+          "unsettled"
+        ],
+        "borderline": false
+      },
+      {
+        "messages": [
+          "M3",
+          "M4"
+        ],
+        "trim": {
+          "M3": {
+            "start": "This I find is hit and miss. It might explain the split diagnosis.",
+            "end": "and if I’m relatively confident about something."
+          },
+          "M4": {
+            "start": "Eye contact ability fluctuates depending on environment and confidence.",
+            "end": "but in personal or emotional situations it becomes overwhelming."
+          }
+        },
+        "tags": [],
+        "borderline": true
+      },
+      {
+        "messages": [
+          "M4"
+        ],
+        "trim": {
+          "M4": {
+            "start": "Engages in prolonged masking in professional and social contexts",
+            "end": "emotional detachment over time."
+          }
+        },
+        "tags": [],
+        "borderline": true
+      },
+      {
+        "messages": [
+          "M8"
+        ],
+        "trim": {
+          "M8": {
+            "start": "Strong moral compass and justice sensitivity; distress over unfairness",
+            "end": "(e.g., workplace or insurance disputes)."
+          }
+        },
+        "tags": [],
+        "borderline": true
+      },
+      {
+        "messages": [
+          "M8"
+        ],
+        "trim": {
+          "M8": {
+            "start": "Chronic anxiety around social expectations, work performance, and moral issues;",
+            "end": "rumination over perceived mistakes."
+          }
+        },
+        "tags": [],
+        "borderline": true
+      },
+      {
+        "messages": [
+          "M8"
+        ],
+        "trim": {
+          "M8": {
+            "start": "Deep knowledge in specialised areas; difficulty maintaining performance",
+            "end": "finds meetings and group environments overstimulating."
+          }
+        },
+        "tags": [],
+        "borderline": true
+      },
+      {
+        "messages": [
+          "M9"
+        ],
+        "trim": {
+          "M9": {
+            "start": "Excels in specialist areas; fatigued by collaborative or unstructured work;",
+            "end": "avoids overstimulating environments."
+          }
+        },
+        "tags": [],
+        "borderline": true
+      }
+    ]
+  }
+]
