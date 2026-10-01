@@ -1,0 +1,208 @@
+[
+  {
+    "file": "2025-11-03_1325_Final-review-before-submission.md",
+    "work_related": "partial",
+    "borderline": false,
+    "reason": "Fatigue after workdays, a change of role and not yet returning to full-time work after mental-health-related leave, described in an assessment health form.",
+    "extracts": [
+      {
+        "messages": [
+          "M3",
+          "M6"
+        ],
+        "trim": {
+          "M3": {
+            "start": "However, I am prone to periods of significant exhaustion",
+            "end": "mental-health-related leave over the summer."
+          },
+          "M6": {
+            "start": "However, I am prone to periods of significant exhaustion",
+            "end": "mental-health-related leave over the summer."
+          }
+        },
+        "tags": [],
+        "borderline": false
+      },
+      {
+        "messages": [
+          "M3"
+        ],
+        "trim": {
+          "M3": {
+            "start": "In the past, I used alcohol as a coping mechanism for post-work stress",
+            "end": "noticed a shift toward overeating for emotional regulation."
+          }
+        },
+        "tags": [],
+        "borderline": true
+      }
+    ]
+  },
+  {
+    "file": "2025-11-03_1342_Freshen-up-text.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-11-03_1504_GAD-7-in-ASD-assessment.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-11-03_1626_AQ-scoring-and-transcription.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-11-03_1715_Legal-drugs-in-Italy.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-11-04_1521_Using-GarageBand-on-macOS.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-11-05_1809_Merge-dream-journal-files.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-11-08_1035_Dynamic-QR-code-Ticketmaster.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-11-08_1110_Viagogo-ticket-issue-guide.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-11-08_1223_Unipol-terms-reference.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-11-08_1229_Review-evidence-for-viagogo.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-11-08_1240_Document-analysis-comparison.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-11-08_1329_Rewrite-in-first-person.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-11-08_1348_Ticket-sale-quote-search.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-11-08_1417_Expand-psychologist-form.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-11-08_1726_CCD-training-guide.md",
+    "work_related": "yes",
+    "borderline": true,
+    "reason": "Request for a technical CCD clocking and readout training pack, possibly a professional work task.",
+    "extracts": [
+      {
+        "messages": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7",
+          "M8",
+          "M9",
+          "M10",
+          "M11",
+          "M12",
+          "M13",
+          "M14",
+          "M15",
+          "M16"
+        ],
+        "trim": {},
+        "tags": [],
+        "borderline": true
+      }
+    ]
+  },
+  {
+    "file": "2025-11-08_2044_Shed-sales-peak-times.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-11-08_2311_Best-apps-for-advanced-maths.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-11-08_2339_Analyze-and-update-video.md",
+    "work_related": "yes",
+    "borderline": true,
+    "reason": "Request to turn an old training video into new training material, possibly a work task.",
+    "extracts": [
+      {
+        "messages": [
+          "M1",
+          "M2"
+        ],
+        "trim": {},
+        "tags": [],
+        "borderline": true
+      }
+    ]
+  },
+  {
+    "file": "2025-11-09_1702_Falstead-circuits-price.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  }
+]

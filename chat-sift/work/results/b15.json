@@ -1,0 +1,53 @@
+[
+  {
+    "file": "2025-11-02_1456_Upload-limits-with-GPT.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-11-02_1506_Upload-images-here.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-11-03_1154_Contextual-preface-writing.md",
+    "work_related": "partial",
+    "borderline": true,
+    "reason": "Past apprenticeship and early employment experiences, including loss of a workplace mentor, and the effect of ADHD on work stability, as described in a personal clinical document.",
+    "extracts": [
+      {
+        "messages": [
+          "M7"
+        ],
+        "trim": {
+          "M7": {
+            "start": "After leaving sixth form, I took time out and worked",
+            "end": "reinforcing isolation and self‑doubt."
+          }
+        },
+        "tags": [
+          "upset",
+          "speculative"
+        ],
+        "borderline": true
+      },
+      {
+        "messages": [
+          "M53"
+        ],
+        "trim": {
+          "M53": {
+            "start": "Attention Deficit Hyperactivity Disorder (ADHD): Marked by",
+            "end": "work stability, and daily functioning, and have intensified emotional dysregulation."
+          }
+        },
+        "tags": [],
+        "borderline": true
+      }
+    ]
+  }
+]

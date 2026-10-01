@@ -1,0 +1,10 @@
+[
+  {"file": "2025-11-01_1447_Viagogo-ticket-benefits.md", "work_related": "no", "borderline": false, "reason": "No work-related content.", "extracts": []},
+  {"file": "2025-11-01_1611_Mobile-ticket-transfer-benefits.md", "work_related": "no", "borderline": false, "reason": "No work-related content.", "extracts": []},
+  {"file": "2025-11-01_1636_Payment-method-comparison.md", "work_related": "no", "borderline": false, "reason": "No work-related content.", "extracts": []},
+  {"file": "2025-11-02_1340_Image-processing-request.md", "work_related": "no", "borderline": false, "reason": "No work-related content.", "extracts": []},
+  {"file": "2025-11-02_1400_Journal-entry-transcription.md", "work_related": "partial", "borderline": true, "reason": "Transcribed dream journal entries that refer to a workplace manager, work duties and an HR meeting.", "extracts": [
+    {"messages": ["M25", "M26"], "tags": [], "borderline": true},
+    {"messages": ["M43", "M44"], "tags": [], "borderline": true}
+  ]}
+]

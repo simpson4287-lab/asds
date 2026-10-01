@@ -1,0 +1,329 @@
+[
+ {
+  "file": "2025-10-18_1148_Incident-statement-assistance.md",
+  "work_related": "partial",
+  "borderline": false,
+  "reason": "Work stress, workload, team-lead role, a rejected work project and masking of difficulties at work as context in a statement.",
+  "extracts": [
+   {
+    "messages": [
+     "M1"
+    ],
+    "trim": {
+     "M1": {
+      "start": "I had undergone a period of significant",
+      "end": "stress at work and home life."
+     }
+    },
+    "tags": [],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M1"
+    ],
+    "trim": {
+     "M1": {
+      "start": "as work was becoming increasingly demanding",
+      "end": "chronic symptoms of the depression."
+     }
+    },
+    "tags": [],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M1"
+    ],
+    "trim": {
+     "M1": {
+      "start": "A major breakdown and rejection of a report",
+      "end": "I don’t recall much of the weekend after that point"
+     }
+    },
+    "tags": [],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M1"
+    ],
+    "trim": {
+     "M1": {
+      "start": "I know that on the Friday before a major project of mine collapsed at work",
+      "end": "sleep was next to non-existent at the time."
+     }
+    },
+    "tags": [
+     "speculative"
+    ],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M6",
+     "M7"
+    ],
+    "trim": {
+     "M6": {
+      "start": "When you mention “significant stress at work and home life,”",
+      "end": "isolation, etc.)?"
+     },
+     "M7": {
+      "start": "The first half of the year at work was way overloaded.",
+      "end": "didn’t have anyone to talk things through with."
+     }
+    },
+    "tags": [
+     "upset"
+    ],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M6",
+     "M7"
+    ],
+    "trim": {
+     "M6": {
+      "start": "On 13 June, you mention a “major breakdown” at work",
+      "end": "physically at your workplace?"
+     },
+     "M7": {
+      "start": "There was no personal breakdown at that point.",
+      "end": "without any warning."
+     }
+    },
+    "tags": [
+     "upset"
+    ],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M7"
+    ],
+    "trim": {
+     "M7": {
+      "start": "It involved significant panic and paranoia",
+      "end": "not up to the job at work."
+     }
+    },
+    "tags": [
+     "worried"
+    ],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M7"
+    ],
+    "trim": {
+     "M7": {
+      "start": "I don’t think I slept beyond that Friday at work",
+      "end": "no longer really in control of myself."
+     }
+    },
+    "tags": [
+     "speculative"
+    ],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M7"
+    ],
+    "trim": {
+     "M7": {
+      "start": "It certainly has a calming effect",
+      "end": "after a heavy day of work."
+     }
+    },
+    "tags": [],
+    "borderline": true
+   },
+   {
+    "messages": [
+     "M7"
+    ],
+    "trim": {
+     "M7": {
+      "start": "I’m aware that the sustained depression for over a year",
+      "end": "more balance and compassion."
+     }
+    },
+    "tags": [],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M8",
+     "M9"
+    ],
+    "trim": {
+     "M8": {
+      "start": "### **B. Workplace and Stress Context**",
+      "end": "leading up to the crisis?"
+     },
+     "M9": {
+      "start": "Perfectionism came into play a lot.",
+      "end": "anxiety driven behaviour"
+     }
+    },
+    "tags": [
+     "worried",
+     "unsettled"
+    ],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M12",
+     "M18",
+     "M24"
+    ],
+    "trim": {
+     "M12": {
+      "start": "### **2. Clinical and Work Context**",
+      "end": "until after the crisis occurred."
+     },
+     "M18": {
+      "start": "### **2. Clinical and Work Context**",
+      "end": "until after the breakdown."
+     },
+     "M24": {
+      "start": "### **2. Clinical and Work Context**",
+      "end": "until after the breakdown."
+     }
+    },
+    "tags": [],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M13"
+    ],
+    "trim": {
+     "M13": {
+      "start": "I know that on the Friday before a major project of mine collapsed at work",
+      "end": "sleep was next to non-existent at the time."
+     }
+    },
+    "tags": [
+     "speculative"
+    ],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M46",
+     "M60",
+     "M72"
+    ],
+    "trim": {
+     "M46": {
+      "start": "## **3. Employment and Stress Context**",
+      "end": "depression was disclosed but neurodivergence was not."
+     },
+     "M60": {
+      "start": "## **3. Employment and Stress Factors**",
+      "end": "poor nutrition, and emotional collapse."
+     },
+     "M72": {
+      "start": "**13 June 2025 – Work Crisis:**",
+      "end": "My sleep became almost non-existent."
+     }
+    },
+    "tags": [],
+    "borderline": false
+   }
+  ]
+ },
+ {
+  "file": "2025-10-18_1424_Statement.md",
+  "work_related": "partial",
+  "borderline": false,
+  "reason": "Work pressure as team leader and a collapsed work project described as context in a statement.",
+  "extracts": [
+   {
+    "messages": [
+     "M3",
+     "M4"
+    ],
+    "trim": {
+     "M3": {
+      "start": "Two days later, on 13 June, a major project at work collapsed without warning.",
+      "end": "a deep low mood and further loss of sleep."
+     },
+     "M4": {
+      "start": "Two days later, on 13 June, a major project at work collapsed without warning.",
+      "end": "a deep low mood and further loss of sleep."
+     }
+    },
+    "tags": [],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M28",
+     "M29"
+    ],
+    "trim": {
+     "M28": {
+      "start": "As a leader of 8 engineers",
+      "end": "based on my teams traffic)"
+     },
+     "M29": {
+      "start": "4. **Minimise subjective judgement terms.**",
+      "end": "maintain my usual work performance.”"
+     }
+    },
+    "tags": [
+     "worried",
+     "speculative"
+    ],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M29"
+    ],
+    "trim": {
+     "M29": {
+      "start": "3. **Shorten some long paragraphs for ease of reading.**",
+      "end": "broken into two short paragraphs for clarity."
+     }
+    },
+    "tags": [],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M45"
+    ],
+    "trim": {
+     "M45": {
+      "start": "Following a period of occupational stress",
+      "end": "and deteriorating wellbeing"
+     }
+    },
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ },
+ {
+  "file": "2025-10-19_1140_Public-space-access-rules.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2025-10-19_1204_Summarise-interview-notes.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ }
+]

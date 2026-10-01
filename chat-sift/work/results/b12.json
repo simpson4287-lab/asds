@@ -1,0 +1,77 @@
+[
+  {
+    "file": "2025-10-20_1711_Hylands-Park-access-pack.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-10-21_1433_Written-statement-advice.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-10-22_0820_Benefits-of-surrendering-license.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-10-25_0811_ASD-assessment-traits-explanation.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-10-26_1243_1-Social-Questions.md",
+    "work_related": "partial",
+    "borderline": true,
+    "reason": "Brief AI-written references to workplace and professional behaviour in draft assessment answers.",
+    "extracts": [
+      {
+        "messages": [
+          "M4"
+        ],
+        "trim": {
+          "M4": {
+            "start": "### 5️⃣ Have you ever spontaneously copied what other people are doing?",
+            "end": "driven by learning scripts to meet expectations."
+          }
+        },
+        "tags": [],
+        "borderline": true
+      },
+      {
+        "messages": [
+          "M14"
+        ],
+        "trim": {
+          "M14": {
+            "start": "## 🔹 2. Have you ever made socially inappropriate questions or statements?",
+            "end": "delayed social awareness*, which clinicians note as core autistic features."
+          }
+        },
+        "tags": [],
+        "borderline": true
+      },
+      {
+        "messages": [
+          "M24"
+        ],
+        "trim": {
+          "M24": {
+            "start": "e.g., Q9 — “When a colleague unexpectedly starts talking to me in the office kitchen",
+            "end": "I can’t recall what I was doing moments before.”"
+          }
+        },
+        "tags": [],
+        "borderline": true
+      }
+    ]
+  }
+]

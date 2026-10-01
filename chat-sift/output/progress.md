@@ -1,6 +1,6 @@
 # chat-sift progress
 
-Updated: 2026-10-01 14:45 UTC
+Updated: 2026-10-01 14:48 UTC
 
 ## Setup
 - Source: ChatGPT export (`Conversations__…-part-0001/conversations-000..008.json`) at the repo root, read-only. Nothing in it is edited.
@@ -9,27 +9,17 @@ Updated: 2026-10-01 14:45 UTC
 - Outputs are built from the results by `chat-sift/tools/build.py` (verbatim text is pulled from the split files by message ID).
 
 ## Status
-- Batches done: 9 / 98
-- Conversations read: 81 / 828
-- So far: yes 4, partial 14, no 63
+- Batches done: 19 / 98
+- Conversations read: 149 / 828
+- So far: yes 11, partial 24, no 114
 
 ## To resume
 Run each batch below that has no `work/results/bNN.json`, following READER_INSTRUCTIONS.md. Then run `tools/build.py` and `tools/progress.py`, and commit.
 
 ## Batches done
-b01, b02, b03, b04, b05, b06, b07, b08, b09
+b01, b02, b03, b04, b05, b06, b07, b08, b09, b10, b11, b12, b13, b14, b15, b16, b17, b18, b19
 
 ## Remaining
-- b10: 2025-10-18_1148_Incident-statement-assistance.md … 2025-10-19_1204_Summarise-interview-notes.md (4 conversations)
-- b11: 2025-10-19_1335_Driving-in-closed-areas.md … 2025-10-20_1227_Guitar-pattern-explanation.md (6 conversations)
-- b12: 2025-10-20_1711_Hylands-Park-access-pack.md … 2025-10-26_1243_1-Social-Questions.md (5 conversations)
-- b13: 2025-10-26_1249_social.md … 2025-10-31_0429_Tidy-text-request.md (8 conversations)
-- b14: 2025-11-01_1447_Viagogo-ticket-benefits.md … 2025-11-02_1400_Journal-entry-transcription.md (5 conversations)
-- b15: 2025-11-02_1456_Upload-limits-with-GPT.md … 2025-11-03_1154_Contextual-preface-writing.md (3 conversations)
-- b16: 2025-11-03_1325_Final-review-before-submission.md … 2025-11-09_1702_Falstead-circuits-price.md (20 conversations)
-- b17: 2025-11-09_1912_Viagogo-order-issue-explained.md … 2025-11-13_1509_Radiohead-2025-tour-songs.md (9 conversations)
-- b18: 2025-11-13_1646_Song-rewrite-suggestions.md … 2025-11-13_1646_Song-rewrite-suggestions.md (1 conversations)
-- b19: 2025-11-14_1002_Poem-refinement.md … 2025-11-15_2134_Adobe-Audition-vocals-separation.md (7 conversations)
 - b20: 2025-11-19_1408_CCD-gain-calibration-explanation.md … 2025-11-22_0825_Portable-2-in-1-laptops.md (7 conversations)
 - b21: 2025-11-22_0954_OmniBook-X-vs-5.md … 2025-12-03_2236_Modify-pink-vest.md (20 conversations)
 - b22: 2025-12-04_0759_Example-request-clarification.md … 2025-12-05_1401_Colour-block-options.md (20 conversations)
