@@ -1,6 +1,6 @@
 # chat-sift progress
 
-Updated: 2026-10-01 14:57 UTC
+Updated: 2026-10-01 15:00 UTC
 
 ## Setup
 - Source: ChatGPT export (`Conversations__…-part-0001/conversations-000..008.json`) at the repo root, read-only. Nothing in it is edited.
@@ -9,27 +9,17 @@ Updated: 2026-10-01 14:57 UTC
 - Outputs are built from the results by `chat-sift/tools/build.py` (verbatim text is pulled from the split files by message ID).
 
 ## Status
-- Batches done: 69 / 98
-- Conversations read: 519 / 828
-- So far: yes 109, partial 65, no 345
+- Batches done: 79 / 98
+- Conversations read: 636 / 828
+- So far: yes 154, partial 68, no 414
 
 ## To resume
 Run each batch below that has no `work/results/bNN.json`, following READER_INSTRUCTIONS.md. Then run `tools/build.py` and `tools/progress.py`, and commit.
 
 ## Batches done
-b01, b02, b03, b04, b05, b06, b07, b08, b09, b10, b11, b12, b13, b14, b15, b16, b17, b18, b19, b20, b21, b22, b23, b24, b25, b26, b27, b28, b29, b30, b31, b32, b33, b34, b35, b36, b37, b38, b39, b40, b41, b42, b43, b44, b45, b46, b47, b48, b49, b50, b51, b52, b53, b54, b55, b56, b57, b58, b59, b60, b61, b62, b63, b64, b65, b66, b67, b68, b69
+b01, b02, b03, b04, b05, b06, b07, b08, b09, b10, b11, b12, b13, b14, b15, b16, b17, b18, b19, b20, b21, b22, b23, b24, b25, b26, b27, b28, b29, b30, b31, b32, b33, b34, b35, b36, b37, b38, b39, b40, b41, b42, b43, b44, b45, b46, b47, b48, b49, b50, b51, b52, b53, b54, b55, b56, b57, b58, b59, b60, b61, b62, b63, b64, b65, b66, b67, b68, b69, b70, b71, b72, b73, b74, b75, b76, b77, b78, b79
 
 ## Remaining
-- b70: 2026-02-08_0514_ASD-Assessment-Alternative-Evidence.md … 2026-02-08_0725_3-9.md (36 conversations)
-- b71: 2026-02-08_0726_3-10.md … 2026-02-08_0826_Transcript-Request.md (16 conversations)
-- b72: 2026-02-08_1226_Managerial-Time-Enforcement-Debate.md … 2026-02-11_0127_DAC-Location-Best-Practices.md (19 conversations)
-- b73: 2026-02-11_0246_Mezzanine-Connector-Recommendations.md … 2026-02-14_2158_Voltage-Classification-for-Reset-Restore.md (16 conversations)
-- b74: 2026-02-14_2240_Slew-Rate-Control-in-Rameses.md … 2026-02-14_2240_Slew-Rate-Control-in-Rameses.md (1 conversations)
-- b75: 2026-02-17_2135_2-Channel-LVDS-Alternatives.md … 2026-02-19_1958_PowerPoint-Crash-Recovery-Tips.md (5 conversations)
-- b76: 2026-02-19_2036_Consolidating-Altium-Libraries.md … 2026-02-19_2036_Consolidating-Altium-Libraries.md (1 conversations)
-- b77: 2026-02-20_0143_HDMI-to-USB-C-Pinout.md … 2026-02-23_1638_Moving-Pin-Numbers-Altium.md (16 conversations)
-- b78: 2026-02-24_0902_ASD-Assessment-Narrative.md … 2026-02-24_0902_ASD-Assessment-Narrative.md (1 conversations)
-- b79: 2026-02-24_1641_Autism-Assessment-Reflection.md … 2026-02-27_1531_Missing-connections-in-Altium.md (6 conversations)
 - b80: 2026-02-27_2116_Symbol-Meaning-in-Altium.md … 2026-03-04_1009_Unclear-Explanation.md (7 conversations)
 - b81: 2026-03-04_1651_OS-Current-Measurement.md … 2026-03-06_0943_Perplexity-AI-Usage.md (6 conversations)
 - b82: 2026-03-06_0950_CDR-Report-Rewrite.md … 2026-03-11_1441_Multiple-Top-Level-Documents.md (9 conversations)

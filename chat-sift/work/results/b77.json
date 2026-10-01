@@ -1,0 +1,251 @@
+[
+ {
+  "file": "2026-02-20_0143_HDMI-to-USB-C-Pinout.md",
+  "work_related": "yes",
+  "borderline": true,
+  "reason": "Technical engineering question on USB-C to HDMI signal mapping and circuit risks, possibly for professional hardware design work.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4",
+     "M5",
+     "M6",
+     "M7",
+     "M8",
+     "M9",
+     "M10",
+     "M11",
+     "M12"
+    ],
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ },
+ {
+  "file": "2026-02-20_0207_4-1-Video-Mux-Design.md",
+  "work_related": "yes",
+  "borderline": true,
+  "reason": "Engineering design discussion of an analogue mux and op-amp GainCal signal chain and PCB components, possibly for professional hardware work.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4",
+     "M5",
+     "M6",
+     "M7",
+     "M8",
+     "M9",
+     "M10",
+     "M11",
+     "M12",
+     "M13",
+     "M14",
+     "M15",
+     "M16",
+     "M17",
+     "M18",
+     "M19",
+     "M20",
+     "M21",
+     "M22",
+     "M23",
+     "M24",
+     "M25",
+     "M26",
+     "M27",
+     "M28",
+     "M29",
+     "A1"
+    ],
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ },
+ {
+  "file": "2026-02-20_0742_D3-Throttle-Debug-Code.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2026-02-20_1532_Explaining-ChatGPT-s-Knowledge.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2026-02-20_1621_Pension-Decision-Making-Guide.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2026-02-20_1645_MCX-vs-UMC-Differences.md",
+  "work_related": "yes",
+  "borderline": true,
+  "reason": "Technical question on RF connector choice and a monitor tap resistor in a circuit, possibly for professional hardware design work.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4",
+     "M5",
+     "M6"
+    ],
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ },
+ {
+  "file": "2026-02-20_1829_LVDS-SPI-over-Ribbon-Cable.md",
+  "work_related": "yes",
+  "borderline": false,
+  "reason": "Engineering design discussion of an LVDS link into a thermal chamber for an internal customer requirement.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4",
+     "M5",
+     "M6",
+     "M7",
+     "M8",
+     "M9",
+     "M10",
+     "M11",
+     "M12",
+     "M13",
+     "M14",
+     "M15",
+     "M16",
+     "M17",
+     "M18"
+    ],
+    "tags": [],
+    "borderline": false
+   }
+  ]
+ },
+ {
+  "file": "2026-02-21_1152_Fiido-D3-Speed-Limit.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2026-02-21_1330_Document-Comparison.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2026-02-21_1939_External-cabin-wall-structure.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2026-02-21_2234_Dating-App-Response-Timing.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2026-02-22_1131_Data-Centre-Job-Skills.md",
+  "work_related": "partial",
+  "borderline": false,
+  "reason": "Career question on data-centre job roles and skills development for employment.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4",
+     "M5"
+    ],
+    "tags": [],
+    "borderline": false
+   }
+  ]
+ },
+ {
+  "file": "2026-02-22_1242_Firing-Employees-Challenges.md",
+  "work_related": "yes",
+  "borderline": true,
+  "reason": "General question on why dismissing employees is difficult under employment law.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2"
+    ],
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ },
+ {
+  "file": "2026-02-22_1935_Dell-Display-Manager-Function.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2026-02-23_1025_Altium-CircuitStudio-Overview.md",
+  "work_related": "yes",
+  "borderline": true,
+  "reason": "Questions about Altium PCB design tool licensing under an enterprise subscription, possibly for professional work.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4",
+     "M5",
+     "M6"
+    ],
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ },
+ {
+  "file": "2026-02-23_1638_Moving-Pin-Numbers-Altium.md",
+  "work_related": "yes",
+  "borderline": true,
+  "reason": "Technical question on editing pin designators in Altium, possibly for professional design work.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2"
+    ],
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ }
+]

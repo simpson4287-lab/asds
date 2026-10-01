@@ -1,0 +1,141 @@
+[
+  {
+    "file": "2026-02-11_0246_Mezzanine-Connector-Recommendations.md",
+    "work_related": "yes",
+    "borderline": true,
+    "reason": "Electronics engineering query on mezzanine connector selection, possibly for the owner's hardware engineering work.",
+    "extracts": [
+      {"messages": ["M1", "M2"], "tags": [], "borderline": true}
+    ]
+  },
+  {
+    "file": "2026-02-11_1028_Document-Transcription.md",
+    "work_related": "yes",
+    "borderline": false,
+    "reason": "Transcription of the owner's occupational health report addressed to the employer.",
+    "extracts": [
+      {"messages": ["M1", "M2"], "tags": [], "borderline": false}
+    ]
+  },
+  {
+    "file": "2026-02-11_1033_System-Requirements-Handbook.md",
+    "work_related": "yes",
+    "borderline": true,
+    "reason": "Producing a system requirements handbook and SRS templates for electronics engineering work.",
+    "extracts": [
+      {"messages": ["M1", "M2", "M3", "M4", "M5", "M6"], "tags": [], "borderline": true}
+    ]
+  },
+  {
+    "file": "2026-02-11_1206_Scooter-i9-Max-Fitment.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2026-02-11_1210_Compact-Apple-Pencil-Loop.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2026-02-11_1406_Handbook-Consolidation-Review.md",
+    "work_related": "yes",
+    "borderline": true,
+    "reason": "Consolidating and expanding an electronic systems requirements engineering handbook/standard, linked to a burn-in system programme.",
+    "extracts": [
+      {"messages": ["M1", "M2", "M3", "M4", "M5", "M6", "M7", "M8", "M9", "M10", "M11", "M12", "M13", "M14", "M15", "M16", "M17", "M18", "M19", "M20"], "tags": [], "borderline": true}
+    ]
+  },
+  {
+    "file": "2026-02-11_1541_Latin-for-Fluency-and-Flux.md",
+    "work_related": "yes",
+    "borderline": true,
+    "reason": "Latin terms for physics concepts, possibly for naming a technical or engineering project.",
+    "extracts": [
+      {"messages": ["M1", "M2", "M3", "M4", "M5", "M6", "M7", "M8", "M9", "M10", "M11", "M12", "M13", "M14"], "tags": [], "borderline": true}
+    ]
+  },
+  {
+    "file": "2026-02-12_1221_35km-to-mph.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2026-02-12_1413_Improving-Professional-Communication.md",
+    "work_related": "yes",
+    "borderline": false,
+    "reason": "Drafting emails to HR about handling of the occupational health report, closing an informal Teams chat with the line manager, and appraisal feedback on communication.",
+    "extracts": [
+      {"messages": ["M1", "M2", "M3", "M4", "M5", "M6", "M7", "M8", "M9", "M10", "M11", "M12", "M13", "M14", "M15", "M16", "M17", "M18", "M19", "M20", "M21", "M22", "M23", "M24", "M25"], "tags": ["unsettled"], "borderline": false},
+      {"messages": ["M26", "M27", "M28", "M29", "M30", "M31", "M32", "M33", "M34", "M35"], "tags": [], "borderline": false},
+      {"messages": ["M36", "M37", "M38", "M39", "M40", "M41", "M42", "M43", "M44", "M45", "M46", "M47", "M48", "M49", "M50", "M51", "M52", "M53", "M54", "M55", "M56", "M57", "M58", "M59", "M60", "M61", "M62", "M63", "M64", "M65", "M66", "A1"], "tags": ["worried", "angry", "unsettled", "speculative"], "borderline": false}
+    ]
+  },
+  {
+    "file": "2026-02-12_1555_RTV-3140-Flex-Rigid-Use.md",
+    "work_related": "yes",
+    "borderline": true,
+    "reason": "Engineering query on using RTV 3140 as a flex-rigid transition, possibly for hardware engineering work.",
+    "extracts": [
+      {"messages": ["M1", "M2"], "tags": [], "borderline": true}
+    ]
+  },
+  {
+    "file": "2026-02-13_0131_Occupational-Health-Report-Analysis.md",
+    "work_related": "yes",
+    "borderline": false,
+    "reason": "Analysis of the occupational health report, appraisal, phased return review meetings with HR and managers, working patterns and reasonable adjustments, and sources of external employment advice.",
+    "extracts": [
+      {"messages": ["M1", "M2", "M3", "M4", "M5", "M6", "M7", "M8"], "tags": ["worried", "upset", "angry", "unsettled", "speculative"], "borderline": false},
+      {"messages": ["M9", "M10", "M11", "M12", "M13", "M14", "M15", "M16"], "tags": [], "borderline": false}
+    ]
+  },
+  {
+    "file": "2026-02-13_0908_Temp-Rated-Coax-Options.md",
+    "work_related": "yes",
+    "borderline": true,
+    "reason": "Sourcing 125 degC rated coax cable assemblies, likely for engineering work.",
+    "extracts": [
+      {"messages": ["M1", "M2"], "tags": [], "borderline": true}
+    ]
+  },
+  {
+    "file": "2026-02-13_1520_Radiation-Grade-Coax.md",
+    "work_related": "yes",
+    "borderline": true,
+    "reason": "Selecting radiation-tolerant coax and twisted-pair cabling, likely for engineering work.",
+    "extracts": [
+      {"messages": ["M1", "M2", "M3", "M4", "M5", "M6", "M7", "M8"], "tags": [], "borderline": true}
+    ]
+  },
+  {
+    "file": "2026-02-13_1836_Digital-Pots-in-Video.md",
+    "work_related": "yes",
+    "borderline": true,
+    "reason": "Circuit design for video amplifier gain and CCD clock edge-rate control, likely for engineering work.",
+    "extracts": [
+      {"messages": ["M1", "M2", "M3", "M4", "M5", "M6", "M7", "M8", "M9", "M10", "M11", "M12", "M13", "M14", "M15", "M16", "M17", "M18"], "tags": [], "borderline": true}
+    ]
+  },
+  {
+    "file": "2026-02-13_2227_Boiler-Grunt-Causes.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2026-02-14_2158_Voltage-Classification-for-Reset-Restore.md",
+    "work_related": "yes",
+    "borderline": true,
+    "reason": "CCD voltage domain classification using the team's usual naming convention, likely for engineering work.",
+    "extracts": [
+      {"messages": ["M1", "M2"], "tags": [], "borderline": true}
+    ]
+  }
+]

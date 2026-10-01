@@ -1,0 +1,451 @@
+[
+ {
+  "file": "2026-02-08_1226_Managerial-Time-Enforcement-Debate.md",
+  "work_related": "yes",
+  "borderline": false,
+  "reason": "New manager enforcing fixed start and finish times, team dynamics, removal of team lead duties after stress-related absence, and a personal work operating framework.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4",
+     "M5",
+     "M6",
+     "M7",
+     "M8",
+     "M9",
+     "M10"
+    ],
+    "tags": [
+     "speculative",
+     "unsettled"
+    ],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M11",
+     "M12",
+     "M13",
+     "M14",
+     "M15",
+     "M16",
+     "M17",
+     "M18"
+    ],
+    "tags": [
+     "upset"
+    ],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M19",
+     "M20",
+     "M21",
+     "M22",
+     "M23",
+     "M24"
+    ],
+    "tags": [],
+    "borderline": false
+   }
+  ]
+ },
+ {
+  "file": "2026-02-09_1339_Flexible-Working-Justification.md",
+  "work_related": "yes",
+  "borderline": false,
+  "reason": "Drafting a flexible working request (compressed hours, partial home working) referencing the Occupational Health report and disability question on the form.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4",
+     "M5",
+     "M6",
+     "M7",
+     "M8",
+     "M9",
+     "M10",
+     "M11"
+    ],
+    "tags": [],
+    "borderline": false
+   }
+  ]
+ },
+ {
+  "file": "2026-02-09_1857_Cable-Distance-with-LVDS.md",
+  "work_related": "yes",
+  "borderline": true,
+  "reason": "Technical question on LVDS line driver cable distance, likely related to engineering work.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2"
+    ],
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ },
+ {
+  "file": "2026-02-09_2210_Defined-Responsibility-Envelope.md",
+  "work_related": "yes",
+  "borderline": true,
+  "reason": "Refining a personal rule set on limiting responsibilities to assigned work scope.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2"
+    ],
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ },
+ {
+  "file": "2026-02-09_2210_Operating-Model-Redesign.md",
+  "work_related": "yes",
+  "borderline": false,
+  "reason": "Refining a project charter for a professional operating model following work overload and role reallocation.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2"
+    ],
+    "tags": [],
+    "borderline": false
+   }
+  ]
+ },
+ {
+  "file": "2026-02-09_2211_Clean-Excellence-Standard.md",
+  "work_related": "yes",
+  "borderline": true,
+  "reason": "Refining a personal standard for work output and communication.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2"
+    ],
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ },
+ {
+  "file": "2026-02-09_2212_Emotional-Neutrality-Protocol.md",
+  "work_related": "yes",
+  "borderline": true,
+  "reason": "Refining a personal protocol for responding to leadership process and micro-control.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2"
+    ],
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ },
+ {
+  "file": "2026-02-09_2212_Strategic-Identity-Refinement.md",
+  "work_related": "yes",
+  "borderline": true,
+  "reason": "Refining a personal statement of professional identity as a technical operator.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2"
+    ],
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ },
+ {
+  "file": "2026-02-09_2213_Sustainability-Guardrails.md",
+  "work_related": "yes",
+  "borderline": true,
+  "reason": "Refining personal guardrails for managing stress and workload exposure.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2"
+    ],
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ },
+ {
+  "file": "2026-02-09_2214_Dopamine-and-Autism-Traits.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2026-02-09_2345_Fiido-D3-Max-Speed.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2026-02-10_1216_Baking-Electronics-in-Vacuum.md",
+  "work_related": "yes",
+  "borderline": true,
+  "reason": "Technical question on baking out electronics in a vacuum chamber, likely related to engineering work.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4"
+    ],
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ },
+ {
+  "file": "2026-02-10_2026_Summarize-into-statement.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2026-02-10_2042_MCX-connector-size.md",
+  "work_related": "yes",
+  "borderline": true,
+  "reason": "Technical questions on connectors and differential signalling standards, likely related to engineering work.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4",
+     "M5",
+     "M6",
+     "M7",
+     "M8",
+     "M9",
+     "M10",
+     "M11",
+     "M12"
+    ],
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ },
+ {
+  "file": "2026-02-10_2122_DIN-41612-Pin-Count.md",
+  "work_related": "yes",
+  "borderline": true,
+  "reason": "Technical questions on backplane connectors and board interconnect design, likely related to engineering work.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4",
+     "M5",
+     "M6",
+     "M7",
+     "M8",
+     "M9",
+     "M10",
+     "M11",
+     "M12"
+    ],
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ },
+ {
+  "file": "2026-02-10_2214_Multiplexing-IO-Techniques.md",
+  "work_related": "yes",
+  "borderline": true,
+  "reason": "Technical questions on multiplexing measurement channels, current sense amplifiers and LDO regulators, likely related to engineering work.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4",
+     "M5",
+     "M6",
+     "M7",
+     "M8",
+     "M9",
+     "M10",
+     "M11",
+     "M12",
+     "M13",
+     "M14",
+     "M15",
+     "M16",
+     "M17",
+     "M18",
+     "M19",
+     "M20",
+     "M21",
+     "M22",
+     "M23",
+     "M24",
+     "M25",
+     "M26"
+    ],
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ },
+ {
+  "file": "2026-02-10_2323_Ribbon-Cable-for-50MHz.md",
+  "work_related": "yes",
+  "borderline": true,
+  "reason": "Technical questions on high-temperature cabling for 50 MHz signals, likely related to engineering work.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4",
+     "M5",
+     "M6",
+     "M7",
+     "M8",
+     "M9",
+     "M10",
+     "M11",
+     "M12",
+     "M13",
+     "M14",
+     "M15",
+     "M16"
+    ],
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ },
+ {
+  "file": "2026-02-11_0021_Connector-Width-Details.md",
+  "work_related": "yes",
+  "borderline": true,
+  "reason": "Technical question on connector dimensions, likely related to engineering work.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4"
+    ],
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ },
+ {
+  "file": "2026-02-11_0127_DAC-Location-Best-Practices.md",
+  "work_related": "yes",
+  "borderline": true,
+  "reason": "Technical circuit design questions on DAC/ADC, LDO and buck regulator selection and thermal management, likely related to engineering work.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4",
+     "M5",
+     "M6",
+     "M7",
+     "M8",
+     "M9",
+     "M10",
+     "M11",
+     "M12",
+     "M13",
+     "M14",
+     "M15",
+     "M16",
+     "M17",
+     "M18",
+     "M19",
+     "M20",
+     "M21",
+     "M22",
+     "M23",
+     "M24",
+     "M25",
+     "M26",
+     "M27",
+     "M28",
+     "M29",
+     "M30",
+     "M31",
+     "M32",
+     "M33",
+     "M34",
+     "M35",
+     "M36",
+     "M37",
+     "M38",
+     "M39",
+     "M40",
+     "M41",
+     "M42",
+     "M43",
+     "M44",
+     "M45",
+     "M46",
+     "M47",
+     "M48",
+     "M49",
+     "M50",
+     "M51",
+     "M52",
+     "M53",
+     "M54",
+     "M55",
+     "M56",
+     "M57",
+     "M58",
+     "M59",
+     "M60",
+     "M61",
+     "M62",
+     "M63",
+     "M64"
+    ],
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ }
+]
