@@ -1,6 +1,6 @@
 # chat-sift progress
 
-Updated: 2026-10-01 14:49 UTC
+Updated: 2026-10-01 14:51 UTC
 
 ## Setup
 - Source: ChatGPT export (`Conversations__…-part-0001/conversations-000..008.json`) at the repo root, read-only. Nothing in it is edited.
@@ -9,27 +9,17 @@ Updated: 2026-10-01 14:49 UTC
 - Outputs are built from the results by `chat-sift/tools/build.py` (verbatim text is pulled from the split files by message ID).
 
 ## Status
-- Batches done: 29 / 98
-- Conversations read: 246 / 828
-- So far: yes 36, partial 30, no 180
+- Batches done: 39 / 98
+- Conversations read: 319 / 828
+- So far: yes 40, partial 42, no 237
 
 ## To resume
 Run each batch below that has no `work/results/bNN.json`, following READER_INSTRUCTIONS.md. Then run `tools/build.py` and `tools/progress.py`, and commit.
 
 ## Batches done
-b01, b02, b03, b04, b05, b06, b07, b08, b09, b10, b11, b12, b13, b14, b15, b16, b17, b18, b19, b20, b21, b22, b23, b24, b25, b26, b27, b28, b29
+b01, b02, b03, b04, b05, b06, b07, b08, b09, b10, b11, b12, b13, b14, b15, b16, b17, b18, b19, b20, b21, b22, b23, b24, b25, b26, b27, b28, b29, b30, b31, b32, b33, b34, b35, b36, b37, b38, b39
 
 ## Remaining
-- b30: 2025-12-20_1034_DSOX1102A-vs-EDUX1002G.md … 2025-12-21_1105_Procreate-vs-Photoshop-benefits.md (7 conversations)
-- b31: 2025-12-21_1404_Snap-alignment-fix.md … 2025-12-22_1627_Op-amp-offset-issue.md (9 conversations)
-- b32: 2025-12-24_1324_Amusing-Dating-Response-Ideas.md … 2025-12-25_1350_Quality-Log-Building-Benefits.md (7 conversations)
-- b33: 2025-12-25_1422_Schaum-Feedback-and-Control.md … 2025-12-25_1540_AoE-vs-Learning-AoE.md (2 conversations)
-- b34: 2025-12-25_1729_Psychologist-Session-Mismatch.md … 2025-12-25_1729_Psychologist-Session-Mismatch.md (1 conversations)
-- b35: 2025-12-26_0716_Work-Folder-Optimization-Tips.md … 2025-12-26_1729_Under-Siege-2-Streaming.md (4 conversations)
-- b36: 2025-12-26_1753_Childhood-Reflection-Analysis.md … 2025-12-27_1524_Gerda-Christian-Biography.md (11 conversations)
-- b37: 2025-12-28_0755_Tesco-Sheet.md … 2025-12-29_2005_Scooter-Error-Code-16.md (9 conversations)
-- b38: 2025-12-29_2056_Using-ChatGPT-as-Journal.md … 2025-12-30_1652_Project-Reflection-Framework.md (7 conversations)
-- b39: 2025-12-30_1709_Clarifying-Boundaries-and-Impact.md … 2025-12-31_0026_ASD-Support-Levels.md (16 conversations)
 - b40: 2025-12-31_0034_18-asd-stuff.md … 2025-12-31_1412_0-0-0-Chat-Sandbox.md (10 conversations)
 - b41: 2025-12-31_1440_0-1-1-Receipt-Log.md … 2026-01-01_0619_Solar-System-Redraw-Check.md (4 conversations)
 - b42: 2026-01-01_0908_Childhood-Info-Request-Process.md … 2026-01-03_1301_A4-Incident-Recall.md (10 conversations)

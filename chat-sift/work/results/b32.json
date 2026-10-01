@@ -1,0 +1,55 @@
+[
+  {
+    "file": "2025-12-24_1324_Amusing-Dating-Response-Ideas.md",
+    "work_related": "partial",
+    "borderline": true,
+    "reason": "Brief reference to a shared goal of qualifying as a psychotherapist (possible career aspiration).",
+    "extracts": [
+      {"messages": ["M7", "M8"], "tags": [], "borderline": true}
+    ]
+  },
+  {
+    "file": "2025-12-24_1449_Best-Stud-Wall-Videos.md",
+    "work_related": "partial",
+    "borderline": true,
+    "reason": "Concern about job security given as the reason for planning to rent out part of the home.",
+    "extracts": [
+      {"messages": ["M127", "M128"], "tags": ["worried", "unsettled"], "borderline": true}
+    ]
+  },
+  {
+    "file": "2025-12-24_1831_Drawing-Analysis-Explanation.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-12-24_2207_Cutting-Cabin-Eaves-Safely.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-12-25_0713_Why-Women-Post-Sexy-Videos.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-12-25_1334_Pointing-and-ASD-Signs.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-12-25_1350_Quality-Log-Building-Benefits.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  }
+]

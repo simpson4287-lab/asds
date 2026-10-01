@@ -1,0 +1,29 @@
+[
+  {
+    "file": "2025-12-25_1422_Schaum-Feedback-and-Control.md",
+    "work_related": "partial",
+    "borderline": true,
+    "reason": "Owner mentions returning to technical work after years as a team leader and wanting to advance job-related skills.",
+    "extracts": [
+      {
+        "messages": ["M5", "M6"],
+        "tags": [],
+        "borderline": true
+      }
+    ]
+  },
+  {
+    "file": "2025-12-25_1540_AoE-vs-Learning-AoE.md",
+    "work_related": "partial",
+    "borderline": true,
+    "reason": "AI relates book choice to the owner's analogue fault-finding work.",
+    "extracts": [
+      {
+        "messages": ["M3", "M4"],
+        "trim": {"M4": {"start": "## How this maps to *your* kind of work", "end": "*Student Manual questions are exactly about that class of problem.*"}},
+        "tags": [],
+        "borderline": true
+      }
+    ]
+  }
+]

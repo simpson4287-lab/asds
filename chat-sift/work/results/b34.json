@@ -1,0 +1,46 @@
+[
+  {
+    "file": "2025-12-25_1729_Psychologist-Session-Mismatch.md",
+    "work_related": "partial",
+    "borderline": true,
+    "reason": "Passing references to a work-donated voucher used for private sessions, leaving work early when unwell, work commitments, and negotiating a four-day working week.",
+    "extracts": [
+      {
+        "messages": ["M1"],
+        "trim": {"M1": {"start": "I had a voucher with work donated", "end": "work donated to use up (£250)."}},
+        "tags": [],
+        "borderline": true
+      },
+      {
+        "messages": ["M3"],
+        "trim": {"M3": {"start": "I had a voucher with work donated", "end": "work donated to use up (£250)."}},
+        "tags": [],
+        "borderline": true
+      },
+      {
+        "messages": ["M34", "M35"],
+        "trim": {"M34": {"start": "Due to prolonged difficulty accessing appropriate NHS psychological support", "end": "with additional sessions paid privately (£100 per session)."}},
+        "tags": [],
+        "borderline": true
+      },
+      {
+        "messages": ["M43"],
+        "trim": {"M43": {"start": "I came back from work at lunch", "end": "slumped into bed and haven’t got back out."}},
+        "tags": [],
+        "borderline": true
+      },
+      {
+        "messages": ["M57"],
+        "trim": {"M57": {"start": "If that time works for you given your work commitments,", "end": "swap the rest of your pre-paid appointments to a Thursday morning."}},
+        "tags": [],
+        "borderline": true
+      },
+      {
+        "messages": ["M59"],
+        "trim": {"M59": {"start": "Emma trying to negotiate a four day working week", "end": "as WORK is flexible around this obvious reasons."}},
+        "tags": [],
+        "borderline": true
+      }
+    ]
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "file": "2025-12-29_2056_Using-ChatGPT-as-Journal.md",
+    "work_related": "partial",
+    "borderline": true,
+    "reason": "Setting up a reflective journal that includes a separate chat for work-related reflections.",
+    "extracts": [
+      {"messages": ["M5", "M6"], "tags": [], "borderline": true},
+      {"messages": ["M15", "M16"], "tags": [], "borderline": true}
+    ]
+  },
+  {
+    "file": "2025-12-29_2221_Empath-Loner-Explained.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-12-29_2309_Shelf-Life-of-Daily-Greens.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-12-30_0732_MPP-Stylus-Setup-Guide.md",
+    "work_related": "partial",
+    "borderline": true,
+    "reason": "Software settings question about viewing technical/engineering drawing PDFs in Acrobat, possibly in a work context.",
+    "extracts": [
+      {"messages": ["M7", "M8"], "tags": [], "borderline": true}
+    ]
+  },
+  {
+    "file": "2025-12-30_1536_Anniversary-Expectation-Reflection.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-12-30_1619_Family-Communication-Dynamics.md",
+    "work_related": "partial",
+    "borderline": true,
+    "reason": "Passing references to the owner's work, including whether a diagnosis relates to work and work-related stressors cited as a possible contributor to difficulties.",
+    "extracts": [
+      {"messages": ["M5"], "trim": {"M5": {"start": "It’s not a black and white thing as is applicable in your work", "end": "accuracy which is a necessary part."}}, "tags": [], "borderline": true},
+      {"messages": ["M5"], "trim": {"M5": {"start": "Is this diagnosis related to your work.", "end": "[16:14, 12/14/2025] Chris: Not at all."}}, "tags": [], "borderline": true},
+      {"messages": ["M14"], "trim": {"M14": {"start": "In mid-December, they expressed the position that adult life events", "end": "childhood experiences were of limited clinical relevance."}}, "tags": [], "borderline": true}
+    ]
+  },
+  {
+    "file": "2025-12-30_1652_Project-Reflection-Framework.md",
+    "work_related": "partial",
+    "borderline": true,
+    "reason": "Passing reference to work-related stressors cited as a possible contributor to the owner's difficulties.",
+    "extracts": [
+      {"messages": ["M5"], "trim": {"M5": {"start": "In mid-December, they expressed the view that adult life events", "end": "childhood experiences were of limited clinical relevance."}}, "tags": [], "borderline": true}
+    ]
+  }
+]

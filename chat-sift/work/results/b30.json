@@ -1,0 +1,25 @@
+[
+  {
+    "file": "2025-12-20_1034_DSOX1102A-vs-EDUX1002G.md",
+    "work_related": "partial",
+    "borderline": true,
+    "reason": "Owner states their professional role as an electronics engineer when choosing test equipment.",
+    "extracts": [
+      {"messages": ["M15", "M16"], "trim": {}, "tags": [], "borderline": true}
+    ]
+  },
+  {
+    "file": "2025-12-20_1225_Dunster-House-assembly-costs.md",
+    "work_related": "partial",
+    "borderline": true,
+    "reason": "Owner mentions being able to verify test equipment calibration at work.",
+    "extracts": [
+      {"messages": ["M19", "M20"], "trim": {}, "tags": [], "borderline": true}
+    ]
+  },
+  {"file": "2025-12-20_1500_Cheapest-SDS804XHD-offers.md", "work_related": "no", "borderline": false, "reason": "No work-related content.", "extracts": []},
+  {"file": "2025-12-20_1729_Sharpen-image-in-Photoshop.md", "work_related": "no", "borderline": false, "reason": "No work-related content.", "extracts": []},
+  {"file": "2025-12-20_1815_Isolate-house-reference.md", "work_related": "no", "borderline": false, "reason": "No work-related content.", "extracts": []},
+  {"file": "2025-12-20_2008_High-resolution-OK-Computer-image.md", "work_related": "no", "borderline": false, "reason": "No work-related content.", "extracts": []},
+  {"file": "2025-12-21_1105_Procreate-vs-Photoshop-benefits.md", "work_related": "no", "borderline": false, "reason": "No work-related content.", "extracts": []}
+]

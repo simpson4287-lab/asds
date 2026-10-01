@@ -1,0 +1,90 @@
+[
+  {
+    "file": "2025-12-26_1753_Childhood-Reflection-Analysis.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-12-26_1944_Accidental-Message-Clarification.md",
+    "work_related": "yes",
+    "borderline": true,
+    "reason": "Designing a printable weekly work planner with company logo, week number and work-focused sections.",
+    "extracts": [
+      {
+        "messages": [
+          "M3",
+          "M4",
+          "M5",
+          "M6"
+        ],
+        "tags": [],
+        "borderline": true
+      }
+    ]
+  },
+  {
+    "file": "2025-12-26_1944_Clarification-Request.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-12-26_2055_Coffee-Opener-Suggestions.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-12-27_0717_Dirty-Rotten-Scoundrels-Twist.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-12-27_0922_Plastic-Surface-Preparation.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-12-27_1058_Lens-Tint-Shade-Inquiry.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-12-27_1109_Getting-Noticed-Playfully.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-12-27_1303_Sheet-Metal-Crease-Survival.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-12-27_1356_Albert-Speer-s-War-End.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-12-27_1524_Gerda-Christian-Biography.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  }
+]
