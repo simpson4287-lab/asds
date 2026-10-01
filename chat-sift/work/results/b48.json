@@ -1,0 +1,67 @@
+[
+  {
+    "file": "2026-01-03_2041_ASD-Childhood-Reflection.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2026-01-03_2202_Document-Analysis-Overview.md",
+    "work_related": "partial",
+    "borderline": true,
+    "reason": "Brief references to occupational stress as a contributing factor in a consolidated legal reference document.",
+    "extracts": [
+      {
+        "messages": [
+          "M13",
+          "M14"
+        ],
+        "trim": {
+          "M13": {
+            "start": "Across the integrated materials, the incident is characterised as",
+            "end": "medication instability, occupational stress, and psychological collapse."
+          },
+          "M14": {
+            "start": "Across the integrated materials, the incident is characterised as",
+            "end": "medication instability, occupational stress, and psychological collapse."
+          }
+        },
+        "tags": [],
+        "borderline": true
+      },
+      {
+        "messages": [
+          "M76",
+          "M78"
+        ],
+        "trim": {
+          "M76": {
+            "start": "Executive Overview – strengthen alignment with Section 14",
+            "end": "This mirrors Section 14 without adding new facts."
+          },
+          "M78": {
+            "start": "Duplicate phrase error (must fix)",
+            "end": "physical depletion, and occupational stress.”"
+          }
+        },
+        "tags": [],
+        "borderline": true
+      }
+    ]
+  },
+  {
+    "file": "2026-01-04_0044_Clinical-Diagnostic-Documentation.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2026-01-05_0959_ICB-Oversight-Request.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  }
+]

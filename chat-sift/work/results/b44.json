@@ -1,0 +1,140 @@
+[
+ {
+  "file": "2026-01-03_1442_A8-Court-Sandbox.md",
+  "work_related": "partial",
+  "borderline": false,
+  "reason": "Owner's disclosure of an arrest and court case to their employer, possible employer responses, and career history referenced as sentencing mitigation.",
+  "extracts": [
+   {
+    "messages": [
+     "M37",
+     "M38"
+    ],
+    "tags": [],
+    "borderline": true
+   },
+   {
+    "messages": [
+     "M63",
+     "M64",
+     "M65",
+     "M66",
+     "M67",
+     "M68",
+     "M69",
+     "M70",
+     "M71",
+     "M72",
+     "M73",
+     "M74"
+    ],
+    "tags": [
+     "worried",
+     "speculative"
+    ],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M111",
+     "M112"
+    ],
+    "tags": [],
+    "borderline": false
+   }
+  ]
+ },
+ {
+  "file": "2026-01-03_1511_A5-Mental-Health-Circumstances.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2026-01-03_1512_A5-0-History.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2026-01-03_1513_A5-1-Resulting-Crisis-2025.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2026-01-03_1517_A5-2-MDD.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2026-01-03_1517_A5-3-MDD-EPUT.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2026-01-03_1518_A5-4-ADHD-Context-Layer.md",
+  "work_related": "partial",
+  "borderline": true,
+  "reason": "Summary of how ADHD traits affect the owner's work and work feedback.",
+  "extracts": [
+   {
+    "messages": [
+     "M4"
+    ],
+    "trim": {
+     "M4": {
+      "start": "A5.4.5 – Work, Relationships & Self-Image",
+      "end": "ADHD360 summary of occupational and relational impact"
+     }
+    },
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ },
+ {
+  "file": "2026-01-03_1518_A5-5-Autism-Spectrum-Disorder.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2026-01-03_1518_A5-6-Substance-Use-Disorder.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2026-01-03_1519_A5-7-Occupational-Health.md",
+  "work_related": "yes",
+  "borderline": false,
+  "reason": "Setting up a layer for occupational health assessments, workplace adjustments and return-to-work material.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2"
+    ],
+    "tags": [],
+    "borderline": false
+   }
+  ]
+ },
+ {
+  "file": "2026-01-03_1522_A10-Project-Output.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ }
+]

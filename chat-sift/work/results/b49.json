@@ -1,0 +1,24 @@
+[
+  {
+    "file": "2026-01-05_1315_ASD-Assessment-Deferral-Request.md",
+    "work_related": "partial",
+    "borderline": true,
+    "reason": "Return to work cited as one of the pressures in a request to defer an appointment.",
+    "extracts": [
+      {
+        "messages": ["M1", "M2", "M4"],
+        "trim": {
+          "M2": {"start": "Due to a convergence of external pressures at present", "end": "deferred by **one to two weeks**, if possible."},
+          "M4": {"start": "Due to a number of competing commitments at present", "end": "deferred by **one to two weeks**, if possible."}
+        },
+        "tags": ["unsettled"],
+        "borderline": true
+      }
+    ]
+  },
+  {"file": "2026-01-05_1501_Chip-Resistor-Value-01B.md", "work_related": "no", "borderline": false, "reason": "No work-related content.", "extracts": []},
+  {"file": "2026-01-05_1637_Log-Cabin-Price-Comparison.md", "work_related": "no", "borderline": false, "reason": "No work-related content.", "extracts": []},
+  {"file": "2026-01-05_1807_ICB-Report-Paragraph.md", "work_related": "no", "borderline": false, "reason": "No work-related content.", "extracts": []},
+  {"file": "2026-01-05_1813_Statement-for-ICB-Review.md", "work_related": "no", "borderline": false, "reason": "No work-related content.", "extracts": []},
+  {"file": "2026-01-05_1829_Document-Tidy-Up.md", "work_related": "no", "borderline": false, "reason": "No work-related content.", "extracts": []}
+]

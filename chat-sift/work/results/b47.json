@@ -1,0 +1,212 @@
+[
+ {
+  "file": "2026-01-03_1925_Legal-Report-Preparation.md",
+  "work_related": "partial",
+  "borderline": false,
+  "reason": "Employment and work-stress context (role, workload, managerial support, project rejection, disclosure at work) within a consolidated legal document.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2"
+    ],
+    "trim": {
+     "M1": {
+      "start": "3. Employment and Stress Context",
+      "end": "depression was disclosed but neurodivergence was not."
+     },
+     "M2": {
+      "start": "### 3. Employment and Stress Context",
+      "end": "neurodivergent conditions had not."
+     }
+    },
+    "tags": [],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M4"
+    ],
+    "trim": {
+     "M4": {
+      "start": "## 3. Employment and Stress Context",
+      "end": "- ADHD and ASD traits had not."
+     }
+    },
+    "tags": [],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M6"
+    ],
+    "trim": {
+     "M6": {
+      "start": "### 3.3 Employment Stress Context",
+      "end": "while neurodivergence was not."
+     }
+    },
+    "tags": [],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M8"
+    ],
+    "trim": {
+     "M8": {
+      "start": "### 3.3 Employment Stress Context",
+      "end": "neurodivergence not disclosed."
+     }
+    },
+    "tags": [],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M9",
+     "M10"
+    ],
+    "trim": {
+     "M9": {
+      "start": "6. Employment and Stress Context",
+      "end": "ADHD/neurodivergence not disclosed due to stigma."
+     },
+     "M10": {
+      "start": "## 6. Employment and Stress Context",
+      "end": "ADHD/neurodivergence not disclosed due to stigma."
+     }
+    },
+    "tags": [],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M9",
+     "M10"
+    ],
+    "trim": {
+     "M9": {
+      "start": "13 June 2025: major work project failure/rejection",
+      "end": "depressive collapse and intensified insomnia"
+     },
+     "M10": {
+      "start": "**13 June 2025:** major work project failure/rejection",
+      "end": "depressive collapse and intensified insomnia"
+     }
+    },
+    "tags": [],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M14"
+    ],
+    "trim": {
+     "M14": {
+      "start": "## 6. Employment and Stress Context",
+      "end": "ADHD/neurodivergence not disclosed due to stigma."
+     }
+    },
+    "tags": [],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M14"
+    ],
+    "trim": {
+     "M14": {
+      "start": "**13 June 2025:** major work project failure/rejection",
+      "end": "depressive collapse and intensified insomnia"
+     }
+    },
+    "tags": [],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M17"
+    ],
+    "trim": {
+     "M17": {
+      "start": "Major professional project failure/rejection",
+      "end": "precipitating depressive collapse and intensifying insomnia"
+     }
+    },
+    "tags": [],
+    "borderline": false
+   }
+  ]
+ },
+ {
+  "file": "2026-01-03_2009_Hylands-Park-Incident-Summary.md",
+  "work_related": "partial",
+  "borderline": false,
+  "reason": "Employment and work-stress context (role, workload, managerial support, project rejection, disclosure at work) within a restructured legal document.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2"
+    ],
+    "trim": {
+     "M1": {
+      "start": "3.3 Employment Stress Context",
+      "end": "depression was disclosed, while neurodivergence was not."
+     },
+     "M2": {
+      "start": "## 8. Employment stress context (as described)",
+      "end": "ADHD/neurodivergence not disclosed due to stigma."
+     }
+    },
+    "tags": [],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M1"
+    ],
+    "trim": {
+     "M1": {
+      "start": "6. Employment and Stress Context",
+      "end": "ADHD/neurodivergence not disclosed due to stigma."
+     }
+    },
+    "tags": [],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M1",
+     "M2"
+    ],
+    "trim": {
+     "M1": {
+      "start": "13 June 2025: major work project failure/rejection",
+      "end": "depressive collapse and intensified insomnia"
+     },
+     "M2": {
+      "start": "13 Jun 2025: major work project failure/rejection",
+      "end": "13 Jun 2025: major work project failure/rejection"
+     }
+    },
+    "tags": [],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M1"
+    ],
+    "trim": {
+     "M1": {
+      "start": "Major professional project failure/rejection",
+      "end": "precipitating depressive collapse and intensifying insomnia"
+     }
+    },
+    "tags": [],
+    "borderline": false
+   }
+  ]
+ }
+]

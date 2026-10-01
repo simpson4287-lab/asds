@@ -1,6 +1,6 @@
 # chat-sift progress
 
-Updated: 2026-10-01 14:51 UTC
+Updated: 2026-10-01 14:53 UTC
 
 ## Setup
 - Source: ChatGPT export (`Conversations__…-part-0001/conversations-000..008.json`) at the repo root, read-only. Nothing in it is edited.
@@ -9,27 +9,17 @@ Updated: 2026-10-01 14:51 UTC
 - Outputs are built from the results by `chat-sift/tools/build.py` (verbatim text is pulled from the split files by message ID).
 
 ## Status
-- Batches done: 39 / 98
-- Conversations read: 319 / 828
-- So far: yes 40, partial 42, no 237
+- Batches done: 49 / 98
+- Conversations read: 383 / 828
+- So far: yes 42, partial 55, no 286
 
 ## To resume
 Run each batch below that has no `work/results/bNN.json`, following READER_INSTRUCTIONS.md. Then run `tools/build.py` and `tools/progress.py`, and commit.
 
 ## Batches done
-b01, b02, b03, b04, b05, b06, b07, b08, b09, b10, b11, b12, b13, b14, b15, b16, b17, b18, b19, b20, b21, b22, b23, b24, b25, b26, b27, b28, b29, b30, b31, b32, b33, b34, b35, b36, b37, b38, b39
+b01, b02, b03, b04, b05, b06, b07, b08, b09, b10, b11, b12, b13, b14, b15, b16, b17, b18, b19, b20, b21, b22, b23, b24, b25, b26, b27, b28, b29, b30, b31, b32, b33, b34, b35, b36, b37, b38, b39, b40, b41, b42, b43, b44, b45, b46, b47, b48, b49
 
 ## Remaining
-- b40: 2025-12-31_0034_18-asd-stuff.md … 2025-12-31_1412_0-0-0-Chat-Sandbox.md (10 conversations)
-- b41: 2025-12-31_1440_0-1-1-Receipt-Log.md … 2026-01-01_0619_Solar-System-Redraw-Check.md (4 conversations)
-- b42: 2026-01-01_0908_Childhood-Info-Request-Process.md … 2026-01-03_1301_A4-Incident-Recall.md (10 conversations)
-- b43: 2026-01-03_1303_A1-GPT-History-work.md … 2026-01-03_1414_Polo-Care-Tips.md (12 conversations)
-- b44: 2026-01-03_1442_A8-Court-Sandbox.md … 2026-01-03_1522_A10-Project-Output.md (11 conversations)
-- b45: 2026-01-03_1534_A6-Voluntary-Interview-Input-Output.md … 2026-01-03_1737_Layer-A7-Defence-Sandbox.md (4 conversations)
-- b46: 2026-01-03_1739_Receipt-Acknowledgment.md … 2026-01-03_1739_Receipt-Acknowledgment.md (1 conversations)
-- b47: 2026-01-03_1925_Legal-Report-Preparation.md … 2026-01-03_2009_Hylands-Park-Incident-Summary.md (2 conversations)
-- b48: 2026-01-03_2041_ASD-Childhood-Reflection.md … 2026-01-05_0959_ICB-Oversight-Request.md (4 conversations)
-- b49: 2026-01-05_1315_ASD-Assessment-Deferral-Request.md … 2026-01-05_1829_Document-Tidy-Up.md (6 conversations)
 - b50: 2026-01-05_2012_Read-only-Mode-Setup.md … 2026-01-05_2106_Simplified-Document-Overview.md (2 conversations)
 - b51: 2026-01-05_2116_ICB-Oversight-Request-Summary.md … 2026-01-05_2220_Cutting-Interlocking-Spurs.md (3 conversations)
 - b52: 2026-01-06_0822_Psychologist-Report-Review.md … 2026-01-06_1040_Explaining-Exhaustion-to-HR.md (2 conversations)

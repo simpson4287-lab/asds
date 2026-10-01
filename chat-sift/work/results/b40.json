@@ -1,0 +1,83 @@
+[
+  {
+    "file": "2025-12-31_0034_18-asd-stuff.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-12-31_0759_Simplified-Email-for-GP.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-12-31_0858_Get-Noticed-Strategies.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-12-31_1006_Avoidant-Flag-in-Messaging.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-12-31_1023_Legal-Process-for-Drug-Offense.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-12-31_1030_1-1-1-Legal-Process-Mapping.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-12-31_1110_2-1-1-Document-Upload.md",
+    "work_related": "partial",
+    "borderline": true,
+    "reason": "Upload of an occupational health report (Medigold Health) and a fit note, acknowledged by the AI.",
+    "extracts": [
+      {
+        "messages": [
+          "M36",
+          "M37",
+          "M38",
+          "M39"
+        ],
+        "tags": [],
+        "borderline": true
+      }
+    ]
+  },
+  {
+    "file": "2025-12-31_1334_Chelmsford-New-Year-s-Parkrun.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-12-31_1338_3-1-1-Chronology-Request.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-12-31_1412_0-0-0-Chat-Sandbox.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "file": "2026-01-03_1303_A1-GPT-History-work.md",
+    "work_related": "partial",
+    "borderline": false,
+    "reason": "Employment and work-stress context (role, workload, managerial support, project rejection, disclosure at work) within a consolidated reference document.",
+    "extracts": [
+      {
+        "messages": ["M18"],
+        "trim": {"M18": {"start": "On 13 June 2025, a major professional project failed unexpectedly.", "end": "and leading to near-total insomnia."}},
+        "tags": [],
+        "borderline": false
+      },
+      {
+        "messages": ["M22"],
+        "trim": {"M22": {"start": "On 13 June 2025, a major professional project failed unexpectedly.", "end": "and resulting in near-total insomnia."}},
+        "tags": [],
+        "borderline": false
+      },
+      {
+        "messages": ["M23", "M24"],
+        "trim": {
+          "M23": {"start": "Work pressures and social isolation compounded deterioration.", "end": "depression was disclosed but neurodivergence was not."},
+          "M24": {"start": "These effects were compounded by occupational pressure and social isolation.", "end": "Major work project failure"}
+        },
+        "tags": [],
+        "borderline": false
+      },
+      {
+        "messages": ["M26"],
+        "trim": {"M26": {"start": "Failure of a major professional project", "end": "precipitating psychological collapse"}},
+        "tags": [],
+        "borderline": false
+      },
+      {
+        "messages": ["M27", "M28"],
+        "trim": {
+          "M27": {"start": "Employment and Stress Context", "end": "ADHD/neurodivergence not disclosed due to stigma."},
+          "M28": {"start": "Employment and Stress Context", "end": "ADHD/neurodivergence not disclosed due to stigma."}
+        },
+        "tags": [],
+        "borderline": false
+      }
+    ]
+  },
+  {"file": "2026-01-03_1304_A0-Chat-Sandbox.md", "work_related": "no", "borderline": false, "reason": "No work-related content.", "extracts": []},
+  {
+    "file": "2026-01-03_1307_A2-Document-Transcription.md",
+    "work_related": "partial",
+    "borderline": false,
+    "reason": "Transcription of an occupational health assessment and a GP fit note advising phased return to work with amended duties and workplace adaptations.",
+    "extracts": [
+      {"messages": ["M31", "M32"], "tags": [], "borderline": false},
+      {"messages": ["M33", "M34", "M35", "M36"], "tags": [], "borderline": false}
+    ]
+  },
+  {"file": "2026-01-03_1311_B1-Case-Administration-Records.md", "work_related": "no", "borderline": false, "reason": "No work-related content.", "extracts": []},
+  {"file": "2026-01-03_1311_B2-Evidence-Documentation.md", "work_related": "no", "borderline": false, "reason": "No work-related content.", "extracts": []},
+  {"file": "2026-01-03_1312_B3-Incident-Factual-Core-Layer.md", "work_related": "no", "borderline": false, "reason": "No work-related content.", "extracts": []},
+  {"file": "2026-01-03_1312_B4-Context-Mental-Health.md", "work_related": "no", "borderline": false, "reason": "No work-related content.", "extracts": []},
+  {"file": "2026-01-03_1314_Project-B-Overview.md", "work_related": "no", "borderline": false, "reason": "No work-related content.", "extracts": []},
+  {"file": "2026-01-03_1315_B5-Investigation-Interview.md", "work_related": "no", "borderline": false, "reason": "No work-related content.", "extracts": []},
+  {"file": "2026-01-03_1315_B6-Charges-Court-Process.md", "work_related": "no", "borderline": false, "reason": "No work-related content.", "extracts": []},
+  {"file": "2026-01-03_1351_B6-1-First-hearing-outline-Prep.md", "work_related": "no", "borderline": false, "reason": "No work-related content.", "extracts": []},
+  {"file": "2026-01-03_1414_Polo-Care-Tips.md", "work_related": "no", "borderline": false, "reason": "No work-related content.", "extracts": []}
+]

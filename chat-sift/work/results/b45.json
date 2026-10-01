@@ -1,0 +1,538 @@
+[
+  {
+    "file": "2026-01-03_1534_A6-Voluntary-Interview-Input-Output.md",
+    "work_related": "partial",
+    "borderline": false,
+    "reason": "Work stress, a failed work project, managing an engineering team, return to work and an adjusted job role referenced as context.",
+    "extracts": [
+      {
+        "messages": [
+          "M5"
+        ],
+        "trim": {
+          "M5": {
+            "start": "Psychiatry referral confirmed but with potential delay",
+            "end": "due to its impact on my professional responsibilities."
+          }
+        },
+        "tags": [
+          "worried"
+        ],
+        "borderline": true
+      },
+      {
+        "messages": [
+          "M5"
+        ],
+        "trim": {
+          "M5": {
+            "start": "Fri 13 June Work Crisis: A major professional project failed",
+            "end": "working frantically to recover the failed work project."
+          }
+        },
+        "tags": [
+          "worried",
+          "speculative"
+        ],
+        "borderline": false
+      },
+      {
+        "messages": [
+          "M5"
+        ],
+        "trim": {
+          "M5": {
+            "start": "Mon 16 June (Daytime) Minimal recollection: Likely worked from home",
+            "end": "based on Teams activity."
+          }
+        },
+        "tags": [
+          "speculative"
+        ],
+        "borderline": true
+      },
+      {
+        "messages": [
+          "M5"
+        ],
+        "trim": {
+          "M5": {
+            "start": "Preparing to begin private, specialised short-term therapy",
+            "end": "early life trauma and professional challenges."
+          }
+        },
+        "tags": [],
+        "borderline": true
+      },
+      {
+        "messages": [
+          "M5"
+        ],
+        "trim": {
+          "M5": {
+            "start": "Maintained stability with structured support,",
+            "end": "enabling a successful return to work."
+          }
+        },
+        "tags": [],
+        "borderline": false
+      },
+      {
+        "messages": [
+          "M5"
+        ],
+        "trim": {
+          "M5": {
+            "start": "Adjusted job role to better accommodate changes",
+            "end": "in interpersonal dynamics and executive functioning."
+          }
+        },
+        "tags": [],
+        "borderline": false
+      },
+      {
+        "messages": [
+          "M5"
+        ],
+        "trim": {
+          "M5": {
+            "start": "These factors, compounded by professional stress and sleep deprivation,",
+            "end": "led to a state of psychological collapse."
+          }
+        },
+        "tags": [],
+        "borderline": false
+      },
+      {
+        "messages": [
+          "M5"
+        ],
+        "trim": {
+          "M5": {
+            "start": "making meaningful changes to my professional and personal life",
+            "end": "to support ongoing recovery."
+          }
+        },
+        "tags": [],
+        "borderline": true
+      },
+      {
+        "messages": [
+          "M5"
+        ],
+        "trim": {
+          "M5": {
+            "start": "13 June: Major work project failure",
+            "end": "triggers acute stress"
+          }
+        },
+        "tags": [],
+        "borderline": false
+      },
+      {
+        "messages": [
+          "M7"
+        ],
+        "trim": {
+          "M7": {
+            "start": "As the manager of a small team of engineers",
+            "end": "panic about my ability to function."
+          }
+        },
+        "tags": [
+          "worried",
+          "upset"
+        ],
+        "borderline": false
+      },
+      {
+        "messages": [
+          "M7"
+        ],
+        "trim": {
+          "M7": {
+            "start": "My recollection of that weekend and of the 16th is extremely limited,",
+            "end": "records suggest I was working from home."
+          }
+        },
+        "tags": [
+          "speculative"
+        ],
+        "borderline": true
+      }
+    ]
+  },
+  {
+    "file": "2026-01-03_1536_A9-Space-Saver.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2026-01-03_1657_Report-Structuring-Assistance.md",
+    "work_related": "partial",
+    "borderline": false,
+    "reason": "Employment role, workload, a rejected work project and non-disclosure of neurodivergence at work referenced as context.",
+    "extracts": [
+      {
+        "messages": [
+          "M3"
+        ],
+        "trim": {
+          "M3": {
+            "start": "Deterioration compounded by occupational pressure and isolation",
+            "end": "Deterioration compounded by occupational pressure and isolation"
+          }
+        },
+        "tags": [],
+        "borderline": false
+      },
+      {
+        "messages": [
+          "M3"
+        ],
+        "trim": {
+          "M3": {
+            "start": "4. Employment and Stress Context",
+            "end": "not disclosed due to stigma (as described)"
+          }
+        },
+        "tags": [],
+        "borderline": false
+      },
+      {
+        "messages": [
+          "M3"
+        ],
+        "trim": {
+          "M3": {
+            "start": "13 June 2025: major work project failure/rejection",
+            "end": "depressive collapse and intensified insomnia"
+          }
+        },
+        "tags": [],
+        "borderline": false
+      },
+      {
+        "messages": [
+          "M3"
+        ],
+        "trim": {
+          "M3": {
+            "start": "characterised by severe sleep deprivation, medication instability, occupational stress",
+            "end": "and psychological collapse."
+          }
+        },
+        "tags": [],
+        "borderline": true
+      },
+      {
+        "messages": [
+          "M3"
+        ],
+        "trim": {
+          "M3": {
+            "start": "13 June 2025: Failure of a major professional project",
+            "end": "precipitating psychological collapse."
+          }
+        },
+        "tags": [],
+        "borderline": false
+      },
+      {
+        "messages": [
+          "M3"
+        ],
+        "trim": {
+          "M3": {
+            "start": "5. Employment and Stress Context",
+            "end": "but neurodivergence had not."
+          }
+        },
+        "tags": [],
+        "borderline": false
+      },
+      {
+        "messages": [
+          "M3"
+        ],
+        "trim": {
+          "M3": {
+            "start": "Occupational pressure and social isolation compounded deterioration.",
+            "end": "Occupational pressure and social isolation compounded deterioration."
+          }
+        },
+        "tags": [],
+        "borderline": false
+      },
+      {
+        "messages": [
+          "M3"
+        ],
+        "trim": {
+          "M3": {
+            "start": "Mr Simpson was employed as an Electrical Hardware Engineering Lead",
+            "end": "but ADHD and neurodivergence were not."
+          }
+        },
+        "tags": [],
+        "borderline": false
+      },
+      {
+        "messages": [
+          "M3"
+        ],
+        "trim": {
+          "M3": {
+            "start": "deterioration compounded by occupational pressure and isolation",
+            "end": "deterioration compounded by occupational pressure and isolation"
+          }
+        },
+        "tags": [],
+        "borderline": false
+      },
+      {
+        "messages": [
+          "M3"
+        ],
+        "trim": {
+          "M3": {
+            "start": "Role: Electrical Hardware Engineering Lead.",
+            "end": "ADHD/neurodivergence not disclosed due to stigma."
+          }
+        },
+        "tags": [],
+        "borderline": false
+      },
+      {
+        "messages": [
+          "M4"
+        ],
+        "trim": {
+          "M4": {
+            "start": "characterised by severe sleep deprivation, medication instability, occupational stress",
+            "end": "and psychological collapse."
+          }
+        },
+        "tags": [],
+        "borderline": true
+      },
+      {
+        "messages": [
+          "M4"
+        ],
+        "trim": {
+          "M4": {
+            "start": "## 5. Employment and Stress Context",
+            "end": "resulting in masking behaviour and further strain."
+          }
+        },
+        "tags": [],
+        "borderline": false
+      },
+      {
+        "messages": [
+          "M4"
+        ],
+        "trim": {
+          "M4": {
+            "start": "**13 June:** rejection/failure of major work project",
+            "end": "depressive collapse and intensified insomnia"
+          }
+        },
+        "tags": [],
+        "borderline": false
+      },
+      {
+        "messages": [
+          "M5"
+        ],
+        "trim": {
+          "M5": {
+            "start": "Deterioration compounded by occupational pressure and isolation",
+            "end": "Deterioration compounded by occupational pressure and isolation"
+          }
+        },
+        "tags": [],
+        "borderline": false
+      },
+      {
+        "messages": [
+          "M5"
+        ],
+        "trim": {
+          "M5": {
+            "start": "4. Employment and Stress Context",
+            "end": "not disclosed due to stigma (as described)"
+          }
+        },
+        "tags": [],
+        "borderline": false
+      },
+      {
+        "messages": [
+          "M5"
+        ],
+        "trim": {
+          "M5": {
+            "start": "13 June 2025: major work project failure/rejection",
+            "end": "depressive collapse and intensified insomnia"
+          }
+        },
+        "tags": [],
+        "borderline": false
+      },
+      {
+        "messages": [
+          "M5"
+        ],
+        "trim": {
+          "M5": {
+            "start": "characterised by severe sleep deprivation, medication instability, occupational stress",
+            "end": "and psychological collapse."
+          }
+        },
+        "tags": [],
+        "borderline": true
+      },
+      {
+        "messages": [
+          "M5"
+        ],
+        "trim": {
+          "M5": {
+            "start": "13 June 2025: Failure of a major professional project",
+            "end": "precipitating psychological collapse."
+          }
+        },
+        "tags": [],
+        "borderline": false
+      },
+      {
+        "messages": [
+          "M5"
+        ],
+        "trim": {
+          "M5": {
+            "start": "5. Employment and Stress Context",
+            "end": "but neurodivergence had not."
+          }
+        },
+        "tags": [],
+        "borderline": false
+      },
+      {
+        "messages": [
+          "M5"
+        ],
+        "trim": {
+          "M5": {
+            "start": "Occupational pressure and social isolation compounded deterioration.",
+            "end": "Occupational pressure and social isolation compounded deterioration."
+          }
+        },
+        "tags": [],
+        "borderline": false
+      },
+      {
+        "messages": [
+          "M5"
+        ],
+        "trim": {
+          "M5": {
+            "start": "Mr Simpson was employed as an Electrical Hardware Engineering Lead",
+            "end": "but ADHD and neurodivergence were not."
+          }
+        },
+        "tags": [],
+        "borderline": false
+      },
+      {
+        "messages": [
+          "M5"
+        ],
+        "trim": {
+          "M5": {
+            "start": "deterioration compounded by occupational pressure and isolation",
+            "end": "deterioration compounded by occupational pressure and isolation"
+          }
+        },
+        "tags": [],
+        "borderline": false
+      },
+      {
+        "messages": [
+          "M5"
+        ],
+        "trim": {
+          "M5": {
+            "start": "Role: Electrical Hardware Engineering Lead.",
+            "end": "ADHD/neurodivergence not disclosed due to stigma."
+          }
+        },
+        "tags": [],
+        "borderline": false
+      },
+      {
+        "messages": [
+          "M6"
+        ],
+        "trim": {
+          "M6": {
+            "start": "characterised across the materials as severe sleep deprivation, medication instability, occupational stress",
+            "end": "and psychological collapse."
+          }
+        },
+        "tags": [],
+        "borderline": true
+      },
+      {
+        "messages": [
+          "M6"
+        ],
+        "trim": {
+          "M6": {
+            "start": "- deterioration compounded by occupational pressure and isolation",
+            "end": "- deterioration compounded by occupational pressure and isolation"
+          }
+        },
+        "tags": [],
+        "borderline": false
+      },
+      {
+        "messages": [
+          "M6"
+        ],
+        "trim": {
+          "M6": {
+            "start": "## 6. Employment and Stress Context",
+            "end": "ADHD/neurodivergence not disclosed due to stigma."
+          }
+        },
+        "tags": [],
+        "borderline": false
+      },
+      {
+        "messages": [
+          "M6"
+        ],
+        "trim": {
+          "M6": {
+            "start": "**13 June 2025:** major work project failure/rejection",
+            "end": "depressive collapse and intensified insomnia"
+          }
+        },
+        "tags": [],
+        "borderline": false
+      }
+    ]
+  },
+  {
+    "file": "2026-01-03_1737_Layer-A7-Defence-Sandbox.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  }
+]

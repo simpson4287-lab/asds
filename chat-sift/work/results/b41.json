@@ -1,0 +1,37 @@
+[
+  {
+    "file": "2025-12-31_1440_0-1-1-Receipt-Log.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2025-12-31_1847_Self-image-map.md",
+    "work_related": "partial",
+    "borderline": true,
+    "reason": "A digitised personal domain map includes a Work section listing employment, productivity, stress, purpose and progression.",
+    "extracts": [
+      {
+        "messages": ["M1", "M2"],
+        "trim": {"M2": {"start": "## 4. Work", "end": "- Progression"}},
+        "tags": [],
+        "borderline": true
+      }
+    ]
+  },
+  {
+    "file": "2025-12-31_2104_Embracing-Solitude-and-Loneliness.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2026-01-01_0619_Solar-System-Redraw-Check.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  }
+]
