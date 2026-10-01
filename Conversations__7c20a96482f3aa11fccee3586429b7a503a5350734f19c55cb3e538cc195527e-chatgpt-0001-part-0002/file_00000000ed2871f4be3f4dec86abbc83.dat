@@ -1,0 +1,365 @@
+
+# JOB SPECIFICATION — Retrospective IEC 61010 Compliance Survey & Technical Construction File (TCF) Uplift
+## Heavy-Ion Radiation Test System — Image Sensor Characterisation Rig (Gen-1), with Generation-2 Compliance-by-Design Template Extraction
+
+| Field | Value |
+|---|---|
+| Spec ID | JOB-SPEC-61010-001 |
+| Revision | A (initial issue) |
+| Date | 2026-07-06 |
+| Prepared by | Claude (planning agent), from review of full project data pack |
+| Intended reader | The executing agent (AI or human engineer) who will perform the uplift with access to the full data pack |
+| Controlling process document | `A_-_IEC61010-Compliance-Manual_A.docx` (Rev A, 4 Jul 2026, author: Paul) |
+
+---
+
+## 0. READ-ME FOR THE EXECUTING AGENT
+
+You are executing a **retrospective conformity survey and technical-file uplift**, not a redesign. Read this section before anything else.
+
+**0.1 What this job is.** Take a mature (~10–15 year) radiation test system with a full but unstructured data pack, and produce a defensible, auditable Technical Construction File (TCF) demonstrating clause-by-clause alignment with IEC 61010-1 — *without physical modification of the hardware* — then extract the method as the compliance-by-design template for the Generation-2 system.
+
+**0.2 What "compliant" means here.** An internally controlled technical assurance position: clause-by-clause evidence mapping, signed off under the organisation's own document control. **Explicitly NOT** third-party certification, CE marking, or UKCA marking. The exact approved wording is in §8. Never exceed it.
+
+**0.3 Source precedence.** The data pack contains four overlapping guidance documents (A, B, C, D) written at different stages of maturity. When they conflict, resolve in this order:
+
+1. **This specification** (which records the reconciliation decisions).
+2. **Document A** (`A_-_IEC61010-Compliance-Manual_A.docx`) — the controlling process manual and document architecture. Most recent, formally authored, Rev A.
+3. **Document C** (`C_-_Retrospective_IEC_61010_Uplift_Manual.docx`) — the execution detail library: SYS-xxx numbering, gates, checklists, boundary questions, test formats, gap-register mechanics. Use for *how*, subordinate to A for *what*.
+4. **Document B** (`B_-_Master_Compliance_Blueprint.docx` + `B__IEC_61010_TCF_Document_Tree.xlsx`) — clause-level technical parameters and provisional acceptance values (0.1 Ω PE bond, 3.0 mm clearance / 6.3 mm creepage, 10° tilt, 150 N push, UL 94 V-0/V-1, environmental profile 5–40 °C / 2000 m / 80 % RH). Treat every clause number and numeric limit in B as **provisional until confirmed against the licensed edition of the standard** (A §3 note, A §9).
+5. **Document D** (`D_-_IEC_61010_UPLIFT_MANUAL.docx` + `D_-_svg_TREE.txt`) — the raw working chat log and the 18-branch content tree. Background and content checklists only; its 18 branches are *content sections*, not separate documents.
+
+**0.4 Rule against fabrication.** Never invent measured values, part numbers, ratings, dates, serial numbers, revision letters, test results, or clause text. Where a fact is unknown, insert a structured placeholder (§5.3) and raise a gap-register entry. A TCF with honest gaps is the deliverable; a TCF with plausible-looking invented data is a failure of the entire exercise.
+
+**0.5 Depth rule (from the commissioning instruction).** Deliverables are produced at three depths — this is the central editorial decision of the job:
+
+- **Class F — FULL AUTHOR.** Safety, risk, and cross-reference/compliance documents are written complete and thorough: every clause, every hazard, every requirement, every traceability link, with placeholders only where evidence is physically absent.
+- **Class D — DELTA LIST.** Existing engineering design data (schematics, drawings, PCB, FPGA, LabVIEW, BOM) is **not recreated**. The deliverable is a per-document *update register*: what must change, what attribute is missing, what revision action is required. Reference, don't duplicate (A, Rule 2).
+- **Class R — REFERENCE / INDEX.** Third-party material (datasheets, certificates, calibration certs, facility rules, the UKAEA context paper) is catalogued in the Master Document List with a role tag and citation, nothing more.
+
+**0.6 Human dependencies.** Some steps cannot be completed from the data pack alone: physical photo survey, bench tests (PE continuity, output short-circuit, power-loss/restore, thermal, stability), gate sign-offs, and residual-risk acceptance. Flag these as `HUMAN-ACTION` items in the gap register; do not simulate their outputs.
+
+**0.7 Expected state of the incoming data pack.** Assume it is substantial but non-uniform: strong on design definition (schematics, drawings, firmware) after 10–15 years of evolution; weak on formal safety artefacts (no boundary statement, no hazard register in IEC 61010 form, no clause matrix, no verification traceability, patchy labelling/manual coverage). §4 defines what the *final* compliant pack looks like so that every found item can be slotted into its home and every absence becomes a recorded gap rather than a silent hole.
+
+---
+
+## 1. MISSION AND SUCCESS DEFINITION
+
+**1.1 Mission.** Retrospectively survey the Gen-1 system against IEC 61010-1 (with screening of IEC 61010-2-030 and awareness of 61010-2-201), uplift the data pack into a controlled TCF, close or formally accept every gap, issue the Safety Document and internal Statement of Compliance, and convert the method and every finding into the Generation-2 compliance-by-design baseline.
+
+**1.2 Target claim (default — confirm at Q1).**
+> "The system has been retrospectively reviewed and documented against the applicable principles and requirements of IEC/BS EN 61010-1, with additional consideration of applicable particular standards, including external test/measurement circuits where relevant. This review does not constitute third-party certification unless separately assessed by an accredited body." (C §0)
+
+For Gen-2: "Safety requirements captured at concept stage and designed to meet the applicable IEC 61010 family requirements from the outset." (C §1.2)
+
+**1.3 Definition of done.** The job is complete when ALL of the following hold:
+
+1. Every document in the Canonical Register (§4) exists at its declared class (F authored / D delta-registered / R indexed), under document control with revision status and owner.
+2. The Compliance Matrix (SYS-COMP-002) covers **every clause** of the confirmed edition of IEC 61010-1 plus the 2-030 screening decision, each with status ∈ {Compliant by design, Compliant by evidence, Compliant by documented rationale, Partially compliant, Not evidenced, Not applicable} and a justification.
+3. The Hazard Register, Single-Fault Analysis, and Safety Requirement Specification are complete (no placeholder rows in the analysis itself — placeholders are permitted only in *evidence* fields).
+4. Every gap is in SYS-GAP-001 with type, risk, closure route (bench verification / engineering analysis / residual-risk acceptance — A §8), and status. No gap silently closed by hardware modification; any item that cannot be closed by the three routes is escalated as a significant finding, not accepted quietly.
+5. The Safety Document (SYS-SAF-010) is issued to the structure of A §7, readable cover-to-cover, everything else cited by number and revision.
+6. Gates 0–5 (C §18) have recorded sign-offs (human).
+7. SYS-NG-REQ-001 and the Gen-2 Checklist exist, with every material finding converted to a requirement tagged mandatory / recommended / legacy-carryover, mapped to the Gen-2 design-review gates (A §10: SRR → PDR → CDR → first use).
+
+---
+
+## 2. SYSTEM IDENTITY — GROUND TRUTH ESTABLISHED FROM THE DATA PACK
+
+Treat the following as established facts (source in brackets). Anything not listed here is unconfirmed.
+
+- **System:** heavy-ion radiation test system for image-sensor characterisation; adaptable to other radiation forms via extension of propagation cables. Result of 10–15 years continuous development; mature and stable. [A §1–2; D]
+- **Form factor:** 19-inch rackmount trolley, ~1 m high, mobile on casters. [A §2; B §1]
+- **Power:** single 230 V AC mains feed; internal derivation of low-voltage DC of the order of 12 V. [A §2]
+- **Field side:** signal I/O propagated over cable runs of ~25 m (A §2; note C's boundary sketch says "several metres to 15 m or more depending setup" — treat length as configuration-dependent, record per baseline) across **five signal classes: bias/sense, differential, LVDS, RF coaxial, clock**, to a PCB on a support fixture exposed in the beam line. [A §2, §5 Rule 1]
+- **Existing protection architecture (to be mapped as clause evidence, largely already designed):**
+  - Split hardened/recoverable protection path for Single Event Latch-up (SEL).
+  - Dual-threshold bias fault detection with configurable dwell timers.
+  - Verified **monitors-armed interlock, gated before beam-on**.
+  - Sub-second FPGA-latched event timestamping supplementing a 1 Hz polling loop. [A §2]
+- **Control stack:** FPGA fault-supervision layer + LabVIEW supervisory software (PXI context referenced in C). [A §3; C §11]
+- **Regulatory posture:** in-house facility instrument, not placed on the market; CE/UKCA not pursued through this exercise; EMC (IEC 61326 series) and functional safety (IEC 61508) out of scope, the latter noted only where the protection architecture already provides evidence. [A §1, §3]
+- **Environment/context:** radiation beamline facility. The UKAEA paper (UKAEA-CCFE-CP(25)12, Maslov et al., radiation effects in optical fibres during JET D-T campaigns, Culham) is **domain context only** — it characterises the class of facility/radiation environment; it is not a compliance input. [file: UKAEACCFECP2512.PDF — note: the file is actually a ZIP of 14 page images + OCR text, not a true PDF]
+- **Author/owner of the exercise:** Paul (A title block). System designation and document reference are blank in A — must be assigned (Q6).
+
+---
+
+## 3. SOURCE DATA PACK INVENTORY AND ROLES
+
+| File | Actual format | Role in this job |
+|---|---|---|
+| `A_-_IEC61010-Compliance-Manual_A.docx` | UTF-8 text (despite extension) | **Controlling manual.** Process (8 activities), document architecture (3 rules), 24-item register, Safety Document structure, gap-closure methodology, Gen-2 gate mapping. |
+| `A_-_data-pack-document-tree_A.mermaid` | Mermaid source | Canonical 7-branch data-pack tree (Governance / Interfaces / Design Definition / V&T / Build & Config / Operations / Assurance & Safety) + MDL root + Gen-2 checklist node; encodes FMEA→RA one-way link and citation flows into the Compliance Matrix and Safety Document. |
+| `B_-_Master_Compliance_Blueprint.docx` | UTF-8 text | Clause-parameter source: environmental profile, component evidence tables, SELV barrier audit, PE <0.1 Ω, creepage/clearance 6.3/3.0 mm, tilt/push tests, flammability, Gen-2 transfer rules 1–4. All values provisional pending clause confirmation. |
+| `B__IEC_61010_TCF_Document_Tree.xlsx` | Real XLSX, 2 sheets | B's 5-section TCF tree (SEC-01…05 / DOC-xx-xx) with clause baselines; Visio Data Visualizer import format. Superseded as a *structure* by the canonical register (§4) but every DOC item is mapped there (§11). |
+| `C_-_Retrospective_IEC_61010_Uplift_Manual.docx` | UTF-8 text | Execution library: SYS-xxx numbering, claim ladder, boundary in/out lists and 10 boundary questions, config-freeze artefact list, hazard categories, single-fault catalogue, 4 evidence classes, worked test formats (VER-DC-004, VER-FUNC-006), 17-folder TCF layout, Gates 0–5, gap types, NG-SAF-001…010, NG-DATA-001…008, phases A–I, 6 work blocks. |
+| `D_-_IEC_61010_UPLIFT_MANUAL.docx` | UTF-8 text (chat log) | Background reasoning; 18-branch technical-file content tree with sub-items; 4-band grouping (Basis / Evidence / Compliance pack / Forward path); deliverables expansion; compliance-wording options; pointer to IEC 61010-1:2010 + COR1:2011 preview as an orientation copy (licensed edition still required for clause text). |
+| `D_-_svg_TREE.txt` | SVG source | Rendered 18-branch tree. Visual aid only. |
+| `UKAEACCFECP2512.PDF` | **ZIP** (14 JPEG page images + OCR .txt) | Domain context: fusion-facility radiation environment (JET D-T, 14 MeV neutrons). Class R reference. Flag the mislabelled container in the MDL. |
+
+**Known future-pack expectation:** the incoming full data pack will additionally contain the actual engineering material referenced by A's register — schematics, drawings, PCB package, FPGA and LabVIEW design descriptions, BOM, any historical test/calibration records, photos, manuals, labels. B also references archive variants `IEC_61010_TCF_Document_Tree_2.xlsx` / `_3.xlsx`; if present, treat as superseded revisions and index only.
+
+---
+
+## 4. TARGET STATE — THE CANONICAL DOCUMENT REGISTER
+
+This is the single reconciled register of the final compliant pack. It merges A's 24-item register (structure authority), C's SYS-xxx numbering, B's DOC items, and D's 18 content branches, applying A's Rule 1 (compartmentalise by ownership and change-rate) so the pack stays lean. §11 proves nothing from any source tree has been dropped.
+
+**Legend.** Class: **F** = full author, **D** = delta list against existing engineering doc, **R** = reference/index. Phase = phase in §6 where the document is created/completed. "Content expectation" = what a compliant final version must contain (this is the piecing-together template for gappy data).
+
+### 4.1 Governance & Administration
+
+| ID | Title | Class | Phase | Content expectation / acceptance criteria |
+|---|---|---|---|---|
+| TCF-INDEX-001 | Master Document List / TCF Index | F | 1 (opened), 7 (closed) | Every register item with number, title, revision, status, owner, physical/electronic location; folder layout per C §16 (00_Admin … 17_Next_Generation_Requirements); cross-reference map. This is the top navigation layer — open it first, close it last. |
+| SYS-COMP-001 | Applicable Standards Register & Compliance Strategy | F | 1 | Standard set screened per C §5 (61010-1; 2-030 screening decision for external test/measurement circuits; 2-201 awareness for the FPGA/LabVIEW control analogue; 61326 recorded as out-of-scope EMC stream; LVD/UKCA context; facility radiation rules = interface only). Formal applicability decision + reason per standard. Classification block: overvoltage category, pollution degree, environmental profile (default per B §3.1: 5–40 °C, ≤2000 m, 80 % RH to 31 °C linear to 50 % at 40 °C — confirm Q10), mobility class = Mobile Equipment, intended-use statement (in-house, not placed on market). Claim level recorded (Q1). Edition & amendment of each standard recorded (Q2). |
+| SYS-COMP-002 | IEC 61010 Applicability & Gap Matrix (Compliance Matrix) | F | 4 | Clause-by-clause against the confirmed edition, columns per C §6.1: clause/topic, applicability, justification, existing design control, evidence reference (doc no. + rev), gap type, risk, required action, owner, closure evidence, status. Every clause present, including not-applicable ones with justification. Clause refs entered only after confirmation against the licensed edition (A §3 note). This is the master index the pack is organised around (A §4.3) and Annex A of the Safety Document. |
+| SYS-COMP-003 | Compliance Summary & Statement of Compliance | F | 7 | Management-facing summary per C §21.1: scope, standards, boundary, risk summary, electrical/software/EMC-position summaries, verification summary, open gaps, residual risks, restrictions of use, the Statement (wording per §8 only — explicitly not a CE/UKCA DoC; B's "Informal Declaration of Conformity" is renamed to this to avoid DoC connotations), approvals. |
+| SYS-REQ-001 | System Requirements / Specification | **D** | 2 | Existing document expected. Delta entries: confirm safety requirements are separable/identifiable; add cross-references to SYS-REQ-002; revision/ownership brought under control. |
+| SYS-DES-001 | Architecture / Design Description | **D** | 2 | Existing narrative expected. Delta entries: ensure it ties the branches together, includes boundary diagram hook, power tree, I/O architecture, operating modes, user-accessible vs service-accessible split (D br.2). If genuinely absent → escalate to F-lite (≤10 pp). |
+
+### 4.2 Boundary & Baseline
+
+| ID | Title | Class | Phase | Content expectation / acceptance criteria |
+|---|---|---|---|---|
+| SYS-SAF-001 | Equipment Boundary & Intended Use Statement | F | 1 | Merges C's SYS-SAF-001 + SYS-SAF-002 (one owner, one change-rate — A Rule 1; record the merge decision). Inside/outside lists per C §2.1 (rack, mains chain, PSUs, DC rails, control electronics, PXI/FPGA/LabVIEW, bias generation, monitoring, sensor interface, I/O propagation, supplied cable assemblies, fixture electronics, DUT/interface PCB, controls/indicators, service areas, software — vs beam source, facility interlocks, facility e-stops, dosimetry, shielding, building installation, external customer kit, the DUT sensor itself unless supplied, radiation safety case except at interfaces). One-page boundary diagram per C §2.2. Answers to all 10 boundary questions of C §2.3 recorded explicitly (Q4). Intended use, five user classes with competence (C §3.2), operating environments (C §3.3), foreseeable-misuse list ≥ the 15 items of C §3.4. |
+| SYS-CFG-001 | Current System Design Baseline (config freeze + as-built) | F | 2 | Absorbs A #21 (As-Built/Config Baseline). Configuration ID (pattern: RISC-RACK-GEN1-RETRO-001), baseline date, all revisions per C §4.1 (rack, PCBs, cable set, software, FPGA/firmware, LabVIEW app, config files, fixture). Artefact index per C §4.2 with status per item. Photo survey checklist (front/rear/internal, bonding points, labels). Configuration-trap sweep per C §4.3 (hand mods, PSU substitutions, uncontrolled harnesses, prototype boards, facility adaptor cables) — anything physical-but-undocumented becomes a gap. |
+
+### 4.3 Interfaces (ICDs)
+
+| ID | Title | Class | Phase | Content expectation / acceptance criteria |
+|---|---|---|---|---|
+| SYS-ICD-001 | Facility Interface ICD | D→F-lite | 2/5 | Mains power, protective earth, beamline mechanical mounting, and any facility interlock/monitors-armed signal interface (Q12). Delta if exists; author F-lite if not. |
+| SYS-ICD-002 | Cabling ICD (rack ↔ fixture) | D→F | 2/5 | ONE document for all five signal classes (A Rule 1); interconnect schedule as data annex. Uplift annex: Propagation Cable Safety & Integrity Review content per C §12.3 (type, length, shielding, screen termination single/both-end, pinout, max V/I, fault current, insulation rating, bend radius, strain relief, beamline routing constraints, extension limits, approved/do-not-use lists, labelling). |
+| SYS-ICD-003 | DUT Fixture ICD | D→F-lite | 2/5 | Mechanical + electrical interface fixture↔DUT; touch-safety during setup, exposed conductors, bonding-vs-floating decision, post-irradiation handling deferral to facility rules (C §8.6, §13.2). |
+
+### 4.4 Design Definition (the "realistic about design data" set — Class D)
+
+The deliverable for this whole section is **SYS-DDR-001 — Design Data Update Register**: one controlled table, one row per existing engineering document. Columns: doc, current rev, custodian discipline, required updates, missing safety-relevant views/attributes, action, priority, status. **Do not redraw or re-author design data.** Typical expected delta items are pre-loaded below; the executing agent completes them from the actual pack.
+
+| ID | Existing document | Expected delta items (pre-load; verify against pack) |
+|---|---|---|
+| SYS-DD-001 | Electrical Schematics & Design Calcs | Confirm mains-input chain fully drawn (inlet, switch, fuse type/rating/breaking capacity, filter); extract/attach single-line power architecture diagram 230 V→12 V SELV (B DOC-02-01) if not already a sheet; fuse schedule as calc annex; wire ratings vs fault current noted. |
+| SYS-DD-002 | Assembly / Fabrication Drawings | Add/verify PE bonding overlay or callouts (MET, straps, star washers, panel/door bonds); trolley CoG & weight-distribution view (B DOC-03-01); caster ratings; label locations cross-ref to SYS-LAB-001. |
+| SYS-DD-003 | PCB Design Package (sensor interface PCB) | Confirm rev-controlled schematic/layout/BOM; FR-4 / UL 94 V-0 substrate statement; spacer/standoff materials note (V-0/metal); bias-rail current-limit provisions identified for evidence citation. |
+| SYS-DD-004 | FPGA Firmware Design Description | Confirm fault state machine, dual-threshold + dwell-timer logic, monitors-armed gating, event timestamping, default/reset output states are described and version-controlled; identify safety-relevant vs convenience functions. |
+| SYS-DD-005 | LabVIEW Supervisory SW Design Description | Confirm state model, crash/comms-loss behaviour, restart behaviour, config-file control, GUI-indication limits documented; version capture. |
+| SYS-DD-006 | Protection Architecture Description | Highest-value design doc: SEL split hardened/recoverable path, dual-threshold bias fault detection, monitors-armed interlock, FPGA timestamping vs 1 Hz polling. Delta: ensure written so it can be **cited directly as clause evidence** (A #12) — explicit protective claims, boundaries of protection, single-point dependencies. |
+| SYS-DD-007 | Bill of Materials | Confirm rev-controlled; tag safety-critical mains-path parts feeding SYS-CMP-001. |
+
+### 4.5 Assurance & Safety (Class F — full and thorough, no exceptions)
+
+| ID | Title | Class | Phase | Content expectation / acceptance criteria |
+|---|---|---|---|---|
+| SYS-RISK-001 | Hazard-Based Risk Assessment & Register | F | 3 | Top-down, hazard-led (A Rule 3). Method per C §7.1 (S1–S4 × P1–P4, consistency over sophistication). Cover ALL of C §7.2's categories: electric shock, fire/thermal, energy/output, mechanical, functional/control, radiation-context interface (electrical consequences only — latch-up, activation handling deferred to facility). Entry format per C §7.3 (hazard ID, cause, situation, existing controls, S, P, evidence, gap, additional control, verification, residual risk, status). **Annex A: Protective Measures Register** (D br.6 / C dlv.6): every measure classified inherent-by-design / component / mechanical / procedural, hazards mitigated, single-point dependencies. Draws only safety-relevant FMEA rows, one-way. |
+| SYS-RISK-002 | FMEA Register | F (framework + safety rows) | 3 | ONE living bottom-up register (not per subsystem — A Rule 3). Retro scope: populate mains chain, PSU, DC rails, propagation cables, DUT interface, FPGA/software failure modes at minimum; mark register as living with faster change cadence than SYS-RISK-001. |
+| SYS-REQ-002 | Safety Requirement Specification | F | 3 | Hazards → explicit safety requirements, separated from functional requirements (D dlv.5); requirement IDs, acceptance criteria, testable/inspectable/analysable; traceability both ways (hazard ↔ requirement ↔ clause ↔ verification). Covers enclosure integrity, PE, overcurrent, insulation, touch/accessible current, cable routing/segregation, labelling, service access, fault handling, safe shutdown. |
+| SYS-SAF-003 | Electrical Safety Architecture Review | F | 5 | The core technical document (C §8). Mains input checklist (16 items C §8.1); PE & bonding review (13 items C §8.2, incl. painted-surface continuity, star washers, no shared fasteners, screen-termination vs safety-earth distinction); internal power distribution + **power tree** with per-rail table (V, Imax, protection, loads, accessible?, fault response); isolation & separation evidence (SELV barrier per B §3.3 — PSU certification route via IEC 62368-1/60950-1 acceptance under Cl.14 noted); **accessible-circuits schedule** — every operator-accessible connector with the 10 questions of C §8.5; DUT fixture & in-beam PCB section incl. radiation-induced electrical events (SEL, transients, bias droop/overcurrent, post-damage shorts, false state reporting). Cites SYS-DD-00x by number+rev; contains no duplicated schematics. |
+| SYS-SAF-004 | Normal-Condition & Single-Fault Analysis | F | 5 | Full fault catalogue per C §9.1 (mains/power ×10, DC output ×10, control/data ×14, mechanical ×5 — extend as found), table format C §9.2 (fault, detection, protection, result, safe?, evidence). Principle recorded: software never the sole safety control (C §9.3); prefer fuses, current limiting, isolation, spacing, PE, barriers, keying, hardware interlocks, watchdogs, fail-safe defaults. |
+| SYS-MECH-001 | Mechanical & Trolley Safety Review | F | 5 | Rack checklist (15 items C §13.1) + fixture checklist (9 items C §13.2); stability rationale incl. provisional acceptance tests 10° tilt / 150 N push / caster rating ≥1.5–2× system weight / edge radii >0.5 mm (B §3.4 — confirm against clause text); transport configuration; max additional payload; "do not move while connected to beamline cables" rule. |
+| SYS-SW-001 | Control Software & Firmware Safety Review | F | 5 | Software boundary (C §11.1); per-function safety classification table (C §11.2: bias enable = safety relevant; timestamping = data integrity; GUI = supporting only; emergency shutdown = prefer hardware); **defined safe state** verbatim per C §11.3; failure-mode assessment (14 items C §11.4); **logging-integrity section** (C §11.5: hw vs sw timestamps, resolution, clock source, event t0, pre/post-event windows, buffer-wrap behaviour, occurrence vs acknowledgement time, shutter/fluence/bias/image correlation) — this section double-feeds NG-DATA requirements. |
+| SYS-CMP-001 | Safety-Critical Component Ledger | F (ledger) + R (cert pack) | 2/4 | B DOC-04-01/02: every mains-path / dangerous-voltage component — manufacturer, part no., agency approvals (UL/VDE/TUV/CE marks), rating vs application, cert file reference. Template rows per B §3.2 (PDU/inlet, breakers/fuses incl. dual-pole L+N question, AC/DC PSU with reinforced-isolation certificate, internal mains wiring tri-rated/BS6231 ≥600 V, mains switch marking). Datasheet/cert PDFs = Class R annex pack. |
+| SYS-EMC-001 | EMC & Signal Integrity Position Statement | F-stub (≤2 pp) | 5 | **Conflict resolution:** A declares EMC out of scope; C provides SYS-EMC-001. Default resolution (confirm Q11): author a short *position* only — records 61326 as the separate stream, captures shield/bonding philosophy where it overlaps safety (screen termination), notes CE/UKCA status of bought-in PSU/PXI modules, and defers formal EMC work to the Gen-2 plan. No EMC testing in this job. |
+| SYS-GAP-001 | Gap Register & Residual-Risk / Concession Log | F | 3→6 (live) | The action engine. Fields per C §17.2; five gap types (documentation / verification / design / process / claim — C §17.1); closure only by A §8's three routes; residual-risk acceptances individually signed (A §7.8 — the route most scrutinised, rationale must be specific). Seed rows: expect analogues of C §17.3 GAP-001…010. Design gaps that would require hardware change → escalate, tag `NEXT-GEN`, feed SYS-NG-REQ-001; never quietly accept. |
+| SYS-SAF-010 | **SAFETY DOCUMENT** (apex, standalone, controlled) | F | 7 | Structure exactly per A §7: 7.1 intro/scope; 7.2 standards & classification statement; 7.3 system description (brief); 7.4 hazard-based risk assessment (compiled conclusions); 7.5 protection architecture summary (SEL, dual-threshold, monitors-armed, isolation — citing SYS-DD-006); 7.6 Compliance Matrix as Annex A in full; 7.7 mechanical & enclosure findings (stability, IP2X finger-access at mains points); 7.8 residual-risk/concession log; 7.9 Statement of Compliance (explicitly not CE/UKCA); 7.10 referenced documents with number+rev; 7.11 revision history. Readable cover-to-cover by a beamline safety committee; cites, never reproduces. |
+
+### 4.6 Verification & Test
+
+| ID | Title | Class | Phase | Content expectation / acceptance criteria |
+|---|---|---|---|---|
+| SYS-VER-001 | Retrospective Safety Verification Plan & V&V Matrix | F | 5 | Four evidence classes (design review / inspection / bench test / external test — C §10.1). Requirement↔method↔pass-fail↔evidence↔conclusion traceability (D dlv.12). Minimum test set per C §10.2: electrical (PE continuity, wiring inspection, fuse verification, isolation review, accessible V/I review, output short-circuit, cable fault, power-up/down safe state, power loss/recovery, leakage/touch current where applicable, insulation/withstand *where appropriate and safe for mature equipment*), thermal (worst-case load, blocked vent, PSU margins, cable temp under fault-limited output, latch-up condition), mechanical (stability, casters/brakes, panels, strain relief, fixture, edges), functional-safety behaviour (outputs off at start-up/after crash/after FPGA reset, no auto-restart, watchdog, wrong-config detection), and radiation-test-specific functional checks (bias event flag, shutter status, fluence count, timestamp alignment, acknowledgement behaviour, buffer overflow, comms loss, latch-up response). |
+| SYS-VER-1xx | Test Reports (one per test) | F per new test; R for historical | 5 | Record format per C §10.3 (config, revisions, operator, equipment+cal status, method, acceptance criteria, results, deviations, photos, reviewer). Worked templates: VER-DC-004 output short-circuit; VER-FUNC-006 power interruption/restoration (C §10.4–10.5). Historical reports (earth bond, insulation, dielectric) indexed as R with validity assessment. All bench tests = `HUMAN-ACTION`. |
+| SYS-CAL-001 | Calibration Records Index | R | 2 | Certificates for measurement equipment used in verification; validity dates checked against test dates. |
+
+### 4.7 Operations
+
+| ID | Title | Class | Phase | Content expectation / acceptance criteria |
+|---|---|---|---|---|
+| SYS-MAN-001 | Instructions for Use / Operator & Safety Manual | F (uplift of existing) | 6 | Full contents list per C §15.1 (24 items) incl. beam-run procedure, event monitoring, emergency disconnection, prohibited use; **pre-use checklist** (C §15.3, 12 boxes) and **shutdown checklist** (C §15.4, 8 boxes) verbatim-adaptable. |
+| SYS-MAN-002 | Service & Maintenance Manual | F | 6 | Separate from operator manual (C §15: do not mix). Contents per C §15.2 (15 items) incl. isolation procedure, stored-energy warning, PE-bonding inspection, post-service safety test, service record template, config-control rules; periodic earth-continuity routine (B DOC-05-02). |
+| SYS-LAB-001 | Labelling & Marking Schedule | F | 6 | ≥ the 19 label categories of C §14.1 (ratings, fuse, PE symbol, disconnect, service warnings, hazardous-voltage internal, connector/cable labels, trained-personnel-only, ventilation, weight/movement, do-not-connect-under-beam, approved-cable-set-only); schedule format C §14.2 with location/size/material/photo ref; placement drawing (B DOC-05-03) as delta item on SYS-DD-002. |
+
+### 4.8 Forward Path (Generation-2)
+
+| ID | Title | Class | Phase | Content expectation / acceptance criteria |
+|---|---|---|---|---|
+| SYS-NG-REQ-001 | Next-Gen Safety & Compliance Requirements Register | F | 8 | Every material finding → requirement, tagged mandatory / recommended / legacy-carryover (D dlv.18). Seed with NG-SAF-001…010 and NG-DATA-001…008 (C §20) plus B §5 transfer rules: (1) never design a custom discrete mains stage — pre-certified AC/DC module only; (2) every added chassis gets a dedicated M4 stud to the MET, path <0.1 Ω; (3) preserve 3.0 mm clearance / 6.3 mm creepage mains↔secondary; (4) every line exiting the trolley current-limited or sub-fused against crush/sever in the beamline cave. All numeric values carry `[confirm vs clause]` tags until Phase 4 confirms them. |
+| SYS-NG-001 | Generation-2 Compliance-by-Design Checklist | F | 8 | The reusable method (A #24, A §10): at SRR capture standards+classification as requirements, open RA+FMEA with functional requirements; at PDR have ICDs + draft Compliance Matrix against preliminary design; at CDR have gap-closure evidence in progress + draft Safety Document; before first use close matrix, issue Safety Document + Statement, baseline pack. Sits outside the Gen-1 data pack (process asset). |
+
+---
+
+## 5. GAP-HANDLING PROTOCOL (how to be honest about incomplete data)
+
+**5.1 Evidence status vocabulary** — use exactly these states everywhere (matrix, registers, delta lists):
+
+| Code | State | Meaning / action |
+|---|---|---|
+| E1 | Available–Verified | Evidence exists, reviewed, cited by number+rev. |
+| E2 | Available–Unverified | Exists in pack, not yet reviewed. Interim state only — must resolve to E1/E3 by Gate 3. |
+| E3 | Partial | Exists but insufficient for the claim; delta or supplement defined. |
+| E4 | Missing–Recoverable | Should exist (e.g. old PAT/earth-bond records); archive hunt or cheap regeneration; owner + due date. |
+| E5 | Missing–Create | Must be authored or tested new; becomes a gap-register row with closure route. |
+| E6 | Not Applicable | With recorded justification. |
+
+**5.2 Gap classification** (C §17.1): documentation / verification / design / process / claim. Never conflate: a missing PE test record is a *verification* gap, not a design gap; an unfused cable leaving the rack would be a *design* gap (→ escalate + `NEXT-GEN` tag).
+
+**5.3 Placeholder syntax in authored documents:**
+`[EVIDENCE REQUIRED — <what exactly> — <suggested source or test, e.g. VER-EL-001 PE continuity> — GAP-xxx]`
+Placeholders are legal in evidence fields; illegal in analysis fields (a hazard row may lack a test record; it may not lack a hazard description, severity, or existing-control statement).
+
+**5.4 Fabrication ban (restated).** No invented measurements, ratings, part numbers, clause texts, dates, or results. Clause numbers pattern-match A §9: `[confirm ref]` until Phase 4 confirmation against the licensed edition. B's numeric values (0.1 Ω, 3.0/6.3 mm, 10°, 150 N, V-0, environmental profile) enter documents as *provisional acceptance criteria, source: B, pending clause confirmation*.
+
+**5.5 Decision log.** Every reconciliation/interpretation decision the executing agent makes (beyond those already recorded in this spec) goes in a `DECISIONS.md` appended to TCF-INDEX-001 — date, question, options, decision, rationale, approver if human.
+
+---
+
+## 6. PHASED EXECUTION PLAN
+
+Reconciles A §4 (activities 4.1–4.8), B Phases 1–5, C Phases A–I + Gates 0–5 + work blocks 1–6. Phases are sequential at gate level; work inside phases may parallelise. Effort in engineer-day equivalents (documentation work compresses heavily for an agent; `HUMAN-ACTION` items do not).
+
+### Phase 0 — Initiation & Framing  [C Gate 0]  (0.5–1 d)
+**In:** this spec; answers to §10 blocking questions (or recorded defaults). **Do:** confirm claim level, standard editions, scope in/out (EMC, 2-030, 2-201), naming scheme, responsible engineer, review team; create TCF folder skeleton (C §16) and DECISIONS.md. **Out / exit:** SYS-COMP-001 drafted; TCF-INDEX-001 opened; Gate 0 sign-off.
+
+### Phase 1 — Definition & Boundary  [A 4.1 | B P1 | C A]  (2–3 d)
+**Do:** author SYS-SAF-001 complete (boundary, intended use, misuse, user classes, environment); answer C §2.3's ten boundary questions explicitly; boundary diagram. **Exit:** boundary signed; classification parameters fixed in SYS-COMP-001.
+
+### Phase 2 — Baseline Freeze & Evidence Harvest  [C B, Gate 1 | work block 2]  (3–5 d; photo survey = HUMAN-ACTION)
+**Do:** SYS-CFG-001 (config freeze, artefact index, trap sweep); walk the full data pack file-by-file assigning every item a canonical home + E-state; open SYS-DDR-001 (design-data update register) and populate expected deltas of §4.4; open SYS-CMP-001 ledger; index calibration records; commission photo survey. **Exit (Gate 1):** one representative configuration frozen; evidence inventory complete — every incoming file mapped or flagged orphan.
+
+### Phase 3 — Hazard & Risk  [A 4.2 | B P3 | C C, Gate 2]  (3–5 d)
+**Do:** SYS-RISK-001 full register across all six hazard categories (+ Protective Measures Annex); SYS-RISK-002 FMEA framework + priority rows; SYS-REQ-002 safety requirements with two-way traceability; open SYS-GAP-001 and seed from findings. **Exit (Gate 2):** hazard register reviewed; initial risk ranking done; obvious high-risk items escalated.
+
+### Phase 4 — Clause Mapping & Gap Assessment  [A 4.3 | B P2 | C D, Gate 3]  (5–8 d — critical path)
+**Do:** confirm clause numbering against the licensed edition; build SYS-COMP-002 clause-by-clause (expect on the order of 100+ assessable requirements across the ~17 main clauses + annexes of 61010-1, plus the 2-030 screening decision); component criticality review completes SYS-CMP-001 (pre-certified parts discharge much of the burden — B P2); classify every gap; convert B's numeric values from provisional to confirmed-or-corrected. **Exit (Gate 3):** matrix complete, evidence linked, gaps classified, verification needs identified.
+
+### Phase 5 — Evidence Formalisation & Verification  [A 4.4–4.5 | C E, Gate 4 | work blocks 3–4]  (5–10 d; all bench tests = HUMAN-ACTION)
+**Do:** author SYS-SAF-003 (electrical architecture: isolation boundary, PE map, power tree, accessible-circuit schedule, DUT/in-beam section), SYS-SAF-004 (single-fault), SYS-MECH-001, SYS-SW-001, SYS-EMC-001 stub; complete ICD uplifts (SYS-ICD-001…003 incl. cable-safety annex); issue SYS-VER-001 plan; execute/record bench tests as SYS-VER-1xx (PE continuity, output short, power loss/restore, thermal, stability, functional safe-states). **Exit (Gate 4):** tests complete or formally deferred with rationale; failures resolved or escalated; manuals fed with findings.
+
+### Phase 6 — Gap Closure & Residual Risk  [A 4.6 | C G]  (2–4 d)
+**Do:** drive SYS-GAP-001 to closure via the three routes only (bench verification > engineering analysis > residual-risk acceptance — A §8 order of preference); write specific (non-generic) rationales for every acceptance; uplift SYS-MAN-001/002 and SYS-LAB-001 (work block 5). **Exit:** no open gap without a route; every un-closable item escalated as significant finding.
+
+### Phase 7 — TCF Assembly & Release  [A 4.7 | B P4 | C F+H, Gate 5 | work block 6]  (3–5 d)
+**Do:** author SYS-SAF-010 Safety Document per A §7; SYS-COMP-003 summary + Statement of Compliance (§8 wording); finalise TCF-INDEX-001 with full cross-reference map; release baseline under revision control. **Exit (Gate 5):** design authority + (if available) independent reviewer sign-off; pack controlled.
+
+### Phase 8 — Generation-2 Extraction  [A 4.8 | B P5 | C I]  (1–2 d)
+**Do:** SYS-NG-REQ-001 (every finding → tagged requirement; seed NG-SAF/NG-DATA + B transfer rules); SYS-NG-001 checklist mapped to SRR/PDR/CDR/first-use gates. **Exit:** Gen-2 team can start requirements capture from a compliance-ready baseline — the strategic point of the whole job.
+
+---
+
+## 7. OUTPUT DEMONSTRATION RULES (how the finished work is presented)
+
+**7.1 Chosen demonstration method.** The final state is demonstrated by three artefacts working together, so that completeness is provable without pretending design data will be re-authored:
+
+1. **TCF-INDEX-001 with E-states** — every canonical document listed with its class and evidence state. "Not missing any documents" is demonstrated here: a register line exists for everything in §4, and §11 proves every source-tree item has a home. Absences appear as E4/E5 lines, never as silence.
+2. **SYS-COMP-002 + SYS-VER-001** — the full and thorough cross-reference layer: clause ↔ evidence ↔ hazard ↔ requirement ↔ verification, complete in both directions. This, plus the safety document set (§4.5), is where depth is *not* negotiable.
+3. **SYS-DDR-001** — the realistic design-data layer: existing engineering documents appear as delta rows (updates required), not as rewritten content.
+
+**7.2 Per-class quality bars.**
+- Class F: complete analysis, placeholders only in evidence fields, cross-references resolved, revision block, owner, approval line.
+- Class D: every row has a concrete, actionable update (or "no change required — confirmed <date>"); no row may read "review document".
+- Class R: catalogued with role tag, source, and validity note; never summarised into the pack (cite only).
+
+**7.3 File formats.** Authored documents in Markdown or docx per house preference (Q6); registers/matrices as spreadsheets (the Compliance Matrix, Gap Register, V&V Matrix, Component Ledger, DDR benefit from filterable tables); trees maintained in the Mermaid source (A tree) as the master visual, exported to SVG for embedding — consistent with the Visio/SVG workflow already established in B/D.
+
+---
+
+## 8. COMPLIANCE WORDING CONSTRAINTS (hard guardrails)
+
+Approved internal claim (default, Q1): the C §0 / C §21.2 wording — "retrospectively reviewed and documented against the applicable principles and requirements of IEC/BS EN 61010-1 … does not constitute third-party certification unless separately assessed by an accredited body."
+
+Permitted phrasings (D §17): "Reviewed against IEC 61010 requirements"; "Gap-assessed for IEC 61010 conformity"; "Safety rationale aligned to IEC 61010 principles"; "Documented as IEC 61010-referenced technical evidence"; A §1's "internally controlled technical assurance position".
+
+Prohibited: "certified", "certified compliant", CE/UKCA declaration language, or unqualified "IEC 61010 compliant" on any artefact, label, or manual. B's "Informal Declaration of Conformity" title is retired for this reason (→ Statement of Compliance within SYS-COMP-003). The claim ladder (C §1.1) is recorded in SYS-COMP-001; movement up the ladder requires new evidence and a gate decision, never wording drift.
+
+---
+
+## 9. PROJECT SIZING
+
+**9.1 Deliverable count.** ~31 controlled register entries: 20 Class F authored documents (of which 5 are living registers), 8 Class D delta-managed engineering documents (via one DDR), 3+ Class R index sets, plus per-test SYS-VER-1xx reports (expect 8–15 new bench-test records).
+
+**9.2 Effort envelope.** 25–43 engineer-day equivalents across Phases 0–8 (per-phase figures in §6). Composition: roughly 65–70 % documentation/analysis work executable by an agent with the data pack alone; 30–35 % dependent on physical access and humans (photo survey, ~8–15 bench tests, gate sign-offs, residual-risk acceptances). Critical path: Phase 4 clause matrix (single largest artefact, ~100+ assessable requirements) followed by Phase 5 bench-test scheduling around beam-campaign availability (Q15).
+
+**9.3 Risk to the estimate.** Three drivers: (i) state of the incoming design data — if the DDR sweep in Phase 2 finds heavy configuration drift (C §4.3 traps), Phase 2 and 5 grow; (ii) the 2-030 screening decision — if the bias/sense lines are ruled measuring circuits connected to external circuits, the matrix grows by a particular standard; (iii) test access — insulation/dielectric testing on mature equipment may be judged inappropriate (C §10.2 caveat), converting tests to engineering-analysis closures, which is cheaper but weakens the evidence class and must be recorded as such.
+
+**9.4 Sequencing insight (from C §24).** Do not start by rewriting everything. The five steering documents — SYS-SAF-001, SYS-CFG-001, SYS-RISK-001, SYS-COMP-002, SYS-VER-001 — control the whole job; everything after them is evidence collection and closure.
+
+---
+
+## 10. VALIDATING QUESTIONS (the brief's decision points)
+
+Each question carries a default so the executing agent can proceed if unanswered; the default and its risk are recorded in DECISIONS.md when used.
+
+### Tier 1 — Blocking (must be answered/defaulted before Gate 0 closes)
+
+| # | Question | Default if unanswered | Risk if default is wrong |
+|---|---|---|---|
+| Q1 | Confirm the claim level: is the C §1.2 target ("internally assessed and technically documented against the applicable requirements of IEC 61010-1, with supporting gap assessment, risk assessment and verification evidence") the agreed position? | Yes — that claim | Whole pack worded too strong/weak; rework of statements only |
+| Q2 | Which edition/amendment of IEC 61010-1 does the organisation hold a licence for (e.g. BS EN 61010-1:2010+A1), and are IEC 61010-2-030 and 2-201 to be procured for screening? | Structure the matrix topic-first with `[confirm ref]` clause tags; screen 2-030 by definition test; treat 2-201 as awareness only | Clause renumbering pass needed later; low structural risk because A §9 pattern anticipates it |
+| Q3 | Which physical unit/configuration is the baseline (serial no., build state)? Are there variants that must be inside the claim? | Single representative in-service unit; variants listed but excluded from the claim | Claim silently narrower than fleet reality |
+| Q4 | Boundary rulings (C §2.3): are the DUT/interface PCB and the propagation cable sets supplied items *inside* the boundary? Is the DUT sensor itself excluded? | PCB and supplied cable sets IN (per B P1 and A #6/#9); DUT sensor OUT unless supplied as configured test article | Mis-scoped hazard register and ICDs — expensive to reverse after Phase 3 |
+| Q5 | Confirm hardware modification is excluded as a closure route even if a design gap emerges (A §8), and name the escalation authority for un-closable items | Excluded; escalate to design authority (Paul) with `NEXT-GEN` tagging | An unsafe finding could stall without an owner |
+| Q6 | Adopt the hybrid numbering proposed here (A's register + C's SYS-xxx prefixes)? Assign the blank System Designation and Document Reference from A's title block. House format: Markdown, docx, or both? | Adopt hybrid; placeholder designation RISC-RACK-GEN1; Markdown masters | Renumber/reformat pass; cosmetic but broad |
+
+### Tier 2 — Shaping (needed by end of Phase 2 / Gate 1)
+
+| # | Question | Default | Risk |
+|---|---|---|---|
+| Q7 | When is physical access available for the photo survey and bench tests, and who executes them (competent person for live/mains-adjacent tests)? | Plan tests in Phase 5; mark all as HUMAN-ACTION with no dates | Schedule slip on the ~30–35 % human-dependent effort |
+| Q8 | What historical safety evidence is known to exist (PAT records, earth-bond logs, insulation/dielectric certificates, PSU agency certs)? Where is the archive? | Assume E4 Missing–Recoverable for PE/insulation records; hunt in Phase 2 | Unnecessary re-testing, or false E4 optimism |
+| Q9 | Who is the design authority signatory and is an independent reviewer available for Gates 2–5 (C §16.2 prefers one)? | Design authority = Paul; independent reviewer TBD, gates proceed with single signature flagged | Weaker audit position on release |
+| Q10 | Confirm installation classification: overvoltage category (assume OVC II?), pollution degree (assume PD2?), and B's environmental profile as the operating envelope | OVC II / PD2 / B §3.1 profile, all tagged provisional | Creepage/clearance acceptance values shift; Phase 4/5 rework |
+| Q11 | EMC: confirm A's out-of-scope ruling stands and the ≤2-page position statement (SYS-EMC-001 stub) is the agreed treatment of C §12 | Yes — stub only | If EMC evidence is actually demanded, a separate work package is needed |
+| Q12 | Does the monitors-armed interlock (or anything else) hard-wire into facility beamline interlocks, or is it internal gating only? | Internal gating only; facility interface = information/permissive, captured in SYS-ICD-001 | If it participates in the facility safety function, the boundary, SYS-SW-001 and possibly a functional-safety conversation change materially |
+
+### Tier 3 — Confirmatory (close by Gate 3)
+
+| # | Question | Default | Risk |
+|---|---|---|---|
+| Q13 | Confirm the UKAEA paper is context only (facility-class characterisation), not a customer/contractual requirement source | Context only, Class R | A hidden requirements source would be missed |
+| Q14 | Adopt B's numeric values (PE <0.1 Ω; 3.0 mm clearance / 6.3 mm creepage; 10° tilt; 150 N push; caster ≥1.5–2×; edge radii >0.5 mm; UL 94 V-0/V-1) as provisional acceptance criteria pending Phase-4 clause confirmation? | Yes, tagged provisional | Values may be superseded by the confirmed clause tables — expected and handled |
+| Q15 | Any hard deadline (e.g. next beam campaign, safety-committee date) that should pull Gate 5, and does Gen-2 requirements capture have a start date Phase 8 must meet? | No deadline; phases run in natural order | Prioritisation wrong — e.g. tests should jump the queue if a campaign window is closing |
+| Q16 | Cable-run truth: A says ~25 m, C sketches "several metres to 15 m+ depending setup". Confirm the approved maximum and whether extensions are permitted (feeds SYS-ICD-002 annex and misuse list) | Record as configuration-dependent; maximum = longest validated set in the baseline; extensions prohibited until validated | Extension misuse case under-analysed |
+
+---
+
+## 11. RECONCILIATION MATRIX — every source item's canonical home (no-orphan proof)
+
+### 11.1 Document A register (24 items) → canonical
+1 MDL → TCF-INDEX-001 · 2 Sys Requirements → SYS-REQ-001 (D) · 3 Architecture DD → SYS-DES-001 (D) · 4 Facility ICD → SYS-ICD-001 · 5 Cabling ICD → SYS-ICD-002 · 6 DUT Fixture ICD → SYS-ICD-003 · 7 Schematics & Calcs → SYS-DD-001 · 8 Assembly Drawings → SYS-DD-002 · 9 PCB Package → SYS-DD-003 · 10 FPGA DD → SYS-DD-004 · 11 LabVIEW DD → SYS-DD-005 · 12 Protection Architecture → SYS-DD-006 · 13 FMEA → SYS-RISK-002 · 14 Risk Assessment → SYS-RISK-001 · 15 Compliance Matrix → SYS-COMP-002 · 16 Safety Document → SYS-SAF-010 · 17 Verification Plan → SYS-VER-001 · 18 Test Reports → SYS-VER-1xx · 19 Calibration Records → SYS-CAL-001 · 20 BOM → SYS-DD-007 · 21 As-Built Baseline → SYS-CFG-001 (absorbed) · 22 IFU/Safety Manual → SYS-MAN-001 · 23 Labelling Schedule → SYS-LAB-001 · 24 Gen-2 Checklist → SYS-NG-001.
+
+### 11.2 Document B / XLSX tree (SEC/DOC items) → canonical
+DOC-01-01 Equipment Description & Intended Use → SYS-SAF-001 · DOC-01-02 Environmental Spec Log → SYS-COMP-001 classification block (+ SYS-SAF-001 §environment) · DOC-01-03 Informal DoC → SYS-COMP-003 Statement of Compliance (title retired, §8) · DOC-02-01 Single-Line Power Diagram → SYS-DD-001 delta (extract/attach) + SYS-SAF-003 power tree · DOC-02-02 PE Bonding Record → SYS-SAF-003 §PE + SYS-VER-1xx (PE continuity test) · DOC-02-03 Creepage & Clearance Analysis → SYS-SAF-003 §isolation (+ SYS-COMP-002 evidence) · DOC-02-04 Overcurrent & Short-Circuit Log → SYS-SAF-003 power tree/fuse schedule + SYS-VER-1xx (short-circuit tests) · DOC-03-01 Weight/CoG Map → SYS-DD-002 delta + SYS-MECH-001 · DOC-03-02 Stability Test Reports → SYS-VER-1xx · DOC-03-03 Caster/Structural Log → SYS-MECH-001 (+ test if needed) · DOC-03-04 Flammability Matrix → SYS-MECH-001 §materials + SYS-CMP-001 rows + SYS-DD-003 delta · DOC-04-01 Component Ledger → SYS-CMP-001 · DOC-04-02 Datasheets/Certs → SYS-CMP-001 Class-R annex · DOC-05-01 Operations Manual → SYS-MAN-001 · DOC-05-02 Maintenance & Earth-Continuity Guide → SYS-MAN-002 · DOC-05-03 Warning Labels Layout → SYS-LAB-001 + SYS-DD-002 delta.
+
+### 11.3 Document C SYS-set → canonical
+SYS-SAF-001 + SYS-SAF-002 → merged SYS-SAF-001 (decision recorded §4.2) · SYS-CFG-001 → same · SYS-COMP-001/002/003 → same · SYS-RISK-001 → same (+ Protective Measures annex) · SYS-SAF-003/004 → same · SYS-VER-001 → same · SYS-SW-001 → same · SYS-EMC-001 → stub (conflict resolution §4.5, Q11) · SYS-CAB-001 → annex of SYS-ICD-002 · SYS-MECH-001 → same · SYS-LAB-001 → same · SYS-MAN-001/002 → same · SYS-GAP-001 → same · SYS-NG-REQ-001 → same · TCF-INDEX-001 → same · C's 17-folder layout → TCF-INDEX-001 physical structure.
+
+### 11.4 Document D 18 branches → canonical (branches are content sections, not documents)
+1 Scope & Boundary → SYS-SAF-001 · 2 System Description → SYS-DES-001 + SYS-SAF-003 (power tree/I-O) · 3 Clause Gap Review → SYS-COMP-002 · 4 Hazard Analysis → SYS-RISK-001 · 5 Safety Requirements → SYS-REQ-002 · 6 Protective Measures → SYS-RISK-001 Annex A · 7 Electrical Evidence → SYS-SAF-003 (+ SYS-VER-1xx) · 8 Mechanical Evidence → SYS-MECH-001 (+ tests) · 9 Wiring & I/O → SYS-ICD-002 (+ schedule annex) · 10 Control & Software → SYS-SW-001 (+ SYS-DD-004/005 deltas) · 11 Marking & Instructions → SYS-LAB-001 + SYS-MAN-001/002 · 12 Verification & Validation → SYS-VER-001 · 13 Test Records → SYS-VER-1xx · 14 File Structure → TCF-INDEX-001 · 15 Deviations & Rationale → SYS-GAP-001 (+ Safety Document §7.8) · 16 Change Impact → SYS-GAP-001 `NEXT-GEN` tags + SYS-NG-REQ-001 · 17 Compliance Wording → §8 of this spec + SYS-COMP-001/003 · 18 Next-Generation Seed → SYS-NG-REQ-001 + SYS-NG-001.
+
+### 11.5 Recorded conflicts and their resolutions
+| # | Conflict | Resolution (revisit trigger) |
+|---|---|---|
+| R1 | EMC in scope (C §12) vs out of scope (A §1) | A wins: out of scope; ≤2-pp position stub SYS-EMC-001; full EMC deferred to Gen-2 plan. (Q11) |
+| R2 | Four competing trees/numbering schemes (A register, B SEC/DOC, C SYS-xxx, D 18 branches) | A's register is the document set; C's prefixes are the numbering; B/D items mapped as content/annexes per 11.2/11.4. (Q6) |
+| R3 | B "Informal Declaration of Conformity" vs A's explicit non-CE stance | Retired; Statement of Compliance inside SYS-COMP-003. |
+| R4 | C splits boundary/intended-use into two docs vs A Rule 1 anti-proliferation | Merged into one SYS-SAF-001. |
+| R5 | Cable length ~25 m (A) vs "several m to 15 m+" (C) | Configuration-dependent; per-baseline record. (Q16) |
+| R6 | B's clause numbers & numeric limits vs A §3's "confirm against held edition" | All provisional, `[confirm ref]`/`[confirm vs clause]` tags until Phase 4. (Q2, Q14) |
+| R7 | Document proliferation risk: C generates ~20 docs, D implies 18 more | Canonical register caps controlled docs at ~31 by making C/D items sections and annexes per A Rules 1–2. |
+
+---
+
+## 12. EXECUTION CHECKLIST FOR THE FUTURE AGENT (condensed)
+
+1. Read §0; load precedence; open DECISIONS.md.
+2. Resolve/default Tier-1 questions; Gate 0.
+3. Author SYS-SAF-001; fix classification; Gate — boundary signed.
+4. Freeze SYS-CFG-001; sweep the full pack file-by-file into the register with E-states; open SYS-DDR-001 and SYS-CMP-001; Gate 1.
+5. Author SYS-RISK-001 (+annex), SYS-RISK-002, SYS-REQ-002; open SYS-GAP-001; Gate 2.
+6. Confirm clause set; build SYS-COMP-002 completely; finish component ledger; Gate 3.
+7. Author SYS-SAF-003/004, SYS-MECH-001, SYS-SW-001, SYS-EMC-001 stub; uplift ICDs; issue SYS-VER-001; run/record HUMAN-ACTION tests; Gate 4.
+8. Close gaps by the three routes; uplift manuals + labels.
+9. Author SYS-SAF-010 and SYS-COMP-003; finalise TCF-INDEX-001; Gate 5 release.
+10. Extract SYS-NG-REQ-001 + SYS-NG-001; hand to Gen-2 requirements capture.
+
+*End of specification.*

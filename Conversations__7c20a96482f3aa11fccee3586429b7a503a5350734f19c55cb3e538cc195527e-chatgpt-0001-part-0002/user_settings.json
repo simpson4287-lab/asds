@@ -1,0 +1,80 @@
+[
+  {
+    "announcements": {
+      "oai/apps/hasDismissedAG8PqS2q": "2024-07-18T07:26:51.254549",
+      "oai/apps/hasSeenAdvancedVoice/2024-09-24": "2025-08-06T15:16:57.277006+00:00",
+      "oai/apps/hasSeenAgentModeAnnouncementBanner": "2025-10-06T14:29:14.439660+00:00",
+      "oai/apps/hasSeenAutoSwitchNux": 11,
+      "oai/apps/hasSeenBazaarOnboarding": "2026-07-11T19:46:21.357608+00:00",
+      "oai/apps/hasSeenBurritoNux": "2025-08-09T13:09:11.815613+00:00",
+      "oai/apps/hasSeenDalleEditingOnboarding": "2025-09-27T00:36:15.834912+00:00",
+      "oai/apps/hasSeenExistingUserPersonalityOnboarding": "2025-12-26T19:11:31.109631+00:00",
+      "oai/apps/hasSeenExploreGPTsNewNux": "2024-07-18T07:26:53.066668",
+      "oai/apps/hasSeenFileLibraryUploadPersistenceToast": 3,
+      "oai/apps/hasSeenGroupChatOnboardingTooltip": "2026-01-27T13:19:00.903967+00:00",
+      "oai/apps/hasSeenMemoryOnboarding": "2025-08-06T15:16:49.448327+00:00",
+      "oai/apps/hasSeenMercuryNux": "2025-12-27T11:45:01.976003+00:00",
+      "oai/apps/hasSeenMoonshineNuxV2": "2025-08-09T13:09:03.177357+00:00",
+      "oai/apps/hasSeenOnboarding": "2024-07-18T07:26:48.815701",
+      "oai/apps/hasSeenProjectsToFree": "2025-10-29T16:32:02.095581+00:00",
+      "oai/apps/hasSeenSharedProjectsTooltip": "2025-10-26T12:48:30.830003+00:00",
+      "oai/apps/hasSeenTaskSuggestionConnectorFillers": "2026-08-13T23:28:27.083979+00:00",
+      "oai/apps/hasSeenTatertotNux": "2025-10-04T07:02:15.198309+00:00",
+      "oai/apps/hasSeenTemporaryChatOnboarding": "2025-08-09T20:08:34.557590+00:00",
+      "oai/apps/hasSeenWindowsAppOnboarding": "2025-09-03T12:49:56.476707+00:00",
+      "oai/apps/hasSeenWritingInlineEditCaretNux": "2025-12-19T12:51:17.161860+00:00",
+      "oai/apps/hasSeenWritingInlineEditNux": "2025-12-19T12:51:20.847686+00:00",
+      "oai/apps/hasSeenl1239dk1LaunchNux": "2025-10-07T14:11:14.129240+00:00",
+      "oai/apps/hasSeenn7jupdNux": "2026-03-25T09:52:41.643996+00:00"
+    },
+    "beta_settings": {},
+    "habitat_object_version": 27946015,
+    "settings": {
+      "bazaar_personalization_consent_set": true,
+      "bazaar_personalization_enabled": false,
+      "first_party_project_pins_unmigrated": true,
+      "golden_hour": true,
+      "last_used_model_config": {
+        "juices": {
+          "default": {
+            "gpt-5-2-thinking": "standard",
+            "gpt-5-4-thinking": "standard",
+            "gpt-5-5-thinking": "extended",
+            "gpt-5-6-thinking": "extended"
+          },
+          "ios_app": {
+            "gpt-5-2-thinking": "standard",
+            "gpt-5-4-thinking": "standard",
+            "gpt-5-5-thinking": "extended",
+            "gpt-5-6-thinking": "extended"
+          },
+          "web": {
+            "gpt-5-6-thinking": "extended"
+          },
+          "windows_app": {
+            "gpt-5-5-thinking": "extended",
+            "gpt-5-6-thinking": "extended"
+          }
+        },
+        "slugs": {
+          "default": "gpt-5-6-thinking",
+          "ios_app": "gpt-5-6-thinking",
+          "web": "gpt-5-6-thinking",
+          "windows_app": "gpt-5-6-thinking"
+        }
+      },
+      "moonshine": true,
+      "potion_enabled": true,
+      "project_pins_backfilled": true,
+      "show_expanded_code_view": false,
+      "study_mode_project_pins_unmigrated": true,
+      "sunshine": true,
+      "training_allowed": true,
+      "video_training_allowed": false,
+      "voice_background_enabled": true,
+      "voice_name": "vale",
+      "voice_training_allowed": false
+    },
+    "user_id": "user-BeSz0i5JaydOlSKu4ARIGPIA"
+  }
+]

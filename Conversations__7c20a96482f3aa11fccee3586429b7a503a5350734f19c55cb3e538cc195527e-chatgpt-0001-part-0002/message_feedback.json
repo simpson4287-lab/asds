@@ -1,0 +1,102 @@
+[
+  {
+    "content": "{}",
+    "conversation_id": "693ed36c-e364-8332-a98d-bfe6763dae97",
+    "create_time": "2025-12-14T17:19:14.285358Z",
+    "id": "0d7296ea-c0bd-4e18-a8ef-a6f54074ae03",
+    "rating": "thumbs_down",
+    "update_time": "2025-12-14T17:19:14.445102Z",
+    "user_id": "user-BeSz0i5JaydOlSKu4ARIGPIA",
+    "workspace_id": null
+  },
+  {
+    "content": "{}",
+    "conversation_id": "693ed36c-e364-8332-a98d-bfe6763dae97",
+    "create_time": "2025-12-14T19:07:22.804883Z",
+    "id": "b06de44b-5d75-411c-83f8-10bc5fc6221f",
+    "rating": "thumbs_up",
+    "update_time": "2025-12-14T19:07:23.032739Z",
+    "user_id": "user-BeSz0i5JaydOlSKu4ARIGPIA",
+    "workspace_id": null
+  },
+  {
+    "content": "{}",
+    "conversation_id": "693f1697-1400-8329-a849-c491684bdeda",
+    "create_time": "2025-12-14T20:07:21.417513Z",
+    "id": "61871d08-7f2d-4f6d-9e59-f7cc3609d9ff",
+    "rating": "thumbs_up",
+    "update_time": "2025-12-14T20:07:21.446954Z",
+    "user_id": "user-BeSz0i5JaydOlSKu4ARIGPIA",
+    "workspace_id": null
+  },
+  {
+    "content": "{}",
+    "conversation_id": "693f1697-1400-8329-a849-c491684bdeda",
+    "create_time": "2025-12-14T20:16:39.171860Z",
+    "id": "47e4eb3a-9f60-4ae0-902b-9c45c002c252",
+    "rating": "thumbs_down",
+    "update_time": "2025-12-14T20:16:39.219309Z",
+    "user_id": "user-BeSz0i5JaydOlSKu4ARIGPIA",
+    "workspace_id": null
+  },
+  {
+    "content": "{}",
+    "conversation_id": "693f1697-1400-8329-a849-c491684bdeda",
+    "create_time": "2025-12-14T20:27:23.512385Z",
+    "id": "7600bb80-1ac7-44ca-9f3e-3a56a0a0e83e",
+    "rating": "thumbs_up",
+    "update_time": "2025-12-14T20:27:23.541103Z",
+    "user_id": "user-BeSz0i5JaydOlSKu4ARIGPIA",
+    "workspace_id": null
+  },
+  {
+    "content": "{}",
+    "conversation_id": "693f1697-1400-8329-a849-c491684bdeda",
+    "create_time": "2025-12-14T20:37:55.337419Z",
+    "id": "d4520f40-283d-4f19-b79c-fffc528347b8",
+    "rating": "thumbs_down",
+    "update_time": "2025-12-14T20:37:55.365938Z",
+    "user_id": "user-BeSz0i5JaydOlSKu4ARIGPIA",
+    "workspace_id": null
+  },
+  {
+    "content": "{}",
+    "conversation_id": "693e6224-fb68-832c-a378-0576ab57d9a0",
+    "create_time": "2025-12-14T20:54:24.869167Z",
+    "id": "d045d9bb-6abd-47d6-ba8a-7d34fb95c358",
+    "rating": "thumbs_down",
+    "update_time": "2025-12-14T20:54:24.908924Z",
+    "user_id": "user-BeSz0i5JaydOlSKu4ARIGPIA",
+    "workspace_id": null
+  },
+  {
+    "content": "{\"text\": \"Wrong colour - should be debc93\", \"tag_choices\": [\"shouldnt_have_created\", \"dont_like_style\", \"didnt_fully_follow_instructions\", \"low_quality_or_distorted\", \"odd_cropping\", \"inaccurate_editing\", \"inaccurate_text_rendering\", \"unsafe_or_problematic\", \"biased\", \"other\"]}",
+    "conversation_id": "694843c4-fc20-8332-9ba5-213cd6dc5a7e",
+    "create_time": "2025-12-22T10:06:27.640074Z",
+    "id": "4ff99f21-9d43-4581-aa2b-cfe808b94855",
+    "rating": "thumbs_down",
+    "update_time": "2025-12-22T10:06:38.918184Z",
+    "user_id": "user-BeSz0i5JaydOlSKu4ARIGPIA",
+    "workspace_id": null
+  },
+  {
+    "content": "{}",
+    "conversation_id": "69a1b89f-48ec-838c-a07e-775be47dfd1c",
+    "create_time": "2026-02-27T19:18:27.087829Z",
+    "id": "f0e9c499-52d1-4f55-8e31-3abe8f4dc525",
+    "rating": "thumbs_down",
+    "update_time": "2026-02-27T19:18:27.427103Z",
+    "user_id": "user-BeSz0i5JaydOlSKu4ARIGPIA",
+    "workspace_id": null
+  },
+  {
+    "content": "{}",
+    "conversation_id": "69e30730-8b44-83eb-8701-14d299afa5f8",
+    "create_time": "2026-04-19T09:22:07.644453Z",
+    "id": "e20cd63c-4acd-45db-a674-6a8534693745",
+    "rating": "thumbs_up",
+    "update_time": "2026-04-19T09:22:07.791570Z",
+    "user_id": "user-BeSz0i5JaydOlSKu4ARIGPIA",
+    "workspace_id": null
+  }
+]
