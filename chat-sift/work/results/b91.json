@@ -1,0 +1,506 @@
+[
+ {
+  "file": "2026-04-18_1953_Curved-Monitors-for-Work.md",
+  "work_related": "partial",
+  "borderline": true,
+  "reason": "Suitability of curved monitors for design and document work.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2"
+    ],
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ },
+ {
+  "file": "2026-04-19_1019_Folding-golf-trolley-frame.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2026-04-19_1255_Overhang-Stability-Concerns.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2026-04-20_0600_Push-to-break-switch.md",
+  "work_related": "yes",
+  "borderline": false,
+  "reason": "Electronics design work (switch selection, regulator and ADA4870 clock driver circuit review, calculation table), a slow work laptop, and getting started with the company's Altium Enterprise server.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4",
+     "M5",
+     "M6",
+     "A1"
+    ],
+    "tags": [],
+    "borderline": true
+   },
+   {
+    "messages": [
+     "M7",
+     "M8",
+     "M9",
+     "M10",
+     "M11",
+     "M12",
+     "M13",
+     "M14",
+     "M15",
+     "M16",
+     "M17",
+     "M18",
+     "M19",
+     "M20",
+     "M21",
+     "M22",
+     "M23",
+     "M24",
+     "M25",
+     "M26",
+     "M27",
+     "M28",
+     "M29",
+     "M30",
+     "M31",
+     "M32",
+     "M33",
+     "M34",
+     "M35",
+     "M36",
+     "M37",
+     "M38",
+     "M39",
+     "M40",
+     "M41",
+     "M42",
+     "M43",
+     "M44",
+     "M45",
+     "M46",
+     "M47",
+     "M48",
+     "M49",
+     "M50",
+     "M51",
+     "M52",
+     "M53",
+     "M54",
+     "M55",
+     "M56",
+     "M57",
+     "M58",
+     "M59",
+     "M60",
+     "M61"
+    ],
+    "tags": [],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M62",
+     "M63"
+    ],
+    "tags": [
+     "speculative"
+    ],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M64",
+     "M65"
+    ],
+    "tags": [
+     "speculative"
+    ],
+    "borderline": false
+   }
+  ]
+ },
+ {
+  "file": "2026-04-20_1409_Altium-Logo-Usage-Rules.md",
+  "work_related": "yes",
+  "borderline": false,
+  "reason": "Engineering design review checklist: Altium logo use, review gate hover text and workbook image compression.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3"
+    ],
+    "tags": [],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M4",
+     "M5"
+    ],
+    "tags": [],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M6",
+     "M7",
+     "M8",
+     "M9"
+    ],
+    "tags": [],
+    "borderline": false
+   }
+  ]
+ },
+ {
+  "file": "2026-04-20_2142_10-way-version-lookup.md",
+  "work_related": "yes",
+  "borderline": false,
+  "reason": "Component library consolidation, part equivalents and Altium library/footprint tasks.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4",
+     "M5",
+     "M6",
+     "M7",
+     "M8",
+     "M9",
+     "M10",
+     "M11",
+     "M12",
+     "M13",
+     "M14",
+     "M15",
+     "M16",
+     "M17",
+     "M18",
+     "M19",
+     "M20",
+     "A1"
+    ],
+    "tags": [],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M21",
+     "M22",
+     "M23",
+     "M24",
+     "M25",
+     "M26",
+     "M27",
+     "M28",
+     "M29",
+     "M30",
+     "M31",
+     "M32",
+     "M33",
+     "M34",
+     "M35",
+     "M36"
+    ],
+    "tags": [],
+    "borderline": false
+   }
+  ]
+ },
+ {
+  "file": "2026-04-23_0656_Altium-multi-channel-error.md",
+  "work_related": "yes",
+  "borderline": false,
+  "reason": "Altium multi-channel hierarchy naming errors in a design.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4",
+     "M5",
+     "M6"
+    ],
+    "tags": [
+     "angry"
+    ],
+    "borderline": false
+   }
+  ]
+ },
+ {
+  "file": "2026-04-24_0023_Altium-comment-mismatch.md",
+  "work_related": "yes",
+  "borderline": false,
+  "reason": "Altium reuse block component matching, ECO and designator handling in a PCB design.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4",
+     "M5",
+     "M6",
+     "M7",
+     "M8",
+     "M9",
+     "M10",
+     "M11",
+     "M12",
+     "M13",
+     "M14",
+     "M15",
+     "M16",
+     "M17",
+     "M18",
+     "M19",
+     "M20",
+     "M21",
+     "M22"
+    ],
+    "tags": [],
+    "borderline": false
+   }
+  ]
+ },
+ {
+  "file": "2026-04-24_1329_Formatting-Mac-Drive-HFS.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2026-04-26_0812_Painting-Cabin-Roof-Panels.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2026-04-27_1148_Wildkraut-Energy-Sniff-Info.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2026-04-27_1151_Salary-Increase-Calculation.md",
+  "work_related": "yes",
+  "borderline": false,
+  "reason": "Calculation of a salary increase in net and gross terms.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4",
+     "M5",
+     "M6",
+     "M7"
+    ],
+    "tags": [],
+    "borderline": false
+   }
+  ]
+ },
+ {
+  "file": "2026-04-27_1253_Sonos-app-discussion.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2026-04-27_1450_Mac-Boot-Disk-Creation.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2026-04-30_0708_ADHD-Prescription-Process-Clarification.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2026-04-30_0827_40-Core-Cable-Search.md",
+  "work_related": "yes",
+  "borderline": true,
+  "reason": "Sourcing a 40-core 16/0.2 cable and conductor sizing, apparently for engineering work.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4",
+     "M5"
+    ],
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ },
+ {
+  "file": "2026-04-30_1359_IPC-J-STD-001-and-IPC-A-610-Compliance.md",
+  "work_related": "yes",
+  "borderline": false,
+  "reason": "Setting IPC J-STD-001 and IPC-A-610 requirements and ownership with a subcontract assembler.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4",
+     "M5",
+     "M6",
+     "M7",
+     "M8",
+     "M9"
+    ],
+    "tags": [],
+    "borderline": false
+   }
+  ]
+ },
+ {
+  "file": "2026-04-30_2109_Intel-i7-Ultra-vPro-Explained.md",
+  "work_related": "partial",
+  "borderline": true,
+  "reason": "Laptop processor specifications possibly for a work/design laptop.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4",
+     "M5"
+    ],
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ },
+ {
+  "file": "2026-04-30_2244_Altium-Enterprise-User-Guide.md",
+  "work_related": "yes",
+  "borderline": false,
+  "reason": "Locating an earlier chat about the work Altium Enterprise server and user guidance.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2"
+    ],
+    "tags": [],
+    "borderline": false
+   }
+  ]
+ },
+ {
+  "file": "2026-04-30_2245_Altium-Enterprise-Guide.md",
+  "work_related": "yes",
+  "borderline": false,
+  "reason": "Capability manual and rollout plan for the company's on-premise Altium Enterprise Server.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4",
+     "M5"
+    ],
+    "tags": [],
+    "borderline": false
+   }
+  ]
+ },
+ {
+  "file": "2026-04-30_2306_Altium-user-manual-chat.md",
+  "work_related": "yes",
+  "borderline": false,
+  "reason": "Locating earlier chats about the work Altium Enterprise setup.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4",
+     "M5",
+     "M6"
+    ],
+    "tags": [],
+    "borderline": false
+   }
+  ]
+ },
+ {
+  "file": "2026-05-03_1348_Coach-bolt-pilot-size.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2026-05-03_2105_Anti-lift-Adhesive-Tips.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2026-05-05_2038_Counselling-Course-Application-Help.md",
+  "work_related": "partial",
+  "borderline": true,
+  "reason": "Application for a counselling course, with reference to the owner's technical career.",
+  "extracts": [
+   {
+    "messages": [
+     "M1"
+    ],
+    "tags": [],
+    "borderline": true
+   },
+   {
+    "messages": [
+     "M3",
+     "M4"
+    ],
+    "tags": [],
+    "borderline": true,
+    "trim": {
+     "M4": {
+      "start": "Alongside these challenges, I have maintained a long technical career",
+      "end": "a thoughtful foundation for counselling training."
+     }
+    }
+   }
+  ]
+ }
+]

@@ -1,0 +1,403 @@
+[
+ {
+  "file": "2026-05-12_2127_Power-Supply-Compliance-Query.md",
+  "work_related": "yes",
+  "borderline": false,
+  "reason": "Discussion of a chief engineer's objection to supplying a commercial PSU in a rack, signalling choices, and PXI data-capture hardware for a work system.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3"
+    ],
+    "tags": [],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M4",
+     "M5",
+     "M6",
+     "M7"
+    ],
+    "tags": [],
+    "borderline": true
+   },
+   {
+    "messages": [
+     "M8",
+     "M9"
+    ],
+    "tags": [],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M10",
+     "M11",
+     "M12",
+     "M13",
+     "M14",
+     "M15",
+     "M16",
+     "M17",
+     "M18",
+     "M19",
+     "M20",
+     "M21",
+     "M22",
+     "M23",
+     "M24",
+     "A1"
+    ],
+    "tags": [],
+    "borderline": false
+   }
+  ]
+ },
+ {
+  "file": "2026-05-13_0613_Communication-Competency-Appraisal.md",
+  "work_related": "yes",
+  "borderline": false,
+  "reason": "Drafting a response to the communication competency rating in the owner's appraisal.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4",
+     "M5",
+     "M6",
+     "M7",
+     "A1"
+    ],
+    "tags": [],
+    "borderline": false
+   }
+  ]
+ },
+ {
+  "file": "2026-05-13_0726_Temperature-Sensor-Cable-Length.md",
+  "work_related": "yes",
+  "borderline": true,
+  "reason": "Technical question on measuring a temperature sensor over a long cable with a Lake Shore instrument.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2"
+    ],
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ },
+ {
+  "file": "2026-05-13_1249_Far-Out-Radiohead-Songs.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2026-05-13_1653_Resistor-Tolerance-Limits.md",
+  "work_related": "yes",
+  "borderline": false,
+  "reason": "Tolerance calculations and statistical comparison of manual versus automated test measurement data.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4"
+    ],
+    "tags": [],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M5",
+     "M6",
+     "M7",
+     "M8",
+     "M9",
+     "M10"
+    ],
+    "tags": [
+     "speculative"
+    ],
+    "borderline": false
+   }
+  ]
+ },
+ {
+  "file": "2026-05-13_1756_Green-Dot-in-Altium-365.md",
+  "work_related": "yes",
+  "borderline": false,
+  "reason": "Question about Altium 365 presence indicators shown for former colleagues.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4"
+    ],
+    "tags": [
+     "unsettled"
+    ],
+    "borderline": false
+   }
+  ]
+ },
+ {
+  "file": "2026-05-13_2011_Gamma-vs-Neutron-Testing.md",
+  "work_related": "yes",
+  "borderline": true,
+  "reason": "Technical discussion of gamma, X-ray, neutron and heavy-ion radiation testing of electronics and test conditions.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4",
+     "M5",
+     "M6",
+     "M7",
+     "M8",
+     "M9",
+     "M10",
+     "M11",
+     "M12",
+     "M13",
+     "M14",
+     "M15",
+     "M16",
+     "M17",
+     "M18",
+     "M19",
+     "M20",
+     "M21",
+     "M22",
+     "M23",
+     "M24",
+     "A1"
+    ],
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ },
+ {
+  "file": "2026-05-14_0035_IEC-61010-Compliance-Justification.md",
+  "work_related": "yes",
+  "borderline": false,
+  "reason": "Drafting IEC 61010 and regulatory compliance wording for a work document and a customer email.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4",
+     "M5",
+     "M6",
+     "M7",
+     "M8",
+     "M9",
+     "M10",
+     "M11",
+     "M12",
+     "M13",
+     "M14",
+     "M15",
+     "M16",
+     "M17",
+     "M18",
+     "M19",
+     "M20",
+     "M21",
+     "M22",
+     "M23",
+     "M24",
+     "M25",
+     "M26",
+     "M27",
+     "M28",
+     "M29",
+     "M30",
+     "M31",
+     "M32",
+     "M33",
+     "M34",
+     "M35",
+     "M36",
+     "A1",
+     "A2",
+     "A3"
+    ],
+    "tags": [],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M37",
+     "M38",
+     "M39",
+     "M40",
+     "M41",
+     "M42",
+     "M43",
+     "M44",
+     "M45",
+     "M46",
+     "M47",
+     "M48",
+     "M49",
+     "M50",
+     "M51",
+     "M52",
+     "M53",
+     "M54"
+    ],
+    "tags": [
+     "speculative"
+    ],
+    "borderline": false
+   }
+  ]
+ },
+ {
+  "file": "2026-05-14_1439_Clarification-Request.md",
+  "work_related": "partial",
+  "borderline": false,
+  "reason": "Shielding and LVDS/fibre-optic signal transmission options for radiation testing of electronic sensors.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4",
+     "M5",
+     "M6",
+     "M7",
+     "M8",
+     "M9",
+     "M10",
+     "M11",
+     "M12",
+     "M13",
+     "M14",
+     "M15",
+     "M16",
+     "M17",
+     "M18",
+     "M19",
+     "M20",
+     "M21",
+     "M22",
+     "M23",
+     "M24",
+     "M25",
+     "M26",
+     "M27",
+     "M28",
+     "M29",
+     "M30",
+     "M31",
+     "M32",
+     "M33",
+     "M34",
+     "M35",
+     "A1",
+     "A2"
+    ],
+    "tags": [],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M38",
+     "M40",
+     "M41",
+     "M42",
+     "M43",
+     "M44",
+     "M45",
+     "M46",
+     "M47"
+    ],
+    "tags": [],
+    "borderline": false
+   }
+  ]
+ },
+ {
+  "file": "2026-05-14_1543_Radiation-Effects-on-Fibres.md",
+  "work_related": "yes",
+  "borderline": false,
+  "reason": "Selection of radiation-tolerant optical transmitters and power options for a radiation test campaign.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4",
+     "M5",
+     "M6",
+     "M7",
+     "M8",
+     "M9",
+     "M10",
+     "M11",
+     "M12",
+     "M13",
+     "M14",
+     "M15",
+     "M16",
+     "M17",
+     "M18",
+     "M19",
+     "M20",
+     "M21",
+     "M22",
+     "M23",
+     "M24",
+     "M25",
+     "M26",
+     "M27",
+     "M28",
+     "M29",
+     "A1",
+     "A2"
+    ],
+    "tags": [],
+    "borderline": false
+   }
+  ]
+ },
+ {
+  "file": "2026-05-14_1726_Oxide-Controllers-Benefits.md",
+  "work_related": "yes",
+  "borderline": false,
+  "reason": "Benefits of PXI embedded controllers relative to cost.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "A1"
+    ],
+    "tags": [],
+    "borderline": false
+   }
+  ]
+ }
+]

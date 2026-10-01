@@ -1,0 +1,13 @@
+[
+  {"file": "2026-08-06_1641_djay-Pro-2-Crash.md", "work_related": "no", "borderline": false, "reason": "No work-related content.", "extracts": []},
+  {"file": "2026-08-13_0507_Expanding-Tape-Recommendation.md", "work_related": "no", "borderline": false, "reason": "No work-related content.", "extracts": []},
+  {"file": "2026-08-13_2226_Project-Reflection-Strategy.md", "work_related": "yes", "borderline": false, "reason": "Planning a structured reflection and evidence record of the owner's workplace history and concern about being pushed out at work.",
+   "extracts": [
+     {"messages": ["M1", "M2", "M3", "M4"], "trim": {}, "tags": ["worried", "speculative", "unsettled"], "borderline": false}
+   ]},
+  {"file": "2026-08-13_2233_Work-History-Recovery.md", "work_related": "yes", "borderline": false, "reason": "Planning recovery of earlier chats about the owner's work situation to build a consolidated work-history and professional contribution record.",
+   "extracts": [
+     {"messages": ["M1", "M2", "M3", "M4", "M5", "M6", "M7", "M8", "M9", "M10", "M11", "M12", "M13", "M14", "M15", "M16"], "trim": {}, "tags": ["unsettled"], "borderline": false}
+   ]},
+  {"file": "2026-08-17_1510_Max-Voltage-Inputs-LM1086-MAX604.md", "work_related": "no", "borderline": false, "reason": "No work-related content.", "extracts": []}
+]

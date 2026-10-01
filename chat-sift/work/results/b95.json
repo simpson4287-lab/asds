@@ -1,0 +1,305 @@
+[
+ {
+  "file": "2026-05-28_1009_Log-cabin-work-summary.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2026-05-28_1739_Plumbing-Crash-Courses.md",
+  "work_related": "yes",
+  "borderline": true,
+  "reason": "Enquiry about fast-track training routes to retrain as a plumber (possible career change).",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3"
+    ],
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ },
+ {
+  "file": "2026-05-30_2029_Gym-Contract-Dispute.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2026-05-31_1250_Saab-9-5-Idle-Issue.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2026-06-02_0822_19-Rack-Controllers.md",
+  "work_related": "yes",
+  "borderline": true,
+  "reason": "Technical enquiry about 19-inch rack-format controllers for a test-equipment rack, apparently for professional engineering work.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3"
+    ],
+    "tags": [],
+    "borderline": true
+   },
+   {
+    "messages": [
+     "A1",
+     "A2",
+     "A3"
+    ],
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ },
+ {
+  "file": "2026-06-04_1055_Telephone-wire-vs-twisted-pair.md",
+  "work_related": "yes",
+  "borderline": true,
+  "reason": "Technical question on using telephone wire as differential signal cable, possibly for professional engineering work.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2"
+    ],
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ },
+ {
+  "file": "2026-06-08_1711_Obesity-and-Alcoholism-as-Diseases.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2026-06-08_1915_AGI-ASI-and-Money-Value.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2026-06-09_1240_LVDS-Twisted-Ribbon-Shielding.md",
+  "work_related": "yes",
+  "borderline": true,
+  "reason": "Technical discussion of a 25 m LVDS cable prototype test, apparently for a professional engineering project.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4"
+    ],
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ },
+ {
+  "file": "2026-06-09_1603_SMBJ15A-Transient-Protection.md",
+  "work_related": "yes",
+  "borderline": true,
+  "reason": "Fault-finding repeated capacitor failures on a 15 V rail board in an established system, apparently professional engineering work.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4",
+     "M5",
+     "M6",
+     "M7",
+     "M8",
+     "M9",
+     "M10",
+     "M11",
+     "M12",
+     "M13",
+     "M14"
+    ],
+    "tags": [
+     "speculative"
+    ],
+    "borderline": true
+   }
+  ]
+ },
+ {
+  "file": "2026-06-11_1809_Vinted-Fraud-Scheme-Inquiry.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2026-06-12_1124_Cocaine-Ingestion-Effects.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2026-06-12_1515_Saab-9-5-ABS-Issue.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2026-06-12_2105_Wet-kiln-sand-fix.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2026-06-12_2303_Hinge-Profile-Setup-Tips.md",
+  "work_related": "partial",
+  "borderline": true,
+  "reason": "Brief discussion of how to describe job title and workplace.",
+  "extracts": [
+   {
+    "messages": [
+     "M19",
+     "M20",
+     "M21",
+     "M22"
+    ],
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ },
+ {
+  "file": "2026-06-13_1751_Joining-Tyvek-Super-Pro.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2026-06-13_2107_David-Byrne-2026-Tour.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2026-06-14_0907_Infrared-Heating-Panels-Benefits.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2026-06-14_0916_Swollen-Eyelid-Diagnosis.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2026-06-14_1600_Hole-drill-assembly-guide.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2026-06-15_1357_Insurance-after-drug-driving.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2026-06-15_1717_Duck-tape-on-cement-board.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2026-06-15_2200_IKOpro-Stickall-Use.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2026-06-16_1524_Stage-1-Tuning-Plan.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2026-06-19_1018_Mattress-Stain-Removal-Advice.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2026-06-19_1324_Learning-Windows-Speech-Prompts.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2026-06-20_1146_Tyvek-Branding-Orientation.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2026-06-21_1354_Membrane-Securing-Advice.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2026-06-22_1139_DPM-Sand-Topcoat-Tips.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2026-06-22_1703_Radiation-Suited-Cables.md",
+  "work_related": "yes",
+  "borderline": true,
+  "reason": "Looking up earlier findings on radiation-tolerant Ethernet and LVDS cabling, apparently for professional engineering work.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3"
+    ],
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ }
+]

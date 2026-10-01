@@ -1,0 +1,266 @@
+[
+ {
+  "file": "2026-06-23_1546_Voltage-at-Load-Current-at-Source.md",
+  "work_related": "yes",
+  "borderline": true,
+  "reason": "Technical question on measuring voltage at the load and current at the source under system constraints, likely for test-system work.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2"
+    ],
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ },
+ {
+  "file": "2026-06-23_1758_External-Trigger-for-Timestamps.md",
+  "work_related": "yes",
+  "borderline": false,
+  "reason": "Design discussion and one-page proposal for sub-second timestamping and metadata improvements on a PXI/FPGA radiation test system.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4",
+     "M5",
+     "M6",
+     "M7",
+     "M8",
+     "M9",
+     "M10",
+     "A1"
+    ],
+    "tags": [],
+    "borderline": false
+   }
+  ]
+ },
+ {
+  "file": "2026-06-23_1955_Radiation-System-State-Machine.md",
+  "work_related": "yes",
+  "borderline": false,
+  "reason": "Radiation test rig architecture: state-machine synopsis, timestamping subsystem development, physical block diagrams, PXI-6683H timing and circular-buffer event capture.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4",
+     "M5",
+     "M6",
+     "M7",
+     "M8",
+     "M9",
+     "M10",
+     "M11"
+    ],
+    "tags": [],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M12",
+     "M13",
+     "M14",
+     "M15",
+     "M16",
+     "M17",
+     "M18",
+     "M19",
+     "M20",
+     "M21",
+     "M22",
+     "M23",
+     "M24",
+     "M25",
+     "M26",
+     "M27",
+     "M28",
+     "M29",
+     "M30",
+     "M31",
+     "M32",
+     "M33",
+     "M34",
+     "M35",
+     "M36",
+     "M37",
+     "M38",
+     "M39",
+     "M40",
+     "M41",
+     "M42",
+     "M43",
+     "M44",
+     "M45",
+     "M46",
+     "M47",
+     "M48",
+     "M49",
+     "M50",
+     "M51",
+     "M52",
+     "M53",
+     "M54",
+     "M55",
+     "M56",
+     "M57",
+     "M58",
+     "M59",
+     "M60",
+     "M61",
+     "M62",
+     "M63"
+    ],
+    "tags": [],
+    "borderline": false
+   }
+  ]
+ },
+ {
+  "file": "2026-06-25_1128_Radiation-Effects-on-Sensors.md",
+  "work_related": "yes",
+  "borderline": false,
+  "reason": "Justifying a requirement for supply monitoring during radiation testing of sensors, responding to a colleague's query, and voltage/current measurement bandwidth.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4",
+     "M5"
+    ],
+    "tags": [
+     "speculative"
+    ],
+    "borderline": false
+   }
+  ]
+ },
+ {
+  "file": "2026-06-25_1528_Op-amp-Circuit-Schematic.md",
+  "work_related": "yes",
+  "borderline": false,
+  "reason": "Clock-driver amplifier chain slew-rate analysis and report section on meeting an adjustable slew requirement (REQ-ELE-007).",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4",
+     "M5",
+     "M6",
+     "M7",
+     "M8",
+     "M9",
+     "M10",
+     "M11",
+     "M12",
+     "M13",
+     "M14",
+     "M15",
+     "M16",
+     "M17",
+     "M18",
+     "M19",
+     "M20",
+     "M21",
+     "M22",
+     "M23",
+     "M24",
+     "M25",
+     "M26",
+     "M27",
+     "M28",
+     "M29",
+     "M30",
+     "M31",
+     "M32",
+     "M33",
+     "M34"
+    ],
+    "tags": [],
+    "borderline": false
+   }
+  ]
+ },
+ {
+  "file": "2026-06-26_0637_Multiplying-factor-calculation.md",
+  "work_related": "yes",
+  "borderline": true,
+  "reason": "Frequency ratio calculation between 50 kHz and 250 MHz, likely relating to measurement bandwidths in test work.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2"
+    ],
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ },
+ {
+  "file": "2026-06-28_0824_Dyson-V11-Cuts-Out.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2026-06-29_1135_Rise-time-measurement-tweak.md",
+  "work_related": "yes",
+  "borderline": false,
+  "reason": "Bench measurement of clock edge rise time and slew, termination setup, report evidence, and comparator/buffer options to validate a 3 ns requirement.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4",
+     "M5",
+     "M6",
+     "M7",
+     "M8",
+     "M9",
+     "M10",
+     "M11",
+     "M12"
+    ],
+    "tags": [],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M25",
+     "M26",
+     "M27",
+     "M28",
+     "M29",
+     "M30",
+     "M31",
+     "M32",
+     "M33",
+     "M34",
+     "M35",
+     "M36",
+     "M37",
+     "M38",
+     "M39",
+     "M40"
+    ],
+    "tags": [],
+    "borderline": false
+   }
+  ]
+ }
+]
