@@ -1,0 +1,120 @@
+[
+  {
+    "file": "2026-01-06_1527_Medicash-Proof-of-Purchase.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2026-01-07_0733_GMC-Register-Explanation.md",
+    "work_related": "partial",
+    "borderline": true,
+    "reason": "Obtaining the benefit table for an employer-provided Medicash cash plan scheme, including via HR or the scheme administrator.",
+    "extracts": [
+      {
+        "messages": [
+          "M7",
+          "M8"
+        ],
+        "trim": {
+          "M8": {
+            "start": "Because this is a **corporate Proactive+ scheme**, the most authoritative copy comes from:",
+            "end": "This version is the one Medicash themselves rely on."
+          }
+        },
+        "tags": [],
+        "borderline": true
+      }
+    ]
+  },
+  {
+    "file": "2026-01-07_1023_ICB-Report-Consolidation.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2026-01-07_1823_Flea-Bite-or-Not.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2026-01-07_2021_Highest-Poe-Level.md",
+    "work_related": "partial",
+    "borderline": false,
+    "reason": "Engineering design discussion for a PoE power and control retrofit of the team's existing HTOL test ovens and module electronics.",
+    "extracts": [
+      {
+        "messages": [
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7",
+          "M8",
+          "M9",
+          "M10",
+          "M11",
+          "M12",
+          "M13",
+          "M14",
+          "M15",
+          "M16",
+          "M17",
+          "M18",
+          "M19",
+          "M20",
+          "M21",
+          "M22",
+          "M23",
+          "M24",
+          "M25",
+          "M26",
+          "M27",
+          "M28",
+          "M29",
+          "M30",
+          "M31",
+          "M32",
+          "M33",
+          "M34",
+          "M35",
+          "M36",
+          "M37",
+          "M38",
+          "M39",
+          "M40",
+          "M41",
+          "M42",
+          "M43",
+          "M44",
+          "M45",
+          "M46",
+          "M47",
+          "M48",
+          "M49",
+          "M50",
+          "M51",
+          "M52",
+          "M53",
+          "M54",
+          "M55",
+          "M56"
+        ],
+        "tags": [],
+        "borderline": false
+      }
+    ]
+  },
+  {
+    "file": "2026-01-08_1121_NHS-Right-to-Choose-Depression.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  }
+]

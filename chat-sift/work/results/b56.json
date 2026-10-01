@@ -1,0 +1,468 @@
+[
+ {
+  "file": "2026-01-10_0514_Shark-CarpetXpert-Model-Identification.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2026-01-10_1042_Log-Cabin-Wall-Stack.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2026-01-10_1419_Merge-graphics-request.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2026-01-10_1723_Project-Charter.md",
+  "work_related": "yes",
+  "borderline": false,
+  "reason": "Setting up a structured project, log and evidence repository for managing role stability at work after a health-related role transition.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4",
+     "M5",
+     "M6",
+     "M7",
+     "M8"
+    ],
+    "tags": [
+     "speculative"
+    ],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M9",
+     "M10"
+    ],
+    "tags": [
+     "worried"
+    ],
+    "borderline": false
+   }
+  ]
+ },
+ {
+  "file": "2026-01-10_1757_1-Role-Stability-Project-Control.md",
+  "work_related": "yes",
+  "borderline": false,
+  "reason": "Opening statement for a control chat governing the work role stability project.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4"
+    ],
+    "tags": [],
+    "borderline": false
+   }
+  ]
+ },
+ {
+  "file": "2026-01-10_1759_3-Factual-Log-Assessment.md",
+  "work_related": "yes",
+  "borderline": false,
+  "reason": "Setting up and using a factual log for the work role stability project.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4",
+     "M5",
+     "M6",
+     "M7",
+     "M8"
+    ],
+    "tags": [],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M9",
+     "M10"
+    ],
+    "tags": [
+     "unsettled"
+    ],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M11",
+     "M12",
+     "M13",
+     "M14"
+    ],
+    "tags": [],
+    "borderline": false
+   }
+  ]
+ },
+ {
+  "file": "2026-01-11_1539_Facebook-Algorithm-Explanation.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2026-01-11_1654_Gain-Calibration-Frequency.md",
+  "work_related": "yes",
+  "borderline": true,
+  "reason": "Electronics engineering questions on gain calibration and RC filter values, likely relating to the owner's engineering role.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4",
+     "M5",
+     "M6"
+    ],
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ },
+ {
+  "file": "2026-01-11_1803_Velcro-Placement-Advice.md",
+  "work_related": "yes",
+  "borderline": true,
+  "reason": "Attaching a notepad to the owner's work folder.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2"
+    ],
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ },
+ {
+  "file": "2026-01-11_2236_Lighthouse-CON-100G2-Wheel.md",
+  "work_related": "yes",
+  "borderline": true,
+  "reason": "Identifying an adjustment wheel on a printer, possibly work equipment.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2"
+    ],
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ },
+ {
+  "file": "2026-01-12_1820_LVDS-14m-Cable-Requirements.md",
+  "work_related": "yes",
+  "borderline": true,
+  "reason": "Engineering design question on driving LVDS over a 14m cable from an FPGA module, likely relating to the owner's engineering role.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4"
+    ],
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ },
+ {
+  "file": "2026-01-13_0953_B1-First-Hearing-Guilty.md",
+  "work_related": "partial",
+  "borderline": false,
+  "reason": "Work overload, time off work, phased return and stepping down from team leadership raised as context.",
+  "extracts": [
+   {
+    "messages": [
+     "M17"
+    ],
+    "tags": [
+     "speculative"
+    ],
+    "borderline": false,
+    "trim": {
+     "M17": {
+      "start": "had firmer boundaries at work Pushing back on overload",
+      "end": "consequence of my well being an associated mental state"
+     }
+    }
+   },
+   {
+    "messages": [
+     "M17"
+    ],
+    "tags": [],
+    "borderline": false,
+    "trim": {
+     "M17": {
+      "start": "since August when I was off work for two months returning in October",
+      "end": "manage my life Both inside and outside of work"
+     }
+    }
+   },
+   {
+    "messages": [
+     "M17"
+    ],
+    "tags": [],
+    "borderline": false,
+    "trim": {
+     "M17": {
+      "start": "The stress loss of control and emergence of this ASD traits resulted in me stepping down",
+      "end": "changing my career which in my organisation."
+     }
+    }
+   },
+   {
+    "messages": [
+     "M17"
+    ],
+    "tags": [],
+    "borderline": false,
+    "trim": {
+     "M17": {
+      "start": "changing my leadership role and asserting boundaries",
+      "end": "now understand that I don’t have to operate in that way."
+     }
+    }
+   },
+   {
+    "messages": [
+     "M19",
+     "M20"
+    ],
+    "tags": [],
+    "borderline": false,
+    "trim": {
+     "M19": {
+      "start": "What other things could be mentioned in mitigation?",
+      "end": "Know work overload"
+     },
+     "M20": {
+      "start": "### A. Work overload",
+      "end": "**Section 4.2 (Acute Nature of Episode)**."
+     }
+    }
+   }
+  ]
+ },
+ {
+  "file": "2026-01-13_0957_ADC-Output-Sampling-Issue.md",
+  "work_related": "yes",
+  "borderline": true,
+  "reason": "Engineering troubleshooting of an ADC output sampling issue, likely relating to the owner's engineering role.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2"
+    ],
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ },
+ {
+  "file": "2026-01-13_0958_ADC-Histogram-Analysis.md",
+  "work_related": "yes",
+  "borderline": true,
+  "reason": "Engineering analysis of ADC histogram results across two systems, likely relating to the owner's engineering role.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4",
+     "M5",
+     "M6",
+     "M7",
+     "M8"
+    ],
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ },
+ {
+  "file": "2026-01-13_1107_CCTV-Realisation-and-Accountability.md",
+  "work_related": "partial",
+  "borderline": false,
+  "reason": "Work boundaries, time off work, phased return and stepping down from a senior role at work referenced as context.",
+  "extracts": [
+   {
+    "messages": [
+     "M1"
+    ],
+    "tags": [
+     "speculative"
+    ],
+    "borderline": false,
+    "trim": {
+     "M1": {
+      "start": "had firmer boundaries at work Pushing back on overload",
+      "end": "consequence of my well being an associated mental state"
+     }
+    }
+   },
+   {
+    "messages": [
+     "M1"
+    ],
+    "tags": [],
+    "borderline": false,
+    "trim": {
+     "M1": {
+      "start": "since August when I was off work for two months returning in October",
+      "end": "manage my life Both inside and outside of work"
+     }
+    }
+   },
+   {
+    "messages": [
+     "M1",
+     "M2"
+    ],
+    "tags": [],
+    "borderline": false,
+    "trim": {
+     "M1": {
+      "start": "The stress loss of control and emergence of this ASD traits resulted in me stepping down",
+      "end": "changing my career which in my organisation."
+     },
+     "M2": {
+      "start": "I stepped down from a senior role at work",
+      "end": "had to restructure my life significantly"
+     }
+    }
+   },
+   {
+    "messages": [
+     "M1"
+    ],
+    "tags": [],
+    "borderline": false,
+    "trim": {
+     "M1": {
+      "start": "changing my leadership role and asserting boundaries",
+      "end": "now understand that I don’t have to operate in that way."
+     }
+    }
+   }
+  ]
+ },
+ {
+  "file": "2026-01-13_1134_Court-Day-Guidance.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2026-01-13_1250_Missed-Station-Confusion.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2026-01-13_1251_Court-Appointment-Reminder.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2026-01-13_1726_Exporting-Teams-Chats.md",
+  "work_related": "yes",
+  "borderline": true,
+  "reason": "Exporting Microsoft Teams chats with timestamps and capturing screenshots as a record, including eDiscovery and subject access routes.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4"
+    ],
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ },
+ {
+  "file": "2026-01-13_1817_Hotkey-for-scroll-down.md",
+  "work_related": "yes",
+  "borderline": true,
+  "reason": "Keyboard shortcuts for scrolling in Microsoft Teams chat.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4"
+    ],
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ },
+ {
+  "file": "2026-01-13_1951_Efficient-Screenshot-Transcription.md",
+  "work_related": "yes",
+  "borderline": true,
+  "reason": "Workflow for transcribing a large number of screenshots, possibly of workplace messages.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2"
+    ],
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ },
+ {
+  "file": "2026-01-13_2122_Office-365-Work-Toggle.md",
+  "work_related": "yes",
+  "borderline": true,
+  "reason": "Meaning of the Work account toggle in Office 365 and employer visibility of documents.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2"
+    ],
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ }
+]

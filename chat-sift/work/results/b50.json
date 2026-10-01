@@ -1,0 +1,29 @@
+[
+  {
+    "file": "2026-01-05_2012_Read-only-Mode-Setup.md",
+    "work_related": "partial",
+    "borderline": true,
+    "reason": "Brief mentions of awaiting a team leader's acknowledgement before travel and taking an afternoon off work for a review appointment.",
+    "extracts": [
+      {
+        "messages": ["M3"],
+        "trim": {"M3": {"start": "I was experiencing an extremely stressful day and explained", "end": "having to book a significantly more expensive flight."}},
+        "tags": ["unsettled"],
+        "borderline": true
+      },
+      {
+        "messages": ["M5"],
+        "trim": {"M5": {"start": "On 16 December, I attempted to recall a review appointment", "end": "I took the afternoon off work in anticipation."}},
+        "tags": [],
+        "borderline": true
+      }
+    ]
+  },
+  {
+    "file": "2026-01-05_2106_Simplified-Document-Overview.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  }
+]

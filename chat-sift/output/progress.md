@@ -1,6 +1,6 @@
 # chat-sift progress
 
-Updated: 2026-10-01 14:53 UTC
+Updated: 2026-10-01 14:55 UTC
 
 ## Setup
 - Source: ChatGPT export (`Conversations__…-part-0001/conversations-000..008.json`) at the repo root, read-only. Nothing in it is edited.
@@ -9,27 +9,17 @@ Updated: 2026-10-01 14:53 UTC
 - Outputs are built from the results by `chat-sift/tools/build.py` (verbatim text is pulled from the split files by message ID).
 
 ## Status
-- Batches done: 49 / 98
-- Conversations read: 383 / 828
-- So far: yes 42, partial 55, no 286
+- Batches done: 59 / 98
+- Conversations read: 451 / 828
+- So far: yes 79, partial 63, no 309
 
 ## To resume
 Run each batch below that has no `work/results/bNN.json`, following READER_INSTRUCTIONS.md. Then run `tools/build.py` and `tools/progress.py`, and commit.
 
 ## Batches done
-b01, b02, b03, b04, b05, b06, b07, b08, b09, b10, b11, b12, b13, b14, b15, b16, b17, b18, b19, b20, b21, b22, b23, b24, b25, b26, b27, b28, b29, b30, b31, b32, b33, b34, b35, b36, b37, b38, b39, b40, b41, b42, b43, b44, b45, b46, b47, b48, b49
+b01, b02, b03, b04, b05, b06, b07, b08, b09, b10, b11, b12, b13, b14, b15, b16, b17, b18, b19, b20, b21, b22, b23, b24, b25, b26, b27, b28, b29, b30, b31, b32, b33, b34, b35, b36, b37, b38, b39, b40, b41, b42, b43, b44, b45, b46, b47, b48, b49, b50, b51, b52, b53, b54, b55, b56, b57, b58, b59
 
 ## Remaining
-- b50: 2026-01-05_2012_Read-only-Mode-Setup.md … 2026-01-05_2106_Simplified-Document-Overview.md (2 conversations)
-- b51: 2026-01-05_2116_ICB-Oversight-Request-Summary.md … 2026-01-05_2220_Cutting-Interlocking-Spurs.md (3 conversations)
-- b52: 2026-01-06_0822_Psychologist-Report-Review.md … 2026-01-06_1040_Explaining-Exhaustion-to-HR.md (2 conversations)
-- b53: 2026-01-06_1527_Medicash-Proof-of-Purchase.md … 2026-01-08_1121_NHS-Right-to-Choose-Depression.md (6 conversations)
-- b54: 2026-01-08_1524_Diode-failure-vs-ADC-issue.md … 2026-01-09_1905_Surviving-Toxic-Workplaces.md (4 conversations)
-- b55: 2026-01-09_2131_Z-Pre-Project-PP-chat.md … 2026-01-09_2131_Z-Pre-Project-PP-chat.md (1 conversations)
-- b56: 2026-01-10_0514_Shark-CarpetXpert-Model-Identification.md … 2026-01-13_2122_Office-365-Work-Toggle.md (22 conversations)
-- b57: 2026-01-13_2142_Test-Electronics-Checklist.md … 2026-01-14_1305_Parent-s-Emotional-Response-Analysis.md (8 conversations)
-- b58: 2026-01-14_1453_Appraisal-Chat-Guidance.md … 2026-01-16_0339_Excel-OR-Formula-Explained.md (12 conversations)
-- b59: 2026-01-16_0721_Sampling-Rate-Explanation.md … 2026-01-20_1029_Navigating-Work-Challenges.md (8 conversations)
 - b60: 2026-01-20_1032_4-Appraisal.md … 2026-01-20_2149_Concrete-Base-and-Timber-Moisture.md (14 conversations)
 - b61: 2026-01-21_1226_Cheap-Log-Cabin-Elevation.md … 2026-01-21_1520_Find-Component-by-Designator.md (2 conversations)
 - b62: 2026-01-21_2046_SIP-Wall-Installation-Tips.md … 2026-01-21_2046_SIP-Wall-Installation-Tips.md (1 conversations)

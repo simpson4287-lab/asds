@@ -1,0 +1,394 @@
+[
+ {
+  "file": "2026-01-14_1453_Appraisal-Chat-Guidance.md",
+  "work_related": "yes",
+  "borderline": false,
+  "reason": "Drafting appraisal self-assessment statements and grades for work objectives.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4"
+    ],
+    "tags": [],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M5",
+     "M6",
+     "M7",
+     "M8"
+    ],
+    "tags": [],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M9",
+     "M10",
+     "M11",
+     "M12",
+     "M13",
+     "M14",
+     "M15",
+     "M16"
+    ],
+    "tags": [],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M17",
+     "M18",
+     "M19",
+     "M20",
+     "M21",
+     "M22",
+     "M23",
+     "M24",
+     "M25",
+     "M26",
+     "M27",
+     "M28",
+     "M29",
+     "M30"
+    ],
+    "tags": [
+     "upset"
+    ],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M31",
+     "M32",
+     "M33",
+     "M34",
+     "M35",
+     "M36"
+    ],
+    "tags": [],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M37",
+     "M38",
+     "M39",
+     "M40",
+     "M41",
+     "M42",
+     "M43",
+     "M44",
+     "M45",
+     "M46",
+     "M47",
+     "M48",
+     "M49",
+     "M50"
+    ],
+    "tags": [],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M51",
+     "M52"
+    ],
+    "tags": [],
+    "borderline": false
+   }
+  ]
+ },
+ {
+  "file": "2026-01-14_1458_Nails-complaint-summary.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2026-01-15_0847_New-chat.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2026-01-15_1610_Test-Retake-Clarification.md",
+  "work_related": "no",
+  "borderline": false,
+  "reason": "No work-related content.",
+  "extracts": []
+ },
+ {
+  "file": "2026-01-15_1835_Objective-Review-Revision.md",
+  "work_related": "yes",
+  "borderline": false,
+  "reason": "Wording an appraisal objective review for a not-achieved delivery objective and a communication competency statement.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4"
+    ],
+    "tags": [],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M5",
+     "M6",
+     "M7",
+     "M8"
+    ],
+    "tags": [
+     "angry"
+    ],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M9",
+     "M10",
+     "M11",
+     "M12",
+     "M13",
+     "M14",
+     "M15",
+     "M16",
+     "M17",
+     "M18",
+     "M19",
+     "M20",
+     "M21",
+     "M22",
+     "M23",
+     "M24",
+     "M25",
+     "M26",
+     "M27",
+     "M28",
+     "M29",
+     "M30",
+     "M31",
+     "M32",
+     "M33",
+     "M34",
+     "M35",
+     "M36",
+     "M37",
+     "M38",
+     "M39",
+     "M40",
+     "M41",
+     "M42"
+    ],
+    "tags": [],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M43",
+     "M44"
+    ],
+    "tags": [
+     "worried",
+     "speculative"
+    ],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M45",
+     "M46"
+    ],
+    "tags": [],
+    "borderline": false
+   }
+  ]
+ },
+ {
+  "file": "2026-01-15_1843_Appraisal-Risk-Management.md",
+  "work_related": "yes",
+  "borderline": false,
+  "reason": "Approach to an upcoming appraisal and costs and returns of a constructive dismissal claim.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2"
+    ],
+    "tags": [
+     "worried",
+     "unsettled",
+     "speculative"
+    ],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M3",
+     "M4",
+     "M5",
+     "M6"
+    ],
+    "tags": [],
+    "borderline": false
+   },
+   {
+    "messages": [
+     "M7",
+     "M8"
+    ],
+    "tags": [],
+    "borderline": false
+   }
+  ]
+ },
+ {
+  "file": "2026-01-15_2047_Final-Review-Summary.md",
+  "work_related": "yes",
+  "borderline": false,
+  "reason": "Final rewrite of performance review objectives, document references and competency summaries.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4",
+     "M5",
+     "M6",
+     "M7",
+     "M8",
+     "M9",
+     "M10",
+     "M11",
+     "M12",
+     "M13",
+     "M14"
+    ],
+    "tags": [],
+    "borderline": false
+   }
+  ]
+ },
+ {
+  "file": "2026-01-15_2126_Friction-in-Design-Documentation.md",
+  "work_related": "yes",
+  "borderline": false,
+  "reason": "Analysis of where friction arose in a work design documentation review milestone.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4",
+     "M5",
+     "M6"
+    ],
+    "tags": [],
+    "borderline": false
+   }
+  ]
+ },
+ {
+  "file": "2026-01-16_0140_Remove-Zeros-in-Excel.md",
+  "work_related": "yes",
+  "borderline": true,
+  "reason": "Excel help for a requirements compliance checklist spreadsheet.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4",
+     "M5",
+     "M6"
+    ],
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ },
+ {
+  "file": "2026-01-16_0306_Library-Checklist-Examples.md",
+  "work_related": "yes",
+  "borderline": false,
+  "reason": "Screenshot evidence and worked example for a PCB component library checklist.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4",
+     "M5",
+     "M6",
+     "M7",
+     "M8",
+     "M9",
+     "M10",
+     "M11",
+     "M12",
+     "M13",
+     "M14",
+     "M15",
+     "M16",
+     "M17",
+     "M18"
+    ],
+    "tags": [],
+    "borderline": false
+   }
+  ]
+ },
+ {
+  "file": "2026-01-16_0318_Excel-Conditional-Formatting.md",
+  "work_related": "yes",
+  "borderline": true,
+  "reason": "Excel conditional formatting help, possibly for a work checklist.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4"
+    ],
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ },
+ {
+  "file": "2026-01-16_0339_Excel-OR-Formula-Explained.md",
+  "work_related": "yes",
+  "borderline": true,
+  "reason": "Excel OR formula help, possibly for a work checklist.",
+  "extracts": [
+   {
+    "messages": [
+     "M1",
+     "M2",
+     "M3",
+     "M4",
+     "M5",
+     "M6",
+     "M7",
+     "M8"
+    ],
+    "tags": [],
+    "borderline": true
+   }
+  ]
+ }
+]

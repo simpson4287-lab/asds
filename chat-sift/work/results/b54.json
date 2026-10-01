@@ -1,0 +1,36 @@
+[
+  {
+    "file": "2026-01-08_1524_Diode-failure-vs-ADC-issue.md",
+    "work_related": "yes",
+    "borderline": true,
+    "reason": "Bench fault-finding on an electronics board (clamp diode, ADC input and x11 gain branch via relay), possibly part of the owner's job.",
+    "extracts": [
+      {"messages": ["M1","M2","M3","M4","M5","M6","M7","M8","M9","M10","M11","M12"], "trim": {}, "tags": ["speculative"], "borderline": true}
+    ]
+  },
+  {
+    "file": "2026-01-08_1653_Nature-and-Global-Warming.md",
+    "work_related": "no",
+    "borderline": false,
+    "reason": "No work-related content.",
+    "extracts": []
+  },
+  {
+    "file": "2026-01-09_1358_Power-on-Transients-vs-Monotonic.md",
+    "work_related": "yes",
+    "borderline": true,
+    "reason": "Electronics engineering question on power-on transients versus a monotonic power-on edge, possibly related to the owner's job.",
+    "extracts": [
+      {"messages": ["M1","M2","M3","M4"], "trim": {}, "tags": [], "borderline": true}
+    ]
+  },
+  {
+    "file": "2026-01-09_1905_Surviving-Toxic-Workplaces.md",
+    "work_related": "yes",
+    "borderline": false,
+    "reason": "Coping with a perceived toxic workplace and keeping an evidence trail of being ignored at work.",
+    "extracts": [
+      {"messages": ["M1","M2","M3","M4"], "trim": {}, "tags": ["unsettled"], "borderline": false}
+    ]
+  }
+]

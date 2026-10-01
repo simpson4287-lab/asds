@@ -1,0 +1,25 @@
+[
+  {"file": "2026-01-16_0721_Sampling-Rate-Explanation.md", "work_related": "yes", "borderline": false,
+   "reason": "Drafting requirement rationale text and column headings for a technical requirements matrix for a CCD FEE test system.",
+   "extracts": [{"messages": ["M1","M2","M3","M4","M5","M6","M7","M8","M9","M10","M11","M12","M13","M14","M15","M16","M17","M18","M19","M20","M21","M22","M23","M24","M25","M26","M27","M28","M29","M30","M31","M32","M33","M34","M35","M36","M37","M38","M39","M40","M41","M42","M43","M44","M45","M46","M47","M48","M49","M50","M51","M52","M53","M54","M55","M56","M57","M58","M59","M60","M61","M62","M63","M64","M65","M66","M67","M68","M69","M70","M71","M72","M73","M74"], "tags": [], "borderline": false}]},
+  {"file": "2026-01-18_1147_Interest-rate-drop-explanation.md", "work_related": "no", "borderline": false, "reason": "No work-related content.", "extracts": []},
+  {"file": "2026-01-18_1259_Positive-Treatment-Response-Help.md", "work_related": "partial", "borderline": false,
+   "reason": "Describing progress against a work-related goal (task focus, time management, delivery) in a treatment review.",
+   "extracts": [{"messages": ["M7","M8"],
+     "trim": {"M7": {"start": "Goal 1: Work - Being able to stop delaying tasks", "end": "rushing to the point where obvious mistakes are noticed and cause concern."},
+              "M8": {"start": "Progress has been positive and measurable. I am increasingly able", "end": "as planning and follow-through have improved."}},
+     "tags": [], "borderline": false}]},
+  {"file": "2026-01-18_2211_Concatenate-Cells-in-Excel.md", "work_related": "yes", "borderline": true,
+   "reason": "Excel formula question that may relate to a work spreadsheet.",
+   "extracts": [{"messages": ["M1","M2"], "tags": [], "borderline": true}]},
+  {"file": "2026-01-19_1314_Guitar-course-in-February.md", "work_related": "no", "borderline": false, "reason": "No work-related content.", "extracts": []},
+  {"file": "2026-01-19_1823_Email-drafting-assistance.md", "work_related": "no", "borderline": false, "reason": "No work-related content.", "extracts": []},
+  {"file": "2026-01-20_0931_LVDS-Interface-Options.md", "work_related": "yes", "borderline": false,
+   "reason": "Engineering design discussion of a long-distance LVDS/CoaXPress interface for a work project and proposing it internally.",
+   "extracts": [
+     {"messages": ["M1","M2","M3","M4","M5","M6","M7","M8","M9","M10","M11","M12","M13","M14","M15","M16","M17","M18","M19","M20","M21","M22","M23","M24"], "tags": [], "borderline": false},
+     {"messages": ["M25","M26","M27","M28"], "tags": ["speculative"], "borderline": false}]},
+  {"file": "2026-01-20_1029_Navigating-Work-Challenges.md", "work_related": "yes", "borderline": false,
+   "reason": "Setting up a framework to document and navigate a difficult period at work.",
+   "extracts": [{"messages": ["M1","M2","M3","M4","M5","M6"], "tags": ["unsettled"], "borderline": false}]}
+]
